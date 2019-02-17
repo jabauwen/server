@@ -7,10 +7,10 @@ RestartSec=30
 
 ExecStart=/usr/bin/docker run --rm \
                               --name=radarr \
-                              -v /home/jbauwens/Videos/config \
-                              -v /home/jbauwens/Videos/downloads \
-                              -v /home/jbauwens/Videos/movies \
-                              -e PGID=<gid> -e PUID=<uid>  \
+                              -v /home/jbauwens/Videos/config:/config \
+                              -v /home/jbauwens/Videos/downloads:/downloads \
+                              -v /home/jbauwens/Videos/movies:/movies \
+                              -e PGID=1004 -e PUID=1003  \
                               -e TZ=UTC+1 \
                               -p 7878:7878 \
                               linuxserver/radarr

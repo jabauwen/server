@@ -1,0 +1,21 @@
+[Unit]
+Description=Jackett docker container
+
+[Service]
+Restart=always
+RestartSec=30
+
+ExecStart=/usr/bin/docker run --name=jackett \
+                              -e PUID=1004 \
+                              -e PGID=1003 \
+                              -e TZ=Europe/London \
+                              -p 9117:9117 \
+                              -v /home/jbauwens/Videos/config:/config \
+                              -v /home/jbauwens/Videos/downloads:/downloads \
+                              --restart unless-stopped \
+                              linuxserver/jackett
+
+ExecStop=/usr/bin/docker stop jackett
+
+[Install]
+WantedBy=multi-user.target
