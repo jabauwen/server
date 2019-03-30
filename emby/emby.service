@@ -1,21 +1,22 @@
 [Unit]
-Description=Radarr docker container
+Description=Emby docker container
 
 [Service]
 Restart=always
 RestartSec=30
 
 ExecStart=/usr/bin/docker run --rm \
-                              --name=radarr \
-                              -v /home/jbauwens/Videos/config/radarr:/config \
+                              --name=emby \
+                              -v /home/jbauwens/Videos/config:/config \
                               -v /var/lib/transmission-daemon/downloads:/downloads \
                               -v /home/jbauwens/Videos/movies:/movies \
+                              -v /home/jbauwens/Videos/TV:/TV \
                               -e PGID=1004 -e PUID=1003  \
                               -e TZ=UTC+1 \
-                              -p 7878:7878 \
-                              linuxserver/radarr
+                              -p 8096:8096 \
+                              emby/embyserver:latest
 
-ExecStop=/usr/bin/docker stop radarr
+ExecStop=/usr/bin/docker stop emby
 
 [Install]
 WantedBy=multi-user.target
