@@ -1,0 +1,19 @@
+[Unit]
+Description=Influxdb docker container
+
+[Service]
+Restart=always
+RestartSec=30
+
+ExecStart=/usr/bin/docker run --rm \
+                              --name=influxdb \
+                              -v /home/jbauwens/github/server/influxdb/influxdb.conf:/etc/influxdb/influxdb.conf:ro \
+                              -e PGID=1001 -e PUID=1001  \
+                              -e TZ=UTC+1 \
+                              -p 8086:8086 \
+                              influxdb -config /etc/influxdb/influxdb.conf
+
+ExecStop=/usr/bin/docker stop influxdb
+
+[Install]
+WantedBy=multi-user.target
