@@ -7,11 +7,12 @@ RestartSec=30
 
 ExecStart=/usr/bin/docker run --rm \
                               --name=emby \
-                              -v /home/jbauwens/Videos/config:/config \
+                              --network host \
+                              -v /home/jbauwens/Videos/config_emby:/config \
                               -v /var/lib/transmission-daemon/downloads:/downloads \
                               -v /home/jbauwens/Videos/movies:/movies \
                               -v /home/jbauwens/Videos/TV:/TV \
-                              -e PGID=1004 -e PUID=1003  \
+                              -e PGID=1001 -e PUID=1001  \
                               -e TZ=UTC+1 \
                               -p 8096:8096 \
                               emby/embyserver:latest

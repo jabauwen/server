@@ -8,9 +8,9 @@ RestartSec=30
 ExecStart=/usr/bin/docker run --rm \
                               --name=sonarr \
                               -v /home/jbauwens/Videos/config/sonarr:/config \
-                              -v /var/lib/transmission-daemon/downloads:/downloads \
+                              -v /home/jbauwens/Videos/downloads/complete:/downloads \
                               -v /home/jbauwens/Videos/TV:/tv \
-                              -e PGID=1004 -e PUID=1003  \
+                              -e PGID=1001 -e PUID=1001  \
                               -e TZ=UTC+1 \
                               -p 8989:8989 \
                               linuxserver/sonarr

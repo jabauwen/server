@@ -1,0 +1,21 @@
+[Unit]
+Description=Sabnzbd docker container
+
+[Service]
+Restart=always
+RestartSec=30
+
+ExecStart=/usr/bin/docker run --rm \
+  --name=hydra2 \
+  -e PUID=1001 \
+  -e PGID=1001 \
+  -e TZ=UTC+1 \
+  -p 5076:5076 \
+  -v /home/jbauwens/Videos/config/nzbhydra:/config \
+  -v /home/jbauwens/Videos/downloads/complete:/downloads \
+  linuxserver/hydra2
+
+ExecStop=/usr/bin/docker stop hydra2
+
+[Install]
+WantedBy=multi-user.target
