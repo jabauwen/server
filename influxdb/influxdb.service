@@ -8,6 +8,7 @@ RestartSec=30
 ExecStart=/usr/bin/docker run --rm \
                               --name=influxdb \
                               -v /home/jbauwens/github/server/influxdb/influxdb.conf:/etc/influxdb/influxdb.conf:ro \
+                              -v /var/lib/influxdb:/var/lib/influxdb \
                               -e PGID=1001 -e PUID=1001  \
                               -e TZ=UTC+1 \
                               -p 8086:8086 \

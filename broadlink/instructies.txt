@@ -1,0 +1,6 @@
+Link: https://github.com/themillhousegroup/broadlink-openhab-binding 
+
+sudo wget https://github.com/themillhousegroup/openhab2-addons/releases/download/BROADLINK_2.5.BETA_11/org.openhab.binding.broadlink-2.5.1-SNAPSHOT.jar
+
+Link to
+/usr/share/openhab2/addons/org.openhab.binding.broadlink-2.5.1-SNAPSHOT.jar

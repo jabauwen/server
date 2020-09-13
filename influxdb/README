@@ -1,0 +1,16 @@
+docker exec -it influxdb influx
+https://hub.docker.com/_/influxdb
+https://community.openhab.org/t/influxdb-grafana-persistence-and-graphing/13761
+
+
+jbauwens@jbauwens_server:~/github/server/influxdb$ sudo docker exec -it influxdb influx
+Connected to http://localhost:8086 version 1.8.1
+InfluxDB shell version: 1.8.1
+> CREATE DATABASE openhab_db
+> CREATE USER admin WITH PASSWORD 'pZ9YQZjm' WITH ALL PRIVILEGES
+> CREATE USER openhab WITH PASSWORD 'openhab'
+> CREATE USER grafana WITH PASSWORD 'grafana'
+> GRANT ALL ON openhab_db TO openhab
+> GRANT READ ON openhab_db TO grafana
+> exit
+
