@@ -1,0 +1,11 @@
+[Unit]
+Description=Xiaomi gateway docker container
+
+[Service]
+Restart=always
+RestartSec=30
+
+ExecStart=/usr/bin/python3 /home/jbauwens/github/server/Xiaomi_v2/XiaomiGateway3/custom_components/xiaomi_gateway3/__init__.py
+
+[Install]
+WantedBy=multi-user.target

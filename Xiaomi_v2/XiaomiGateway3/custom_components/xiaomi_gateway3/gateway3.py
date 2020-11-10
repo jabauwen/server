@@ -298,7 +298,7 @@ class Gateway3(Thread):
         _LOGGER.debug(f"{self.host} | {device['did']} {device['model']} <= "
                       f"{payload}")
         for handler in self.updates[did]:
-            handler(payload)
+            handler(device['did'], payload)
 
         if 'added_device' in payload:
             device = payload['added_device']
