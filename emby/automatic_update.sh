@@ -1,8 +1,8 @@
 #!/bin/bash
 
-images=(linuxserver/radarr)
-containers=(radarr)
-services=(docker-radarr)
+images=(emby/embyserver)
+containers=(emby)
+services=(emby)
 
 for ((i=0; i<${#images[*]}; i++)); do
     echo "Pulling docker image: ${images[i]}"

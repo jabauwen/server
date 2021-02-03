@@ -6,6 +6,17 @@ from typing import Optional
 # https://slsys.io/action/devicelists.html
 # Zigbee Model: [Manufacturer, Device Name, Device Model]
 # params: [lumi res name, xiaomi prop name, hass attr name, hass domain]
+DEVICES_MI_SPEC = [
+{
+    # illumination sensor
+    'lumi.sen_ill.mgl01': ["Xiaomi", "Illumination Sensor", "MGL01"],
+    'params': [
+        ['1', 'unknown', 'unknown', 'binary_sensor'],
+        ['2', 'illumination', 'illumination', 'binary_sensor'],
+        ['3', 'unknown', 'unknown', 'binary_sensor'],
+    ]
+}]
+
 DEVICES = [{
     'lumi.gateway.mgl03': ["Xiaomi", "Gateway 3", "ZNDMWG03LM"],
     'params': [

@@ -259,6 +259,14 @@ class Gateway3(Thread):
                         return param[2]
         return prop
 
+    def get_device_prop_mi_spec(self, prop, device):
+        for DEVICE in DEVICES_MI_SPEC:
+            if re.match("{}.*".format(list(DEVICE.keys())[0]), device["model"]) is not None:
+                for param in DEVICE['params']:
+                    if str(param[0]) == str(prop):
+                        return param[2]
+        return prop
+
     def process_message(self, data: dict):
         print("MQTT message", data)
         if data['cmd'] == 'heartbeat':
@@ -268,7 +276,11 @@ class Gateway3(Thread):
             data = data['params'][0]
             pkey = 'res_list'
         elif data['cmd'] == 'report':
-            pkey = 'params'
+            if 'mi_spec' in data:
+                pkey = 'mi_spec'
+            else:
+                pkey = 'params'
+
         elif data['cmd'] == 'write_rsp':
             pkey = 'results'
         else:
@@ -286,11 +298,16 @@ class Gateway3(Thread):
         for param in data[pkey]:
             if param.get('error_code', 0) != 0:
                 continue
-            prop = param['res_name']
-            if prop in GLOBAL_PROP:
-                prop = GLOBAL_PROP[prop]
+            if 'res_name' in param:
+                prop = param['res_name']
+                if prop in GLOBAL_PROP:
+                    prop = GLOBAL_PROP[prop]
+                else:
+                    prop = self.get_device_prop(prop, device)
             else:
-                prop = self.get_device_prop(prop, device)
+                prop = param['siid']
+                prop = self.get_device_prop_mi_spec(prop, device)
+            
             payload[prop] = (param['value'] / 100.0
                              if prop in DIV_100
                              else param['value'])
