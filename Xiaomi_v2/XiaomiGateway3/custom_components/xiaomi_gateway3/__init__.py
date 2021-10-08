@@ -198,7 +198,7 @@ class Xiaomi_Gateway:
 
 
 # MAIN:
-xiaomi_ip="192.168.0.171"
+xiaomi_ip="xiaomigateway.jan.bauwens.be"
 xiaomi_token="73734c49554d42764d415175786b7a48"
 mqtt_settings = {
     'MQTT_BROKER' : '192.168.0.173',

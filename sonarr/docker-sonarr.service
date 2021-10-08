@@ -8,7 +8,7 @@ RestartSec=30
 ExecStart=/usr/bin/docker run --rm \
                               --name=sonarr \
                               -v /home/jbauwens/Videos/config/sonarr:/config \
-                              -v /home/jbauwens/Videos/downloads/complete:/downloads \
+                              -v /home/jbauwens/Videos/downloads:/downloads \
                               -v /home/jbauwens/Videos/TV:/tv \
                               -e PGID=1001 -e PUID=1001  \
                               -e TZ=UTC+1 \
