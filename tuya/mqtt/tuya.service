@@ -1,0 +1,12 @@
+[Unit]
+Description=tuya docker container
+
+[Service]
+Restart=always
+RestartSec=30
+
+WorkingDirectory=/home/jbauwens/github/server/tuya/tuya-mqtt/
+ExecStart=/usr/bin/node tuya-mqtt.js
+
+[Install]
+WantedBy=multi-user.target
