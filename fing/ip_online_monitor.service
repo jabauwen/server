@@ -1,0 +1,12 @@
+[Unit]
+Description=Fing service
+
+[Service]
+Restart=always
+RestartSec=30
+
+WorkingDirectory=/home/jbauwens/github/server/fing
+ExecStart=/usr/bin/python3 verify_online.py -m 192.168.0.173 -t 40
+
+[Install]
+WantedBy=multi-user.target

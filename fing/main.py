@@ -1,6 +1,7 @@
 #!/bin/python3
 from subprocess import Popen, PIPE
 import paho.mqtt.client as mqtt
+import nmap
 import time
 import atexit
 import os
@@ -8,17 +9,30 @@ import getopt
 import sys
 
 MQTT_PORT = 1883
+MQTT_USERNAME = 'mqtt_client'
+MQTT_PASSWORD = 'mqtt_client'
 
 class MqttEngine:
 
-    def __init__(self, host, port):
-        self.client = mqtt.Client("FING_ENGINE")
-        self.client.connect(host, port = port, keepalive = 60, bind_address = "")
+    def __init__(self, name, host, port, username, password):
+        self.host = host
+        self.port = port
+        self.username = username
+        self.password = password
+        self.client = mqtt.Client("FING_ENGINE {}".format(name))
+        self.client.username_pw_set(self.username, self.password)
+        self.connect()
+
+    def connect(self):
+        self.client.connect(self.host, port = self.port, keepalive = 60, bind_address = "")
 
     def publish(self, device):
-        self.client.publish("fing/{}/ip_address".format(device.mac_address), device.ip_address, retain = True)
-        self.client.publish("fing/{}/last_update".format(device.mac_address), int(time.time()), retain = True)
-        self.client.publish("fing/{}/ap".format(device.mac_address), device.access_point, retain = True)
+        ret = self.client.publish("fing/{}/ip_address".format(device.mac_address), device.ip_address, retain = True)
+        ret = self.client.publish("fing/{}/last_update".format(device.mac_address), int(time.time()), retain = True)
+        ret = self.client.publish("fing/{}/ap".format(device.mac_address), device.access_point, retain = True)
+        if ret.rc != mqtt.MQTT_ERR_SUCCESS:
+            print("MQTT error. Reconnect.")
+            self.connect()
 
 class Device:
 
@@ -57,6 +71,19 @@ class FingEngine:
     def on_exit(self):
         self.process.kill()
 
+class NmapEngine:
+
+    def __init__(self, subnet, access_point):
+        self.subnet = subnet
+        self.access_point = access_point
+        self.process = None
+        self.nm = nmap.PortScanner()
+
+    def run(self):
+        r = self.nm.scan(hosts=self.subnet, arguments='-sn')
+        for host in self.nm.all_hosts():
+            if "mac" in self.nm[host]["addresses"]:
+                yield Device(host, self.nm[host]["addresses"]["mac"], None, self.access_point)
 
 def main(argv):
     param_AP = None
@@ -85,11 +112,15 @@ def main(argv):
         print("A param is NONE")
         sys.exit()
 
-    fing = FingEngine(param_SUBNET, param_AP)
-    mqtt_client = MqttEngine(param_MQTTBROKER, MQTT_PORT)
+    nmap = NmapEngine(param_SUBNET, param_AP)
+    mqtt_client = MqttEngine(param_AP, param_MQTTBROKER, MQTT_PORT, MQTT_USERNAME, MQTT_PASSWORD)
     while True:
-        for device_info in fing.run():
-            mqtt_client.publish(device_info)
+        try:
+            for device_info in nmap.run():
+                # print(device_info)
+                mqtt_client.publish(device_info)
+        except TypeError:
+            pass
 
 
 if __name__ == "__main__":

@@ -51,8 +51,8 @@
         <port type="number">1883</port>
         <clientId type="text"></clientId>
         <topic type="text">kios/mqtt</topic>
-        <username type="text"></username>
-        <password type="text"></password>
+        <username type="text">mqtt_client</username>
+        <password type="text">mqtt_client</password>
         <throttler type="number">0</throttler>
     </MQTT>
     <Pushbullet>

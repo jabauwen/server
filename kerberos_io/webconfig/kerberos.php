@@ -1,6 +1,6 @@
 <?php return array (
   'type' => 'basic',
-  'radius' => '1',
+  'radius' => '2',
   'installed' => true,
   'users' => 
   array (
@@ -14,5 +14,5 @@
       'language' => 'nl',
     ),
   ),
-  'q' => '/settings/update/web',
+  'q' => '/api/v1/configure',
 );

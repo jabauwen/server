@@ -1,0 +1,12 @@
+[Unit]
+Description=kerberos doorbell docker container
+
+[Service]
+Restart=on-failure
+RestartSec=30
+
+ExecStart=/usr/bin/docker start kerberos_doorbell
+ExecStop=/usr/bin/docker stop kerberos_doorbell
+
+[Install]
+WantedBy=multi-user.target

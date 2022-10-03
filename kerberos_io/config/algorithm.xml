@@ -2,8 +2,8 @@
 <algorithms>
 
 	<DifferentialCollins>
-		<erode type="number">5</erode>
-    	<threshold type="number">27</threshold>
+		<erode type="number">8</erode>
+    	<threshold type="number">24</threshold>
     </DifferentialCollins>
     
 	<BackgroundSubtraction>

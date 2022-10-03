@@ -1,0 +1,1293 @@
+[2022-06-29T13:33:40,526] <launcher> INFO  system - *** Running for the first time, creating identity ***
+[2022-06-29T13:33:40,532] <launcher> INFO  system - UUID: b82950fc-b1df-46b0-be7c-dc009ce2f2eb
+[2022-06-29T13:33:40,592] <launcher> INFO  system - Reporter UUID: 89712ecb-a7f2-4a9c-a4c9-5d2baeb26941
+[2022-06-29T13:33:41,245] <launcher> INFO  tomcat - Adding basic REST API support during the startup
+[2022-06-29T13:33:41,925] <launcher> INFO  system - Tomcat startup took 1267ms
+[2022-06-29T13:33:41,927] <launcher> INFO  db     - New installation, skipping migration
+[2022-06-29T13:33:41,952] <launcher> INFO  tomcat - Adding basic REST API support during the startup
+[2022-06-29T13:33:43,674] <launcher> INFO  db     - waiting for db connection...
+[2022-06-29T13:33:45,085] <db-server> INFO  db     - 2022-06-29T13:33:45.085+0000 I STORAGE  [main] Engine custom option: cache_size=256M
+[2022-06-29T13:33:45,175] <launcher> INFO  db     - Connecting to mongodb://localhost:27117
+[2022-06-29T13:33:48,434] <launcher> INFO  db     - setting mongodb features compatibility version to 3.6
+[2022-06-29T13:34:19,570] <launcher> INFO  system - ======================================================================
+[2022-06-29T13:34:19,570] <launcher> INFO  system - UniFi 7.1.66 (build atag_7.1.66_17875 - release/release) is started
+[2022-06-29T13:34:19,570] <launcher> INFO  system - ======================================================================
+[2022-06-29T13:34:19,571] <launcher> INFO  system - BASE dir:/usr/lib/unifi
+[2022-06-29T13:34:19,633] <launcher> INFO  system - Current System IP: 172.19.0.2
+[2022-06-29T13:34:19,634] <launcher> INFO  system - Hostname: 1311a419845a
+[2022-06-29T13:34:19,634] <launcher> INFO  system - ubic.env: prod
+[2022-06-29T13:34:33,254] <launcher> INFO  productinfo - Using controller channel=RELEASE, firmware channel=RELEASE. Available controller channels=[RELEASE], available firmware channels=[RELEASE]. SSO is disabled.
+[2022-06-29T13:34:33,966] <launcher> INFO  webrtc - WebRTC library version: EvoStream Media Server (www.evostream.com) build v2.9.1 - Gladiator - (built for Debian-8.2.0-x86_64 on 2020-02-05T23:33:19.000) OpenSSL version: 1.1.1d usrsctp version: v0.1.2 compiled on machine: Linux debian-8-2-0-64 3.16.0-6-amd64 #1 SMP Debian 3.16.57-2 (2018-07-14) x86_64 GNU/Linux
+[2022-06-29T13:34:34,696] <launcher> WARN  system - Country Code is not configured for Site with ID=62bc54db02743901bf8887df
+[2022-06-29T13:34:35,859] <launcher> INFO  sdn    - Removed fingerbank token
+[2022-06-29T13:34:37,945] <ModelLifecycleManager-startStop> WARN  dev    - failed to read /usr/lib/unifi/data/model_lifecycles.json - /usr/lib/unifi/data/model_lifecycles.json (No such file or directory)
+[2022-06-29T13:35:39,350] <autoupdate-check> INFO  productinfo - firmware[BZ2] new version (4.3.28.11361) is available
+[2022-06-29T13:35:39,351] <autoupdate-check> INFO  productinfo - firmware[BZ2LR] new version (4.3.28.11361) is available
+[2022-06-29T13:35:39,352] <autoupdate-check> INFO  productinfo - firmware[S216150] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,352] <autoupdate-check> INFO  productinfo - firmware[S224250] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,352] <autoupdate-check> INFO  productinfo - firmware[S224500] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,352] <autoupdate-check> INFO  productinfo - firmware[S248500] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,352] <autoupdate-check> INFO  productinfo - firmware[S248750] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,353] <autoupdate-check> INFO  productinfo - firmware[S28150] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,353] <autoupdate-check> INFO  productinfo - firmware[U2HSR] new version (4.3.28.11361) is available
+[2022-06-29T13:35:39,353] <autoupdate-check> INFO  productinfo - firmware[U2IW] new version (4.3.28.11361) is available
+[2022-06-29T13:35:39,353] <autoupdate-check> INFO  productinfo - firmware[U2Lv2] new version (4.3.28.11361) is available
+[2022-06-29T13:35:39,353] <autoupdate-check> INFO  productinfo - firmware[U2O] new version (4.3.28.11361) is available
+[2022-06-29T13:35:39,354] <autoupdate-check> INFO  productinfo - firmware[U2Sv2] new version (4.3.28.11361) is available
+[2022-06-29T13:35:39,354] <autoupdate-check> INFO  productinfo - firmware[U5O] new version (4.3.28.11361) is available
+[2022-06-29T13:35:39,354] <autoupdate-check> INFO  productinfo - firmware[U6ENT] new version (6.2.16.13903) is available
+[2022-06-29T13:35:39,354] <autoupdate-check> INFO  productinfo - firmware[U6EXT] new version (6.2.16.13903) is available
+[2022-06-29T13:35:39,354] <autoupdate-check> INFO  productinfo - firmware[U6IW] new version (6.2.16.13903) is available
+[2022-06-29T13:35:39,354] <autoupdate-check> INFO  productinfo - firmware[U6M] new version (6.2.16.13903) is available
+[2022-06-29T13:35:39,355] <autoupdate-check> INFO  productinfo - firmware[U7EDU] new version (4.3.28.11361) is available
+[2022-06-29T13:35:39,355] <autoupdate-check> INFO  productinfo - firmware[U7HD] new version (6.0.21.13673) is available
+[2022-06-29T13:35:39,355] <autoupdate-check> INFO  productinfo - firmware[U7IW] new version (6.0.21.13673) is available
+[2022-06-29T13:35:39,355] <autoupdate-check> INFO  productinfo - firmware[U7IWP] new version (4.3.28.11361) is available
+[2022-06-29T13:35:39,355] <autoupdate-check> INFO  productinfo - firmware[U7LR] new version (6.0.21.13673) is available
+[2022-06-29T13:35:39,355] <autoupdate-check> INFO  productinfo - firmware[U7LT] new version (6.0.21.13673) is available
+[2022-06-29T13:35:39,356] <autoupdate-check> INFO  productinfo - firmware[U7MP] new version (6.0.21.13673) is available
+[2022-06-29T13:35:39,356] <autoupdate-check> INFO  productinfo - firmware[U7MSH] new version (6.0.21.13673) is available
+[2022-06-29T13:35:39,356] <autoupdate-check> INFO  productinfo - firmware[U7NHD] new version (6.0.21.13673) is available
+[2022-06-29T13:35:39,356] <autoupdate-check> INFO  productinfo - firmware[U7P] new version (4.3.28.11361) is available
+[2022-06-29T13:35:39,356] <autoupdate-check> INFO  productinfo - firmware[U7PG2] new version (6.0.21.13673) is available
+[2022-06-29T13:35:39,356] <autoupdate-check> INFO  productinfo - firmware[U7SHD] new version (6.0.21.13673) is available
+[2022-06-29T13:35:39,356] <autoupdate-check> INFO  productinfo - firmware[UAE6] new version (6.0.21.13673) is available
+[2022-06-29T13:35:39,357] <autoupdate-check> INFO  productinfo - firmware[UAIW6] new version (6.0.21.13673) is available
+[2022-06-29T13:35:39,357] <autoupdate-check> INFO  productinfo - firmware[UAL6] new version (6.0.21.13673) is available
+[2022-06-29T13:35:39,357] <autoupdate-check> INFO  productinfo - firmware[UALR6] new version (6.0.21.13673) is available
+[2022-06-29T13:35:39,357] <autoupdate-check> INFO  productinfo - firmware[UALR6v2] new version (6.0.21.13673) is available
+[2022-06-29T13:35:39,357] <autoupdate-check> INFO  productinfo - firmware[UAM6] new version (6.0.21.13673) is available
+[2022-06-29T13:35:39,357] <autoupdate-check> INFO  productinfo - firmware[UAP6MP] new version (6.2.16.13903) is available
+[2022-06-29T13:35:39,357] <autoupdate-check> INFO  productinfo - firmware[UBB] new version (2.1.3.31) is available
+[2022-06-29T13:35:39,358] <autoupdate-check> INFO  productinfo - firmware[UCK] new version (1.1.19.f4a17b0) is available
+[2022-06-29T13:35:39,358] <autoupdate-check> INFO  productinfo - firmware[UCKG2] new version (2.1.11.a7986ca) is available
+[2022-06-29T13:35:39,358] <autoupdate-check> INFO  productinfo - firmware[UCKP] new version (2.1.11.a7986ca) is available
+[2022-06-29T13:35:39,358] <autoupdate-check> INFO  productinfo - firmware[UCXG] new version (6.0.21.13673) is available
+[2022-06-29T13:35:39,358] <autoupdate-check> INFO  productinfo - firmware[UDM] new version (1.12.22.4309) is available
+[2022-06-29T13:35:39,358] <autoupdate-check> INFO  productinfo - firmware[UDMB] new version (6.0.21.13673) is available
+[2022-06-29T13:35:39,359] <autoupdate-check> INFO  productinfo - firmware[UDMPRO] new version (1.12.22.4309) is available
+[2022-06-29T13:35:39,359] <autoupdate-check> INFO  productinfo - firmware[UFLHD] new version (6.0.21.13673) is available
+[2022-06-29T13:35:39,359] <autoupdate-check> INFO  productinfo - firmware[UGW3] new version (4.4.56.5449062) is available
+[2022-06-29T13:35:39,359] <autoupdate-check> INFO  productinfo - firmware[UGW4] new version (4.4.56.5449062) is available
+[2022-06-29T13:35:39,359] <autoupdate-check> INFO  productinfo - firmware[UGWXG] new version (4.4.56.5449066) is available
+[2022-06-29T13:35:39,359] <autoupdate-check> INFO  productinfo - firmware[UHDIW] new version (6.0.21.13673) is available
+[2022-06-29T13:35:39,359] <autoupdate-check> INFO  productinfo - firmware[ULTE] new version (6.0.14.13634) is available
+[2022-06-29T13:35:39,360] <autoupdate-check> INFO  productinfo - firmware[ULTEPEU] new version (6.0.14.13634) is available
+[2022-06-29T13:35:39,360] <autoupdate-check> INFO  productinfo - firmware[UP1] new version (2.2.1.511) is available
+[2022-06-29T13:35:39,360] <autoupdate-check> INFO  productinfo - firmware[UP6] new version (2.2.1.511) is available
+[2022-06-29T13:35:39,360] <autoupdate-check> INFO  productinfo - firmware[US16P150] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,360] <autoupdate-check> INFO  productinfo - firmware[US24] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,360] <autoupdate-check> INFO  productinfo - firmware[US24P250] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,360] <autoupdate-check> INFO  productinfo - firmware[US24P500] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,361] <autoupdate-check> INFO  productinfo - firmware[US24PL2] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,361] <autoupdate-check> INFO  productinfo - firmware[US24PRO] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,361] <autoupdate-check> INFO  productinfo - firmware[US24PRO2] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,361] <autoupdate-check> INFO  productinfo - firmware[US48] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,361] <autoupdate-check> INFO  productinfo - firmware[US48P500] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,361] <autoupdate-check> INFO  productinfo - firmware[US48P750] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,361] <autoupdate-check> INFO  productinfo - firmware[US48PL2] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,362] <autoupdate-check> INFO  productinfo - firmware[US48PRO] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,362] <autoupdate-check> INFO  productinfo - firmware[US48PRO2] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,362] <autoupdate-check> INFO  productinfo - firmware[US624P] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,362] <autoupdate-check> INFO  productinfo - firmware[US648P] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,362] <autoupdate-check> INFO  productinfo - firmware[US68P] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,362] <autoupdate-check> INFO  productinfo - firmware[US6XG150] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,363] <autoupdate-check> INFO  productinfo - firmware[US8] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,363] <autoupdate-check> INFO  productinfo - firmware[US8P150] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,363] <autoupdate-check> INFO  productinfo - firmware[US8P60] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,363] <autoupdate-check> INFO  productinfo - firmware[USAGGPRO] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,363] <autoupdate-check> INFO  productinfo - firmware[USC8] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,363] <autoupdate-check> INFO  productinfo - firmware[USC8P450] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,363] <autoupdate-check> INFO  productinfo - firmware[USF5P] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,364] <autoupdate-check> INFO  productinfo - firmware[USFXG] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,364] <autoupdate-check> INFO  productinfo - firmware[USL16LP] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,364] <autoupdate-check> INFO  productinfo - firmware[USL16P] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,364] <autoupdate-check> INFO  productinfo - firmware[USL24] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,364] <autoupdate-check> INFO  productinfo - firmware[USL24P] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,364] <autoupdate-check> INFO  productinfo - firmware[USL48] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,364] <autoupdate-check> INFO  productinfo - firmware[USL48P] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,365] <autoupdate-check> INFO  productinfo - firmware[USL8A] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,365] <autoupdate-check> INFO  productinfo - firmware[USL8LP] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,365] <autoupdate-check> INFO  productinfo - firmware[USL8MP] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,365] <autoupdate-check> INFO  productinfo - firmware[USMINI] new version (1.8.5.687) is available
+[2022-06-29T13:35:39,365] <autoupdate-check> INFO  productinfo - firmware[USPPDUP] new version (5.76.7.13442) is available
+[2022-06-29T13:35:39,365] <autoupdate-check> INFO  productinfo - firmware[USPRPS] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,365] <autoupdate-check> INFO  productinfo - firmware[USXG] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,366] <autoupdate-check> INFO  productinfo - firmware[USXG24] new version (6.2.14.13855) is available
+[2022-06-29T13:35:39,366] <autoupdate-check> INFO  productinfo - firmware[UXBSDM] new version (6.0.21.13673) is available
+[2022-06-29T13:35:39,366] <autoupdate-check> INFO  productinfo - firmware[UXGPRO] new version (1.12.19.4302) is available
+[2022-06-29T13:35:39,366] <autoupdate-check> INFO  productinfo - firmware[UXSDM] new version (6.0.21.13673) is available
+[2022-06-29T13:39:11,487] <launcher> INFO  tomcat - Adding basic REST API support during the startup
+[2022-06-29T13:39:12,210] <launcher> INFO  system - Tomcat startup took 1297ms
+[2022-06-29T13:39:12,212] <launcher> INFO  db     - Version 7.1.66 has not changed, skipping migration
+[2022-06-29T13:39:12,231] <launcher> INFO  tomcat - Adding basic REST API support during the startup
+[2022-06-29T13:39:13,882] <launcher> INFO  db     - waiting for db connection...
+[2022-06-29T13:39:15,076] <db-server> INFO  db     - 2022-06-29T13:39:15.076+0000 I STORAGE  [main] Engine custom option: cache_size=256M
+[2022-06-29T13:39:15,383] <launcher> INFO  db     - Connecting to mongodb://localhost:27117
+[2022-06-29T13:39:18,028] <launcher> INFO  db     - setting mongodb features compatibility version to 3.6
+[2022-06-29T13:39:18,054] <launcher> INFO  db     - *** Factory Default *** Database exists. Clean it
+[2022-06-29T13:39:18,964] <launcher> INFO  system - ======================================================================
+[2022-06-29T13:39:18,964] <launcher> INFO  system - UniFi 7.1.66 (build atag_7.1.66_17875 - release/release) is started
+[2022-06-29T13:39:18,964] <launcher> INFO  system - ======================================================================
+[2022-06-29T13:39:18,965] <launcher> INFO  system - BASE dir:/usr/lib/unifi
+[2022-06-29T13:39:19,021] <launcher> INFO  system - Current System IP: 172.19.0.2
+[2022-06-29T13:39:19,022] <launcher> INFO  system - Hostname: 1311a419845a
+[2022-06-29T13:39:19,022] <launcher> INFO  system - ubic.env: prod
+[2022-06-29T13:39:22,364] <launcher> INFO  stat   - *** Factory Default *** Stat Database exists. Clean it
+[2022-06-29T13:39:28,366] <launcher> INFO  productinfo - Using controller channel=RELEASE, firmware channel=RELEASE. Available controller channels=[RELEASE], available firmware channels=[RELEASE]. SSO is disabled.
+[2022-06-29T13:39:28,862] <launcher> INFO  webrtc - WebRTC library version: EvoStream Media Server (www.evostream.com) build v2.9.1 - Gladiator - (built for Debian-8.2.0-x86_64 on 2020-02-05T23:33:19.000) OpenSSL version: 1.1.1d usrsctp version: v0.1.2 compiled on machine: Linux debian-8-2-0-64 3.16.0-6-amd64 #1 SMP Debian 3.16.57-2 (2018-07-14) x86_64 GNU/Linux
+[2022-06-29T13:39:29,614] <launcher> WARN  system - Country Code is not configured for Site with ID=62bc5606027439016e5b6c32
+[2022-06-29T13:39:30,578] <launcher> INFO  sdn    - Removed fingerbank token
+[2022-06-29T13:41:58,757] <launcher> INFO  tomcat - Adding basic REST API support during the startup
+[2022-06-29T13:41:59,447] <launcher> INFO  system - Tomcat startup took 1303ms
+[2022-06-29T13:41:59,449] <launcher> INFO  db     - Version 7.1.66 has not changed, skipping migration
+[2022-06-29T13:41:59,473] <launcher> INFO  tomcat - Adding basic REST API support during the startup
+[2022-06-29T13:42:01,253] <launcher> INFO  db     - waiting for db connection...
+[2022-06-29T13:42:02,523] <db-server> INFO  db     - 2022-06-29T13:42:02.523+0000 I STORAGE  [main] Engine custom option: cache_size=256M
+[2022-06-29T13:42:02,753] <launcher> INFO  db     - Connecting to mongodb://localhost:27117
+[2022-06-29T13:42:05,420] <launcher> INFO  db     - setting mongodb features compatibility version to 3.6
+[2022-06-29T13:42:05,446] <launcher> INFO  db     - *** Factory Default *** Database exists. Clean it
+[2022-06-29T13:42:06,371] <launcher> INFO  system - ======================================================================
+[2022-06-29T13:42:06,371] <launcher> INFO  system - UniFi 7.1.66 (build atag_7.1.66_17875 - release/release) is started
+[2022-06-29T13:42:06,371] <launcher> INFO  system - ======================================================================
+[2022-06-29T13:42:06,372] <launcher> INFO  system - BASE dir:/usr/lib/unifi
+[2022-06-29T13:42:06,432] <launcher> INFO  system - Current System IP: 172.19.0.2
+[2022-06-29T13:42:06,433] <launcher> INFO  system - Hostname: 0e0de31d8eb6
+[2022-06-29T13:42:06,433] <launcher> INFO  system - ubic.env: prod
+[2022-06-29T13:42:09,581] <launcher> INFO  stat   - *** Factory Default *** Stat Database exists. Clean it
+[2022-06-29T13:42:15,805] <launcher> INFO  productinfo - Using controller channel=RELEASE, firmware channel=RELEASE. Available controller channels=[RELEASE], available firmware channels=[RELEASE]. SSO is disabled.
+[2022-06-29T13:42:16,306] <launcher> INFO  webrtc - WebRTC library version: EvoStream Media Server (www.evostream.com) build v2.9.1 - Gladiator - (built for Debian-8.2.0-x86_64 on 2020-02-05T23:33:19.000) OpenSSL version: 1.1.1d usrsctp version: v0.1.2 compiled on machine: Linux debian-8-2-0-64 3.16.0-6-amd64 #1 SMP Debian 3.16.57-2 (2018-07-14) x86_64 GNU/Linux
+[2022-06-29T13:42:17,031] <launcher> WARN  system - Country Code is not configured for Site with ID=62bc56ae02743901b53117e5
+[2022-06-29T13:42:18,157] <launcher> INFO  sdn    - Removed fingerbank token
+[2022-06-29T13:45:28,681] <launcher> INFO  tomcat - Adding basic REST API support during the startup
+[2022-06-29T13:45:29,384] <launcher> INFO  system - Tomcat startup took 1387ms
+[2022-06-29T13:45:29,411] <launcher> INFO  db     - Version 7.1.66 has changed to 7.1.61, attempting to start migration
+[2022-06-29T13:45:30,076] <launcher> INFO  db     - waiting for db connection...
+[2022-06-29T13:45:31,408] <db-server> INFO  db     - 2022-06-29T13:45:31.408+0000 I STORAGE  [main] Engine custom option: cache_size=256M
+[2022-06-29T13:45:31,577] <launcher> INFO  db     - Connecting to mongodb://localhost:27117
+[2022-06-29T13:45:34,228] <launcher> INFO  db     - setting mongodb features compatibility version to 3.6
+[2022-06-29T13:45:34,253] <launcher> INFO  db     - *** Factory Default *** Database exists. Clean it
+[2022-06-29T13:45:35,178] <launcher> INFO  system - ======================================================================
+[2022-06-29T13:45:35,178] <launcher> INFO  system - UniFi 7.1.61 (build atag_7.1.61_17860 - release/release) is started
+[2022-06-29T13:45:35,178] <launcher> INFO  system - ======================================================================
+[2022-06-29T13:45:35,179] <launcher> INFO  system - BASE dir:/usr/lib/unifi
+[2022-06-29T13:45:35,226] <launcher> INFO  system - Current System IP: 172.19.0.2
+[2022-06-29T13:45:35,226] <launcher> INFO  system - Hostname: 1e23cca3007e
+[2022-06-29T13:45:35,226] <launcher> INFO  system - ubic.env: prod
+[2022-06-29T13:45:37,949] <launcher> INFO  stat   - *** Factory Default *** Stat Database exists. Clean it
+[2022-06-29T13:45:43,585] <launcher> INFO  productinfo - Using controller channel=RELEASE, firmware channel=RELEASE. Available controller channels=[RELEASE], available firmware channels=[RELEASE]. SSO is disabled.
+[2022-06-29T13:45:43,983] <launcher> INFO  webrtc - WebRTC library version: EvoStream Media Server (www.evostream.com) build v2.9.1 - Gladiator - (built for Debian-8.2.0-x86_64 on 2020-02-05T23:33:19.000) OpenSSL version: 1.1.1d usrsctp version: v0.1.2 compiled on machine: Linux debian-8-2-0-64 3.16.0-6-amd64 #1 SMP Debian 3.16.57-2 (2018-07-14) x86_64 GNU/Linux
+[2022-06-29T13:45:44,948] <launcher> WARN  system - Country Code is not configured for Site with ID=62bc577f02743901b16f8c6b
+[2022-06-29T13:45:46,313] <launcher> INFO  sdn    - Removed fingerbank token
+[2022-06-29T13:45:47,122] <launcher> INFO  tomcat - Adding basic REST API support during the startup
+[2022-06-29T13:45:50,324] <launcher> INFO  productinfo - Using controller channel=RELEASE, firmware channel=RELEASE. Available controller channels=[RELEASE], available firmware channels=[RELEASE]. SSO is disabled.
+[2022-06-29T13:45:50,641] <launcher> WARN  system - Country Code is not configured for Site with ID=62bc577f02743901b16f8c6b
+[2022-06-29T13:50:14,334] <launcher> INFO  tomcat - Adding basic REST API support during the startup
+[2022-06-29T13:50:15,037] <launcher> INFO  system - Tomcat startup took 1268ms
+[2022-06-29T13:50:15,038] <launcher> INFO  db     - Version 7.1.61 has not changed, skipping migration
+[2022-06-29T13:50:15,062] <launcher> INFO  tomcat - Adding basic REST API support during the startup
+[2022-06-29T13:50:16,673] <launcher> INFO  db     - waiting for db connection...
+[2022-06-29T13:50:17,911] <db-server> INFO  db     - 2022-06-29T13:50:17.911+0000 I STORAGE  [main] Engine custom option: cache_size=256M
+[2022-06-29T13:50:18,174] <launcher> INFO  db     - Connecting to mongodb://localhost:27117
+[2022-06-29T13:50:22,827] <launcher> INFO  db     - setting mongodb features compatibility version to 3.6
+[2022-06-29T13:50:22,864] <launcher> INFO  db     - *** Factory Default *** Database exists. Clean it
+[2022-06-29T13:50:24,428] <launcher> INFO  system - ======================================================================
+[2022-06-29T13:50:24,428] <launcher> INFO  system - UniFi 7.1.61 (build atag_7.1.61_17860 - release/release) is started
+[2022-06-29T13:50:24,428] <launcher> INFO  system - ======================================================================
+[2022-06-29T13:50:24,429] <launcher> INFO  system - BASE dir:/usr/lib/unifi
+[2022-06-29T13:50:24,487] <launcher> INFO  system - Current System IP: 172.19.0.2
+[2022-06-29T13:50:24,488] <launcher> INFO  system - Hostname: 4465b86c0dee
+[2022-06-29T13:50:24,488] <launcher> INFO  system - ubic.env: prod
+[2022-06-29T13:50:28,359] <launcher> INFO  stat   - *** Factory Default *** Stat Database exists. Clean it
+[2022-06-29T13:50:34,050] <launcher> INFO  productinfo - Using controller channel=RELEASE, firmware channel=RELEASE. Available controller channels=[RELEASE], available firmware channels=[RELEASE]. SSO is disabled.
+[2022-06-29T13:50:34,748] <launcher> INFO  webrtc - WebRTC library version: EvoStream Media Server (www.evostream.com) build v2.9.1 - Gladiator - (built for Debian-8.2.0-x86_64 on 2020-02-05T23:33:19.000) OpenSSL version: 1.1.1d usrsctp version: v0.1.2 compiled on machine: Linux debian-8-2-0-64 3.16.0-6-amd64 #1 SMP Debian 3.16.57-2 (2018-07-14) x86_64 GNU/Linux
+[2022-06-29T13:50:35,531] <launcher> WARN  system - Country Code is not configured for Site with ID=62bc58a002743901b2864b5f
+[2022-06-29T13:50:36,592] <launcher> INFO  sdn    - Removed fingerbank token
+[2022-06-29T13:51:40,192] <autoupdate-check> INFO  productinfo - firmware[BZ2] new version (4.3.28.11361) is available
+[2022-06-29T13:51:40,195] <autoupdate-check> INFO  productinfo - firmware[BZ2LR] new version (4.3.28.11361) is available
+[2022-06-29T13:51:40,195] <autoupdate-check> INFO  productinfo - firmware[S216150] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,196] <autoupdate-check> INFO  productinfo - firmware[S224250] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,196] <autoupdate-check> INFO  productinfo - firmware[S224500] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,198] <autoupdate-check> INFO  productinfo - firmware[S248500] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,198] <autoupdate-check> INFO  productinfo - firmware[S248750] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,199] <autoupdate-check> INFO  productinfo - firmware[S28150] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,199] <autoupdate-check> INFO  productinfo - firmware[U2HSR] new version (4.3.28.11361) is available
+[2022-06-29T13:51:40,199] <autoupdate-check> INFO  productinfo - firmware[U2IW] new version (4.3.28.11361) is available
+[2022-06-29T13:51:40,199] <autoupdate-check> INFO  productinfo - firmware[U2Lv2] new version (4.3.28.11361) is available
+[2022-06-29T13:51:40,199] <autoupdate-check> INFO  productinfo - firmware[U2O] new version (4.3.28.11361) is available
+[2022-06-29T13:51:40,199] <autoupdate-check> INFO  productinfo - firmware[U2Sv2] new version (4.3.28.11361) is available
+[2022-06-29T13:51:40,200] <autoupdate-check> INFO  productinfo - firmware[U5O] new version (4.3.28.11361) is available
+[2022-06-29T13:51:40,200] <autoupdate-check> INFO  productinfo - firmware[U6ENT] new version (6.2.16.13903) is available
+[2022-06-29T13:51:40,200] <autoupdate-check> INFO  productinfo - firmware[U6EXT] new version (6.2.16.13903) is available
+[2022-06-29T13:51:40,200] <autoupdate-check> INFO  productinfo - firmware[U6IW] new version (6.2.16.13903) is available
+[2022-06-29T13:51:40,200] <autoupdate-check> INFO  productinfo - firmware[U6M] new version (6.2.16.13903) is available
+[2022-06-29T13:51:40,200] <autoupdate-check> INFO  productinfo - firmware[U7EDU] new version (4.3.28.11361) is available
+[2022-06-29T13:51:40,200] <autoupdate-check> INFO  productinfo - firmware[U7HD] new version (6.0.21.13673) is available
+[2022-06-29T13:51:40,201] <autoupdate-check> INFO  productinfo - firmware[U7IW] new version (6.0.21.13673) is available
+[2022-06-29T13:51:40,201] <autoupdate-check> INFO  productinfo - firmware[U7IWP] new version (4.3.28.11361) is available
+[2022-06-29T13:51:40,201] <autoupdate-check> INFO  productinfo - firmware[U7LR] new version (6.0.21.13673) is available
+[2022-06-29T13:51:40,201] <autoupdate-check> INFO  productinfo - firmware[U7LT] new version (6.0.21.13673) is available
+[2022-06-29T13:51:40,201] <autoupdate-check> INFO  productinfo - firmware[U7MP] new version (6.0.21.13673) is available
+[2022-06-29T13:51:40,201] <autoupdate-check> INFO  productinfo - firmware[U7MSH] new version (6.0.21.13673) is available
+[2022-06-29T13:51:40,201] <autoupdate-check> INFO  productinfo - firmware[U7NHD] new version (6.0.21.13673) is available
+[2022-06-29T13:51:40,202] <autoupdate-check> INFO  productinfo - firmware[U7P] new version (4.3.28.11361) is available
+[2022-06-29T13:51:40,202] <autoupdate-check> INFO  productinfo - firmware[U7PG2] new version (6.0.21.13673) is available
+[2022-06-29T13:51:40,204] <autoupdate-check> INFO  productinfo - firmware[U7SHD] new version (6.0.21.13673) is available
+[2022-06-29T13:51:40,204] <autoupdate-check> INFO  productinfo - firmware[UAE6] new version (6.0.21.13673) is available
+[2022-06-29T13:51:40,204] <autoupdate-check> INFO  productinfo - firmware[UAIW6] new version (6.0.21.13673) is available
+[2022-06-29T13:51:40,205] <autoupdate-check> INFO  productinfo - firmware[UAL6] new version (6.0.21.13673) is available
+[2022-06-29T13:51:40,205] <autoupdate-check> INFO  productinfo - firmware[UALR6] new version (6.0.21.13673) is available
+[2022-06-29T13:51:40,205] <autoupdate-check> INFO  productinfo - firmware[UALR6v2] new version (6.0.21.13673) is available
+[2022-06-29T13:51:40,206] <autoupdate-check> INFO  productinfo - firmware[UAM6] new version (6.0.21.13673) is available
+[2022-06-29T13:51:40,206] <autoupdate-check> INFO  productinfo - firmware[UAP6MP] new version (6.2.16.13903) is available
+[2022-06-29T13:51:40,206] <autoupdate-check> INFO  productinfo - firmware[UBB] new version (2.1.3.31) is available
+[2022-06-29T13:51:40,206] <autoupdate-check> INFO  productinfo - firmware[UCK] new version (1.1.19.f4a17b0) is available
+[2022-06-29T13:51:40,207] <autoupdate-check> INFO  productinfo - firmware[UCKG2] new version (2.1.11.a7986ca) is available
+[2022-06-29T13:51:40,207] <autoupdate-check> INFO  productinfo - firmware[UCKP] new version (2.1.11.a7986ca) is available
+[2022-06-29T13:51:40,208] <autoupdate-check> INFO  productinfo - firmware[UCXG] new version (6.0.21.13673) is available
+[2022-06-29T13:51:40,208] <autoupdate-check> INFO  productinfo - firmware[UDM] new version (1.12.22.4309) is available
+[2022-06-29T13:51:40,210] <autoupdate-check> INFO  productinfo - firmware[UDMB] new version (6.0.21.13673) is available
+[2022-06-29T13:51:40,210] <autoupdate-check> INFO  productinfo - firmware[UDMPRO] new version (1.12.22.4309) is available
+[2022-06-29T13:51:40,210] <autoupdate-check> INFO  productinfo - firmware[UFLHD] new version (6.0.21.13673) is available
+[2022-06-29T13:51:40,210] <autoupdate-check> INFO  productinfo - firmware[UGW3] new version (4.4.56.5449062) is available
+[2022-06-29T13:51:40,210] <autoupdate-check> INFO  productinfo - firmware[UGW4] new version (4.4.56.5449062) is available
+[2022-06-29T13:51:40,211] <autoupdate-check> INFO  productinfo - firmware[UGWXG] new version (4.4.56.5449066) is available
+[2022-06-29T13:51:40,211] <autoupdate-check> INFO  productinfo - firmware[UHDIW] new version (6.0.21.13673) is available
+[2022-06-29T13:51:40,211] <autoupdate-check> INFO  productinfo - firmware[ULTE] new version (6.0.14.13634) is available
+[2022-06-29T13:51:40,211] <autoupdate-check> INFO  productinfo - firmware[ULTEPEU] new version (6.0.14.13634) is available
+[2022-06-29T13:51:40,211] <autoupdate-check> INFO  productinfo - firmware[UP1] new version (2.2.1.511) is available
+[2022-06-29T13:51:40,211] <autoupdate-check> INFO  productinfo - firmware[UP6] new version (2.2.1.511) is available
+[2022-06-29T13:51:40,213] <autoupdate-check> INFO  productinfo - firmware[US16P150] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,213] <autoupdate-check> INFO  productinfo - firmware[US24] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,213] <autoupdate-check> INFO  productinfo - firmware[US24P250] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,213] <autoupdate-check> INFO  productinfo - firmware[US24P500] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,214] <autoupdate-check> INFO  productinfo - firmware[US24PL2] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,214] <autoupdate-check> INFO  productinfo - firmware[US24PRO] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,215] <autoupdate-check> INFO  productinfo - firmware[US24PRO2] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,215] <autoupdate-check> INFO  productinfo - firmware[US48] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,215] <autoupdate-check> INFO  productinfo - firmware[US48P500] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,215] <autoupdate-check> INFO  productinfo - firmware[US48P750] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,216] <autoupdate-check> INFO  productinfo - firmware[US48PL2] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,218] <autoupdate-check> INFO  productinfo - firmware[US48PRO] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,219] <autoupdate-check> INFO  productinfo - firmware[US48PRO2] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,219] <autoupdate-check> INFO  productinfo - firmware[US624P] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,220] <autoupdate-check> INFO  productinfo - firmware[US648P] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,221] <autoupdate-check> INFO  productinfo - firmware[US68P] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,221] <autoupdate-check> INFO  productinfo - firmware[US6XG150] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,221] <autoupdate-check> INFO  productinfo - firmware[US8] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,221] <autoupdate-check> INFO  productinfo - firmware[US8P150] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,222] <autoupdate-check> INFO  productinfo - firmware[US8P60] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,238] <autoupdate-check> INFO  productinfo - firmware[USAGGPRO] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,238] <autoupdate-check> INFO  productinfo - firmware[USC8] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,238] <autoupdate-check> INFO  productinfo - firmware[USC8P450] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,239] <autoupdate-check> INFO  productinfo - firmware[USF5P] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,239] <autoupdate-check> INFO  productinfo - firmware[USFXG] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,239] <autoupdate-check> INFO  productinfo - firmware[USL16LP] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,239] <autoupdate-check> INFO  productinfo - firmware[USL16P] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,239] <autoupdate-check> INFO  productinfo - firmware[USL24] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,240] <autoupdate-check> INFO  productinfo - firmware[USL24P] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,240] <autoupdate-check> INFO  productinfo - firmware[USL48] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,240] <autoupdate-check> INFO  productinfo - firmware[USL48P] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,240] <autoupdate-check> INFO  productinfo - firmware[USL8A] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,240] <autoupdate-check> INFO  productinfo - firmware[USL8LP] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,240] <autoupdate-check> INFO  productinfo - firmware[USL8MP] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,240] <autoupdate-check> INFO  productinfo - firmware[USMINI] new version (1.8.5.687) is available
+[2022-06-29T13:51:40,241] <autoupdate-check> INFO  productinfo - firmware[USPPDUP] new version (5.76.7.13442) is available
+[2022-06-29T13:51:40,241] <autoupdate-check> INFO  productinfo - firmware[USPRPS] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,241] <autoupdate-check> INFO  productinfo - firmware[USXG] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,241] <autoupdate-check> INFO  productinfo - firmware[USXG24] new version (6.2.14.13855) is available
+[2022-06-29T13:51:40,241] <autoupdate-check> INFO  productinfo - firmware[UXBSDM] new version (6.0.21.13673) is available
+[2022-06-29T13:51:40,241] <autoupdate-check> INFO  productinfo - firmware[UXGPRO] new version (1.12.19.4302) is available
+[2022-06-29T13:51:40,242] <autoupdate-check> INFO  productinfo - firmware[UXSDM] new version (6.0.21.13673) is available
+[2022-06-29T13:53:26,900] <launcher> INFO  tomcat - Adding basic REST API support during the startup
+[2022-06-29T13:53:29,031] <launcher> INFO  system - Tomcat startup took 2890ms
+[2022-06-29T13:53:29,033] <launcher> INFO  db     - Version 7.1.61 has changed to 7.1.66, attempting to start migration
+[2022-06-29T13:53:30,429] <launcher> INFO  db     - waiting for db connection...
+[2022-06-29T13:53:33,425] <db-server> INFO  db     - 2022-06-29T13:53:33.425+0000 I STORAGE  [main] Engine custom option: cache_size=256M
+[2022-06-29T13:53:33,430] <launcher> INFO  db     - Connecting to mongodb://localhost:27117
+[2022-06-29T13:53:37,876] <launcher> INFO  db     - setting mongodb features compatibility version to 3.6
+[2022-06-29T13:53:37,903] <launcher> INFO  db     - *** Factory Default *** Database exists. Clean it
+[2022-06-29T13:53:39,144] <launcher> INFO  system - ======================================================================
+[2022-06-29T13:53:39,144] <launcher> INFO  system - UniFi 7.1.66 (build atag_7.1.66_17875 - release/release) is started
+[2022-06-29T13:53:39,144] <launcher> INFO  system - ======================================================================
+[2022-06-29T13:53:39,146] <launcher> INFO  system - BASE dir:/usr/lib/unifi
+[2022-06-29T13:53:39,207] <launcher> INFO  system - Current System IP: 172.19.0.2
+[2022-06-29T13:53:39,208] <launcher> INFO  system - Hostname: c3476c6613b6
+[2022-06-29T13:53:39,208] <launcher> INFO  system - ubic.env: prod
+[2022-06-29T13:53:42,184] <launcher> INFO  stat   - *** Factory Default *** Stat Database exists. Clean it
+[2022-06-29T13:53:48,763] <launcher> INFO  productinfo - Using controller channel=RELEASE, firmware channel=RELEASE. Available controller channels=[RELEASE], available firmware channels=[RELEASE]. SSO is disabled.
+[2022-06-29T13:53:49,281] <launcher> INFO  webrtc - WebRTC library version: EvoStream Media Server (www.evostream.com) build v2.9.1 - Gladiator - (built for Debian-8.2.0-x86_64 on 2020-02-05T23:33:19.000) OpenSSL version: 1.1.1d usrsctp version: v0.1.2 compiled on machine: Linux debian-8-2-0-64 3.16.0-6-amd64 #1 SMP Debian 3.16.57-2 (2018-07-14) x86_64 GNU/Linux
+[2022-06-29T13:53:50,714] <launcher> WARN  system - Country Code is not configured for Site with ID=62bc596302743901b5c43885
+[2022-06-29T13:53:52,309] <launcher> INFO  sdn    - Removed fingerbank token
+[2022-06-29T13:53:53,549] <launcher> INFO  tomcat - Adding basic REST API support during the startup
+[2022-06-29T13:53:57,115] <launcher> INFO  productinfo - Using controller channel=RELEASE, firmware channel=RELEASE. Available controller channels=[RELEASE], available firmware channels=[RELEASE]. SSO is disabled.
+[2022-06-29T13:53:57,464] <launcher> WARN  system - Country Code is not configured for Site with ID=62bc596302743901b5c43885
+[2022-06-29T13:56:26,599] <inform-5> WARN  api    - failed to authenticate to SSO: Cloud operation failed! RC=403, error: {"detail":"Invalid credential"}
+[2022-06-29T13:56:33,850] <inform-6> WARN  api    - failed to authenticate to SSO: Cloud operation failed! RC=403, error: {"detail":"Invalid credential"}
+[2022-06-29T13:56:47,996] <inform-5> WARN  api    - failed to authenticate to SSO: Cloud operation failed! RC=403, error: {"detail":"Invalid credential"}
+[2022-06-29T13:58:47,647] <inform-7> WARN  api    - failed to authenticate to SSO: Cloud operation failed! RC=400, error: {"user":["This field is required."],"password":["This field is required."]}
+[2022-06-29T13:58:54,327] <inform-7> WARN  api    - failed to authenticate to SSO: Cloud operation failed! RC=400, error: {"user":["This field is required."],"password":["This field is required."]}
+[2022-06-29T13:59:42,352] <inform-5> WARN  api    - failed to authenticate to SSO: Cloud operation failed! RC=400, error: {"user":["This field is required."],"password":["This field is required."]}
+[2022-06-29T14:00:10,641] <inform-9> WARN  api    - failed to authenticate to SSO: Cloud operation failed! RC=400, error: {"user":["This field is required."],"password":["This field is required."]}
+[2022-06-29T14:00:15,998] <inform-9> WARN  api    - failed to authenticate to SSO: Cloud operation failed! RC=400, error: {"user":["This field is required."],"password":["This field is required."]}
+[2022-06-29T14:01:55,548] <webapi-7> WARN  view   - Successfully authenticated SSO user jbauwens, but it does not match any local admin
+[2022-06-29T14:01:58,371] <webapi-6> ERROR system - Failed to load file[/usr/lib/unifi/data/backup/autobackup/autobackup_meta.json] as JSON
+java.io.FileNotFoundException: /usr/lib/unifi/data/backup/autobackup/autobackup_meta.json (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_312]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_312]
+	at java.io.FileReader.<init>(FileReader.java:58) ~[?:1.8.0_312]
+	at com.ubnt.data.X.loadJSON(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.Q.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.forprivate(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.ÕøO000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.command.backup.ListBackupsCmdHandler.doCmd(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiUtils.execute(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.H.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiServlet.service(Unknown Source) ~[ace.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.58.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.service.trace.requestmetrics.B.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.AuthFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.UbiosHttpsFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:357) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:176) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_312]
+[2022-06-29T14:03:52,139] <webapi-7> ERROR system - Failed to load file[/usr/lib/unifi/data/backup/autobackup/autobackup_meta.json] as JSON
+java.io.FileNotFoundException: /usr/lib/unifi/data/backup/autobackup/autobackup_meta.json (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_312]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_312]
+	at java.io.FileReader.<init>(FileReader.java:58) ~[?:1.8.0_312]
+	at com.ubnt.data.X.loadJSON(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.Q.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.forprivate(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.ÕøO000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.command.backup.ListBackupsCmdHandler.doCmd(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiUtils.execute(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.H.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiServlet.service(Unknown Source) ~[ace.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.58.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.service.trace.requestmetrics.B.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.AuthFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.UbiosHttpsFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:357) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:176) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_312]
+[2022-06-29T14:04:26,858] <webapi-28> ERROR system - Failed to load file[/usr/lib/unifi/data/backup/autobackup/autobackup_meta.json] as JSON
+java.io.FileNotFoundException: /usr/lib/unifi/data/backup/autobackup/autobackup_meta.json (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_312]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_312]
+	at java.io.FileReader.<init>(FileReader.java:58) ~[?:1.8.0_312]
+	at com.ubnt.data.X.loadJSON(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.Q.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.forprivate(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.ÕøO000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.command.backup.ListBackupsCmdHandler.doCmd(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiUtils.execute(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.H.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiServlet.service(Unknown Source) ~[ace.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.58.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.service.trace.requestmetrics.B.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.AuthFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.UbiosHttpsFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:357) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:176) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_312]
+[2022-06-29T14:05:51,767] <webapi-39> ERROR system - Failed to load file[/usr/lib/unifi/data/backup/autobackup/autobackup_meta.json] as JSON
+java.io.FileNotFoundException: /usr/lib/unifi/data/backup/autobackup/autobackup_meta.json (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_312]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_312]
+	at java.io.FileReader.<init>(FileReader.java:58) ~[?:1.8.0_312]
+	at com.ubnt.data.X.loadJSON(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.Q.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.forprivate(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.ÕøO000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.command.backup.ListBackupsCmdHandler.doCmd(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiUtils.execute(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.H.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiServlet.service(Unknown Source) ~[ace.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.58.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.service.trace.requestmetrics.B.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.AuthFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.UbiosHttpsFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:357) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:176) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_312]
+[2022-06-29T14:05:59,762] <ubnt/tcp1> WARN  dev    - [sshCommand exec] Execute SSH without host key verification!
+[2022-06-29T14:07:09,457] <device-state-check> WARN  monitor - two-phase-adoption: timed out for device[24:5a:4c:8a:d6:16]
+[2022-06-29T14:08:09,457] <device-state-check> WARN  monitor - two-phase-adoption: timed out for device[24:5a:4c:8a:d6:16]
+[2022-06-29T14:08:11,243] <webapi-47> ERROR system - Failed to load file[/usr/lib/unifi/data/backup/autobackup/autobackup_meta.json] as JSON
+java.io.FileNotFoundException: /usr/lib/unifi/data/backup/autobackup/autobackup_meta.json (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_312]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_312]
+	at java.io.FileReader.<init>(FileReader.java:58) ~[?:1.8.0_312]
+	at com.ubnt.data.X.loadJSON(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.Q.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.forprivate(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.ÕøO000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.command.backup.ListBackupsCmdHandler.doCmd(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiUtils.execute(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.H.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiServlet.service(Unknown Source) ~[ace.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.58.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.service.trace.requestmetrics.B.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.AuthFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.UbiosHttpsFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:357) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:176) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_312]
+[2022-06-29T14:09:09,457] <device-state-check> WARN  monitor - two-phase-adoption: timed out for device[24:5a:4c:8a:d6:16]
+[2022-06-29T14:10:09,457] <device-state-check> WARN  monitor - two-phase-adoption: timed out for device[24:5a:4c:8a:d6:16]
+[2022-06-29T14:11:09,457] <device-state-check> WARN  monitor - two-phase-adoption: timed out for device[24:5a:4c:8a:d6:16]
+[2022-06-29T14:11:40,893] <webapi-57> ERROR system - Failed to load file[/usr/lib/unifi/data/backup/autobackup/autobackup_meta.json] as JSON
+java.io.FileNotFoundException: /usr/lib/unifi/data/backup/autobackup/autobackup_meta.json (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_312]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_312]
+	at java.io.FileReader.<init>(FileReader.java:58) ~[?:1.8.0_312]
+	at com.ubnt.data.X.loadJSON(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.Q.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.forprivate(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.ÕøO000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.command.backup.ListBackupsCmdHandler.doCmd(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiUtils.execute(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.H.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiServlet.service(Unknown Source) ~[ace.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.58.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.service.trace.requestmetrics.B.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.AuthFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.UbiosHttpsFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:357) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:176) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_312]
+[2022-06-29T14:12:09,457] <device-state-check> WARN  monitor - two-phase-adoption: timed out for device[24:5a:4c:8a:d6:16]
+[2022-06-29T14:12:21,362] <webapi-63> ERROR system - Failed to load file[/usr/lib/unifi/data/backup/autobackup/autobackup_meta.json] as JSON
+java.io.FileNotFoundException: /usr/lib/unifi/data/backup/autobackup/autobackup_meta.json (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_312]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_312]
+	at java.io.FileReader.<init>(FileReader.java:58) ~[?:1.8.0_312]
+	at com.ubnt.data.X.loadJSON(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.Q.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.forprivate(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.ÕøO000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.command.backup.ListBackupsCmdHandler.doCmd(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiUtils.execute(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.H.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiServlet.service(Unknown Source) ~[ace.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.58.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.service.trace.requestmetrics.B.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.AuthFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.UbiosHttpsFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:357) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:176) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_312]
+[2022-06-29T14:12:44,129] <webapi-68> ERROR system - Failed to load file[/usr/lib/unifi/data/backup/autobackup/autobackup_meta.json] as JSON
+java.io.FileNotFoundException: /usr/lib/unifi/data/backup/autobackup/autobackup_meta.json (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_312]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_312]
+	at java.io.FileReader.<init>(FileReader.java:58) ~[?:1.8.0_312]
+	at com.ubnt.data.X.loadJSON(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.Q.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.forprivate(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.ÕøO000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.command.backup.ListBackupsCmdHandler.doCmd(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiUtils.execute(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.H.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiServlet.service(Unknown Source) ~[ace.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.58.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.service.trace.requestmetrics.B.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.AuthFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.UbiosHttpsFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:357) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:176) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_312]
+[2022-06-29T14:12:58,841] <webapi-70> ERROR system - Failed to load file[/usr/lib/unifi/data/backup/autobackup/autobackup_meta.json] as JSON
+java.io.FileNotFoundException: /usr/lib/unifi/data/backup/autobackup/autobackup_meta.json (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_312]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_312]
+	at java.io.FileReader.<init>(FileReader.java:58) ~[?:1.8.0_312]
+	at com.ubnt.data.X.loadJSON(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.Q.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.forprivate(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.ÕøO000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.command.backup.ListBackupsCmdHandler.doCmd(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiUtils.execute(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.H.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiServlet.service(Unknown Source) ~[ace.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.58.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.service.trace.requestmetrics.B.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.AuthFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.UbiosHttpsFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:357) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:176) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_312]
+[2022-06-29T14:13:01,943] <webapi-69> ERROR system - Failed to load file[/usr/lib/unifi/data/backup/autobackup/autobackup_meta.json] as JSON
+java.io.FileNotFoundException: /usr/lib/unifi/data/backup/autobackup/autobackup_meta.json (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_312]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_312]
+	at java.io.FileReader.<init>(FileReader.java:58) ~[?:1.8.0_312]
+	at com.ubnt.data.X.loadJSON(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.Q.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.forprivate(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.ÕøO000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.command.backup.ListBackupsCmdHandler.doCmd(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiUtils.execute(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.H.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiServlet.service(Unknown Source) ~[ace.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.58.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.service.trace.requestmetrics.B.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.AuthFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.UbiosHttpsFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:357) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:176) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_312]
+[2022-06-29T14:13:26,162] <ubnt/tcp3> ERROR Promise - <<kex done>> woke to: net.schmizz.sshj.transport.TransportException: Broken transport; encountered EOF
+[2022-06-29T14:13:26,166] <ubnt/tcp3> ERROR dev    - SSH adopt failed adopt_state[2],prev_state[0],firmware[5.60.23.13051],model[U7NHD],uses_default_credentials[true]
+[2022-06-29T14:14:09,457] <device-state-check> WARN  monitor - two-phase-adoption: timed out for device[24:5a:4c:8a:d6:16]
+[2022-06-29T14:14:52,610] <webapi-75> ERROR system - Failed to load file[/usr/lib/unifi/data/backup/autobackup/autobackup_meta.json] as JSON
+java.io.FileNotFoundException: /usr/lib/unifi/data/backup/autobackup/autobackup_meta.json (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_312]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_312]
+	at java.io.FileReader.<init>(FileReader.java:58) ~[?:1.8.0_312]
+	at com.ubnt.data.X.loadJSON(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.Q.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.forprivate(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.ÕøO000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.command.backup.ListBackupsCmdHandler.doCmd(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiUtils.execute(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.H.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiServlet.service(Unknown Source) ~[ace.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.58.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.service.trace.requestmetrics.B.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.AuthFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.UbiosHttpsFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:357) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:176) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_312]
+[2022-06-29T14:15:09,457] <device-state-check> WARN  monitor - two-phase-adoption: timed out for device[24:5a:4c:8a:d6:16]
+[2022-06-29T14:16:09,457] <device-state-check> WARN  monitor - two-phase-adoption: timed out for device[24:5a:4c:8a:d6:16]
+[2022-06-29T14:17:09,457] <device-state-check> WARN  monitor - two-phase-adoption: timed out for device[24:5a:4c:8a:d6:16]
+[2022-06-29T14:17:46,070] <webapi-73> ERROR inform - Inform Invalid for Device[192.168.0.202:44868], Content too short
+[2022-06-29T14:17:49,774] <webapi-84> ERROR system - Failed to load file[/usr/lib/unifi/data/backup/autobackup/autobackup_meta.json] as JSON
+java.io.FileNotFoundException: /usr/lib/unifi/data/backup/autobackup/autobackup_meta.json (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_312]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_312]
+	at java.io.FileReader.<init>(FileReader.java:58) ~[?:1.8.0_312]
+	at com.ubnt.data.X.loadJSON(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.Q.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.forprivate(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.ÕøO000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.command.backup.ListBackupsCmdHandler.doCmd(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiUtils.execute(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.H.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiServlet.service(Unknown Source) ~[ace.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.58.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.service.trace.requestmetrics.B.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.AuthFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.UbiosHttpsFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:357) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:176) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_312]
+[2022-06-29T14:18:09,457] <device-state-check> WARN  monitor - two-phase-adoption: timed out for device[24:5a:4c:8a:d6:16]
+[2022-06-29T14:19:09,457] <device-state-check> WARN  monitor - two-phase-adoption: timed out for device[24:5a:4c:8a:d6:16]
+[2022-06-29T14:19:22,118] <webapi-87> WARN  sanitize - Invalid key exists in Setting payload, key=chatEnabled
+[2022-06-29T14:19:22,119] <webapi-87> WARN  sanitize - Invalid key exists in Setting payload, key=chatAdminsEnabled
+[2022-06-29T14:19:22,127] <webapi-85> ERROR system - Unable to start the UPnP Server
+java.net.SocketException: Address already in use
+	at java.net.PlainDatagramSocketImpl.join(Native Method) ~[?:1.8.0_312]
+	at java.net.AbstractPlainDatagramSocketImpl.join(AbstractPlainDatagramSocketImpl.java:178) ~[?:1.8.0_312]
+	at java.net.MulticastSocket.joinGroup(MulticastSocket.java:323) ~[?:1.8.0_312]
+	at com.ubnt.net.if.Ó00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.net.if.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.net.if.new(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.net.if$1.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.config._.Ò00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.H.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiServlet.service(Unknown Source) ~[ace.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.58.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.service.trace.requestmetrics.B.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.AuthFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.UbiosHttpsFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:357) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:176) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_312]
+[2022-06-29T14:19:27,582] <webapi-85> WARN  sanitize - Invalid key exists in Setting payload, key=chatEnabled
+[2022-06-29T14:19:27,583] <webapi-85> WARN  sanitize - Invalid key exists in Setting payload, key=chatAdminsEnabled
+[2022-06-29T14:20:09,457] <device-state-check> WARN  monitor - two-phase-adoption: timed out for device[24:5a:4c:8a:d6:16]
+[2022-06-29T14:20:48,482] <webapi-90> ERROR system - Failed to load file[/usr/lib/unifi/data/backup/autobackup/autobackup_meta.json] as JSON
+java.io.FileNotFoundException: /usr/lib/unifi/data/backup/autobackup/autobackup_meta.json (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_312]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_312]
+	at java.io.FileReader.<init>(FileReader.java:58) ~[?:1.8.0_312]
+	at com.ubnt.data.X.loadJSON(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.Q.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.forprivate(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.ÕøO000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.command.backup.ListBackupsCmdHandler.doCmd(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiUtils.execute(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.H.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiServlet.service(Unknown Source) ~[ace.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.58.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.service.trace.requestmetrics.B.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.AuthFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.UbiosHttpsFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:357) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:176) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_312]
+[2022-06-29T14:21:10,566] <ubnt/tcp4> ERROR Promise - <<kex done>> woke to: net.schmizz.sshj.transport.TransportException: Broken transport; encountered EOF
+[2022-06-29T14:21:10,570] <ubnt/tcp4> ERROR dev    - SSH adopt failed adopt_state[2],prev_state[2],firmware[5.60.23.13051],model[U7NHD],uses_default_credentials[true]
+[2022-06-29T14:21:32,393] <webapi-85> WARN  sanitize - Invalid key exists in Setting payload, key=chatEnabled
+[2022-06-29T14:21:32,394] <webapi-85> WARN  sanitize - Invalid key exists in Setting payload, key=chatAdminsEnabled
+[2022-06-29T14:22:09,457] <device-state-check> WARN  monitor - two-phase-adoption: timed out for device[24:5a:4c:8a:d6:16]
+[2022-06-29T14:22:11,175] <inform-10> WARN  inform - inform ip changed (null -> 192.168.0.173), re-provisioning scheduled
+[2022-06-29T14:22:31,280] <webapi-98> ERROR system - Failed to load file[/usr/lib/unifi/data/backup/autobackup/autobackup_meta.json] as JSON
+java.io.FileNotFoundException: /usr/lib/unifi/data/backup/autobackup/autobackup_meta.json (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_312]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_312]
+	at java.io.FileReader.<init>(FileReader.java:58) ~[?:1.8.0_312]
+	at com.ubnt.data.X.loadJSON(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.Q.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.forprivate(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.ÕøO000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.command.backup.ListBackupsCmdHandler.doCmd(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiUtils.execute(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.H.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiServlet.service(Unknown Source) ~[ace.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.58.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.service.trace.requestmetrics.B.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.AuthFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.UbiosHttpsFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:357) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:176) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_312]
+[2022-06-29T14:24:20,083] <webapi-102> ERROR system - Failed to load file[/usr/lib/unifi/data/backup/autobackup/autobackup_meta.json] as JSON
+java.io.FileNotFoundException: /usr/lib/unifi/data/backup/autobackup/autobackup_meta.json (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_312]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_312]
+	at java.io.FileReader.<init>(FileReader.java:58) ~[?:1.8.0_312]
+	at com.ubnt.data.X.loadJSON(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.Q.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.forprivate(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.ÕøO000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.command.backup.ListBackupsCmdHandler.doCmd(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiUtils.execute(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.H.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiServlet.service(Unknown Source) ~[ace.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.58.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.service.trace.requestmetrics.B.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.AuthFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.UbiosHttpsFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:357) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:176) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_312]
+[2022-06-29T14:25:18,717] <webapi-106> ERROR system - Failed to load file[/usr/lib/unifi/data/backup/autobackup/autobackup_meta.json] as JSON
+java.io.FileNotFoundException: /usr/lib/unifi/data/backup/autobackup/autobackup_meta.json (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_312]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_312]
+	at java.io.FileReader.<init>(FileReader.java:58) ~[?:1.8.0_312]
+	at com.ubnt.data.X.loadJSON(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.Q.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.forprivate(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.ÕøO000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.command.backup.ListBackupsCmdHandler.doCmd(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiUtils.execute(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.H.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiServlet.service(Unknown Source) ~[ace.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.58.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.service.trace.requestmetrics.B.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.AuthFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.UbiosHttpsFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:357) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:176) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_312]
+[2022-06-29T14:32:48,809] <webapi-116> ERROR system - Failed to load file[/usr/lib/unifi/data/backup/autobackup/autobackup_meta.json] as JSON
+java.io.FileNotFoundException: /usr/lib/unifi/data/backup/autobackup/autobackup_meta.json (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_312]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_312]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_312]
+	at java.io.FileReader.<init>(FileReader.java:58) ~[?:1.8.0_312]
+	at com.ubnt.data.X.loadJSON(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.Q.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.forprivate(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.backup.K.ÕøO000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.service.system.command.backup.ListBackupsCmdHandler.doCmd(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiUtils.execute(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.H.o00000(Unknown Source) ~[ace.jar:?]
+	at com.ubnt.ace.api.ApiServlet.service(Unknown Source) ~[ace.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.58.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.service.trace.requestmetrics.B.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.AuthFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at com.ubnt.ace.view.UbiosHttpsFilter.doFilter(Unknown Source) ~[ace.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:357) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:176) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.58.jar:9.0.58]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_312]

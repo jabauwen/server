@@ -1,0 +1,1117 @@
+2022-06-29T14:26:14,775 <30>Jun  7 22:05:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: logread[4341]: Logread connected to 192.168.0.173:5514
+2022-06-29T14:26:14,803 <4>Jun  7 22:05:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.659179] WDS AP 4 Address Mode set to  0 for Mbss 5
+2022-06-29T14:26:14,804 <4>Jun  7 22:05:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.659216] rai5: VLAN features updated vwire/vport[0]!
+2022-06-29T14:26:14,838 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.694301] Error no wdev when set vport
+2022-06-29T14:26:14,910 <14>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : uplink-monitor[4374]: uplink-monitor.uplink_monitor_main(): sysid=0xec20, serial: 24:5a:4c:8a:d6:16
+2022-06-29T14:26:14,910 <14>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : uplink-monitor[4374]: uplink-monitor.uplink_monitor_main(): vport apclii0: 22:4a:4c:8a:d6:18
+2022-06-29T14:26:14,913 <14>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : uplink-monitor[4374]: uplink-monitor.uplink_monitor_main(): uplink: gateway
+2022-06-29T14:26:15,021 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.819621] rai5: Set SVLAN[1] DVLAN stas 0!
+2022-06-29T14:26:15,023 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.832069] 80211> ChanInfo.IfType == 9!
+2022-06-29T14:26:15,024 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.832102] 80211> ChanInfo.ChanType == 0!
+2022-06-29T14:26:15,025 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.832116] HOSTAPD AUTO_CH_SUPPORT Ignore Channel 6 from HostAPD
+2022-06-29T14:26:15,026 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.832139]
+2022-06-29T14:26:15,026 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.832139] CFG : SSID: LoposUnifi, 10
+2022-06-29T14:26:15,027 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.832159] CFG80211_SyncPacketWmmIe: can't find the wmm ie
+2022-06-29T14:26:15,027 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.832308] Ucast set for OFDM mode MCS 0
+2022-06-29T14:26:15,028 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.832460] AsicSetRalinkBurstMode(5291): Not support for HIF_MT yet!
+2022-06-29T14:26:15,028 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.839638] AsicSetPreTbtt(): bss_idx=0, PreTBTT timeout = 0xa0
+2022-06-29T14:26:15,028 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.839892] AsicSetTxPreamble(5270): Not support for HIF_MT yet!
+2022-06-29T14:26:15,029 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.841604] 80211> AP Key Add
+2022-06-29T14:26:15,029 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.841636] AsicAddSharedKeyEntry(2714): Not support for HIF_MT yet!
+2022-06-29T14:26:15,030 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.842777] 80211> Channel = 36, CenterChanId = 36
+2022-06-29T14:26:15,030 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.842800] 80211> ChanInfo.IfType == 9!
+2022-06-29T14:26:15,030 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.842815] 80211> ChanInfo.ChanType == 0!
+2022-06-29T14:26:15,031 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.842830] HOSTAPD AUTO_CH_SUPPORT Ignore Channel 36 from HostAPD
+2022-06-29T14:26:15,031 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.842848] 80211> CFG80211DRV_OpsBeaconAdd ==>
+2022-06-29T14:26:15,032 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.842868]
+2022-06-29T14:26:15,032 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.842868] CFG : SSID: LoposUnifi, 10
+2022-06-29T14:26:15,033 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.842891] 80211> pBeacon->privacy = 1
+2022-06-29T14:26:15,033 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.842907] CFG80211_ParseBeaconIE:: WPA2 case
+2022-06-29T14:26:15,034 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.842919]  Group Ndis802_11AESEnable
+2022-06-29T14:26:15,034 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.842937] MFPC 0, MFPR 0
+2022-06-29T14:26:15,035 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.842951] igtk cipher = UNKNOW
+2022-06-29T14:26:15,035 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.842964] AuthMode = 0x80
+2022-06-29T14:26:15,035 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.842987]
+2022-06-29T14:26:15,036 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.842987] CFG80211 BEACON => bwpa2 1, bwpa 0, bmix 0,AuthMode = WPA2PSK ,wdev->PairwiseCipher = AES wdev->SecConfig.GroupCipher = AES
+2022-06-29T14:26:15,036 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.843044] [PMF]APPMFInit:: apidx=6, MFPC=0, MFPR=0, SHA256=0
+2022-06-29T14:26:15,037 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.843070] [RSN IE CAP] WPAMakeRsnIeCap RSN CAP 00 00
+2022-06-29T14:26:15,037 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.843122] WPAPSK Key length(0) error, required 8 ~ 64 characters!(keyStr=)
+2022-06-29T14:26:15,038 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   93.843192] wdev_attr_update(): wdevId6 = 26:5a:4c:ea:d6:18
+2022-06-29T14:26:15,080 <13>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: syswrapper: ipready.br0 changed to 192.168.0.146
+2022-06-29T14:26:15,081 <29>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: /sbin/udhcpc[4350]: syswrapper: ipready.br0 changed to 192.168.0.146
+2022-06-29T14:26:15,466 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.179104] MtAsicSetRalinkBurstMode(2624): Not support for HIF_MT yet!
+2022-06-29T14:26:15,467 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.180262] 80211> Channel = 36, CenterChanId = 36
+2022-06-29T14:26:15,469 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.180303] 80211> ChanInfo.IfType == 9!
+2022-06-29T14:26:15,470 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.180316] 80211> ChanInfo.ChanType == 0!
+2022-06-29T14:26:15,471 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.180329] HOSTAPD AUTO_CH_SUPPORT Ignore Channel 36 from HostAPD
+2022-06-29T14:26:15,472 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.180347] 80211> CFG80211DRV_OpsBeaconAdd ==>
+2022-06-29T14:26:15,474 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.180370] 80211> [Hidden] SSID: vwire-d8182681610235c9, 22
+2022-06-29T14:26:15,475 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.180385] 80211> pBeacon->privacy = 1
+2022-06-29T14:26:15,476 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.180400] CFG80211_ParseBeaconIE:: WPA2 case
+2022-06-29T14:26:15,477 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.180410]  Group Ndis802_11AESEnable
+2022-06-29T14:26:15,478 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.180425] MFPC 0, MFPR 0
+2022-06-29T14:26:15,479 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.180438] igtk cipher = UNKNOW
+2022-06-29T14:26:15,479 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.180450] AuthMode = 0x80
+2022-06-29T14:26:15,480 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.180471]
+2022-06-29T14:26:15,480 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.180471] CFG80211 BEACON => bwpa2 1, bwpa 0, bmix 0,AuthMode = WPA2PSK ,wdev->PairwiseCipher = AES wdev->SecConfig.GroupCipher = AES
+2022-06-29T14:26:15,480 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.180523] [PMF]APPMFInit:: apidx=7, MFPC=0, MFPR=0, SHA256=0
+2022-06-29T14:26:15,481 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.180547] [RSN IE CAP] WPAMakeRsnIeCap RSN CAP 00 00
+2022-06-29T14:26:15,481 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.180603] WPAPSK Key length(0) error, required 8 ~ 64 characters!(keyStr=)
+2022-06-29T14:26:15,482 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.180661] wdev_attr_update(): wdevId7 = 26:5a:4c:fa:d6:18
+2022-06-29T14:26:15,506 <14>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : coredump[4543]: coredump.coredump_main(): Got coredump from 'dropbear' (pid=4337,signal=9,number_of_crashes=1,process_uptime=3, crash_type=1)
+2022-06-29T14:26:15,510 <12>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : coredump[4543]: coredump.coredump_main(): Failed to process core dump: -1
+2022-06-29T14:26:15,511 <29>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: procd: Process '/usr/sbin/dropbear -F -d /var/run/dropbear_dss_host_key -r /var/run/dropbear_rsa_host_key -p br0:22' exited with status 9 - scheduling for restart (PID: 4337, UID: 0, uptime: 3, signal: 9, pending: 0, crashes: 1, event: no, reported: yes).
+2022-06-29T14:26:15,693 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.549164] MtAsicSetRalinkBurstMode(2624): Not support for HIF_MT yet!
+2022-06-29T14:26:15,714 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.558175] MtAsicSetTxPreamble(2603): Not support for HIF_MT yet!
+2022-06-29T14:26:15,714 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.560389] 80211> AP Key Add
+2022-06-29T14:26:15,715 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.560617] Set Ap Default Key: 1
+2022-06-29T14:26:15,717 <30>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: mcad: mcad[4342]: ace_reporter.reporter_reload_default_url(): mgmt_cfg.default_url gets http://unifi:8080/inform
+2022-06-29T14:26:15,718 <30>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: mcad: mcad[4342]: ace_reporter.reporter_reload_config(): default url = http://unifi:8080/inform
+2022-06-29T14:26:15,718 <30>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: mcad: mcad[4342]: ace_reporter.reporter_reload_config(): set inform_url http://192.168.0.173:8080/inform
+2022-06-29T14:26:15,726 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.579543] MtAsicSetTxPreamble(2603): Not support for HIF_MT yet!
+2022-06-29T14:26:15,727 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.579947] 80211> ChanInfo.IfType == 9!
+2022-06-29T14:26:15,727 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.579974] 80211> ChanInfo.ChanType == 0!
+2022-06-29T14:26:15,728 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.579989] HOSTAPD AUTO_CH_SUPPORT Ignore Channel 6 from HostAPD
+2022-06-29T14:26:15,728 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.580014]
+2022-06-29T14:26:15,728 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.580014] CFG : SSID: LoposUnifi, 10
+2022-06-29T14:26:15,735 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.580033] CFG80211_SyncPacketWmmIe: can't find the wmm ie
+2022-06-29T14:26:15,735 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.580192] Ucast set for OFDM mode MCS 0
+2022-06-29T14:26:15,735 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.580442] AsicSetRalinkBurstMode(5291): Not support for HIF_MT yet!
+2022-06-29T14:26:15,736 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.587782] AsicSetPreTbtt(): bss_idx=0, PreTBTT timeout = 0xa0
+2022-06-29T14:26:15,736 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.588093] AsicSetTxPreamble(5270): Not support for HIF_MT yet!
+2022-06-29T14:26:15,736 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.590287] 80211> AP Key Add
+2022-06-29T14:26:15,737 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.590346] AsicAddSharedKeyEntry(2714): Not support for HIF_MT yet!
+2022-06-29T14:26:15,742 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.596652] 80211> Channel = 36, CenterChanId = 36
+2022-06-29T14:26:15,743 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.596689] 80211> ChanInfo.IfType == 9!
+2022-06-29T14:26:15,743 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.596706] 80211> ChanInfo.ChanType == 0!
+2022-06-29T14:26:15,744 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.596724] HOSTAPD AUTO_CH_SUPPORT Ignore Channel 36 from HostAPD
+2022-06-29T14:26:15,744 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.596746] 80211> CFG80211DRV_OpsBeaconAdd ==>
+2022-06-29T14:26:15,744 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.596771]
+2022-06-29T14:26:15,745 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.596771] CFG : SSID: LoposUnifi, 10
+2022-06-29T14:26:15,745 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.596798] 80211> pBeacon->privacy = 1
+2022-06-29T14:26:15,746 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.596823] CFG80211_ParseBeaconIE:: WPA2 case
+2022-06-29T14:26:15,746 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.596840]  Group Ndis802_11AESEnable
+2022-06-29T14:26:15,746 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.596868] MFPC 0, MFPR 0
+2022-06-29T14:26:15,747 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.596887] igtk cipher = UNKNOW
+2022-06-29T14:26:15,747 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.596903] AuthMode = 0x80
+2022-06-29T14:26:15,748 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.596933]
+2022-06-29T14:26:15,748 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.596933] CFG80211 BEACON => bwpa2 1, bwpa 0, bmix 0,AuthMode = WPA2PSK ,wdev->PairwiseCipher = AES wdev->SecConfig.GroupCipher = AES
+2022-06-29T14:26:15,748 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.597006] [PMF]APPMFInit:: apidx=2, MFPC=0, MFPR=0, SHA256=0
+2022-06-29T14:26:15,749 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.597041] [RSN IE CAP] WPAMakeRsnIeCap RSN CAP 00 00
+2022-06-29T14:26:15,749 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.597107] WPAPSK Key length(0) error, required 8 ~ 64 characters!(keyStr=)
+2022-06-29T14:26:15,751 <4>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.597402] wdev_attr_update(): wdevId2 = 26:5a:4c:aa:d6:18
+2022-06-29T14:26:15,764 <30>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: mcad: mcad[4342]: ace_reporter.reporter_reload_config(): authkey=CA4188F24EBBC985CFBD90FFC2D88209
+2022-06-29T14:26:15,792 <30>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: mcad: mcad[4342]: ace_reporter.reporter_reload(): [MCAD] Self-Run Beaconing enabled !
+2022-06-29T14:26:15,793 <30>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: mcad: mcad[4342]: ace_reporter.reporter_reload(): [MCAD] Discovery Response disabled !
+2022-06-29T14:26:15,795 <30>Jun  7 22:05:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: mcad: mcad[4342]: ace_reporter.set_default_localtime(): time is ready
+2022-06-29T14:26:16,009 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.865037] MtAsicSetRalinkBurstMode(2624): Not support for HIF_MT yet!
+2022-06-29T14:26:16,016 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.869499] 80211> ChanInfo.IfType == 9!
+2022-06-29T14:26:16,016 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.869540] 80211> ChanInfo.ChanType == 0!
+2022-06-29T14:26:16,017 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.869554] HOSTAPD AUTO_CH_SUPPORT Ignore Channel 6 from HostAPD
+2022-06-29T14:26:16,017 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.869586]
+2022-06-29T14:26:16,018 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.869586] CFG : SSID: LoposUnifi, 10
+2022-06-29T14:26:16,018 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.869613] CFG80211_SyncPacketWmmIe: can't find the wmm ie
+2022-06-29T14:26:16,019 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.869802] Ucast set for OFDM mode MCS 0
+2022-06-29T14:26:16,025 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.870030] AsicSetRalinkBurstMode(5291): Not support for HIF_MT yet!
+2022-06-29T14:26:16,025 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.878602] AsicSetPreTbtt(): bss_idx=0, PreTBTT timeout = 0xa0
+2022-06-29T14:26:16,026 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.878875] AsicSetTxPreamble(5270): Not support for HIF_MT yet!
+2022-06-29T14:26:16,026 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.880436] 80211> AP Key Add
+2022-06-29T14:26:16,027 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.880488] AsicAddSharedKeyEntry(2714): Not support for HIF_MT yet!
+2022-06-29T14:26:16,038 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.889334] 80211> ChanInfo.IfType == 9!
+2022-06-29T14:26:16,045 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.889368] 80211> ChanInfo.ChanType == 0!
+2022-06-29T14:26:16,045 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.889383] HOSTAPD AUTO_CH_SUPPORT Ignore Channel 6 from HostAPD
+2022-06-29T14:26:16,046 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.889405]
+2022-06-29T14:26:16,046 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.889405] CFG : SSID: LoposUnifi, 10
+2022-06-29T14:26:16,047 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.889427] CFG80211_SyncPacketWmmIe: can't find the wmm ie
+2022-06-29T14:26:16,047 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.889580] Ucast set for OFDM mode MCS 0
+2022-06-29T14:26:16,048 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.889764] AsicSetRalinkBurstMode(5291): Not support for HIF_MT yet!
+2022-06-29T14:26:16,049 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.897180] AsicSetPreTbtt(): bss_idx=0, PreTBTT timeout = 0xa0
+2022-06-29T14:26:16,049 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.897540] AsicSetTxPreamble(5270): Not support for HIF_MT yet!
+2022-06-29T14:26:16,050 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.899828] 80211> AP Key Add
+2022-06-29T14:26:16,051 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.899893] AsicAddSharedKeyEntry(2714): Not support for HIF_MT yet!
+2022-06-29T14:26:16,051 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.902922] 80211> ChanInfo.IfType == 9!
+2022-06-29T14:26:16,051 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.902952] 80211> ChanInfo.ChanType == 0!
+2022-06-29T14:26:16,052 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.902966] HOSTAPD AUTO_CH_SUPPORT Ignore Channel 6 from HostAPD
+2022-06-29T14:26:16,052 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.902989]
+2022-06-29T14:26:16,053 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.902989] CFG : SSID: LoposUnifi, 10
+2022-06-29T14:26:16,054 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.903010] CFG80211_SyncPacketWmmIe: can't find the wmm ie
+2022-06-29T14:26:16,054 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.903153] Ucast set for OFDM mode MCS 0
+2022-06-29T14:26:16,055 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.903415] AsicSetRalinkBurstMode(5291): Not support for HIF_MT yet!
+2022-06-29T14:26:16,063 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.910772] AsicSetPreTbtt(): bss_idx=0, PreTBTT timeout = 0xa0
+2022-06-29T14:26:16,064 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.911057] AsicSetTxPreamble(5270): Not support for HIF_MT yet!
+2022-06-29T14:26:16,064 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.912749] 80211> AP Key Add
+2022-06-29T14:26:16,065 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.912802] AsicAddSharedKeyEntry(2714): Not support for HIF_MT yet!
+2022-06-29T14:26:16,065 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.916520] 80211> ChanInfo.IfType == 9!
+2022-06-29T14:26:16,068 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.916553] 80211> ChanInfo.ChanType == 0!
+2022-06-29T14:26:16,071 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.916567] HOSTAPD AUTO_CH_SUPPORT Ignore Channel 6 from HostAPD
+2022-06-29T14:26:16,073 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.916591] 80211> [Hidden] SSID: vwire-d8182681610235c9, 22
+2022-06-29T14:26:16,079 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.916605] CFG80211_SyncPacketWmmIe: can't find the wmm ie
+2022-06-29T14:26:16,080 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.916786] Ucast set for OFDM mode MCS 0
+2022-06-29T14:26:16,080 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.917011] AsicSetRalinkBurstMode(5291): Not support for HIF_MT yet!
+2022-06-29T14:26:16,081 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.924156] Ucast set for OFDM mode MCS 0
+2022-06-29T14:26:16,082 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.924386] AsicSetPreTbtt(): bss_idx=0, PreTBTT timeout = 0xa0
+2022-06-29T14:26:16,082 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.924533] 80211> Channel = 36, CenterChanId = 36
+2022-06-29T14:26:16,083 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.924552] 80211> ChanInfo.IfType == 9!
+2022-06-29T14:26:16,083 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.924564] 80211> ChanInfo.ChanType == 0!
+2022-06-29T14:26:16,084 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.924578] HOSTAPD AUTO_CH_SUPPORT Ignore Channel 36 from HostAPD
+2022-06-29T14:26:16,084 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.924594] 80211> CFG80211DRV_OpsBeaconAdd ==>
+2022-06-29T14:26:16,084 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.924612]
+2022-06-29T14:26:16,085 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.924612] CFG : SSID: LoposUnifi, 10
+2022-06-29T14:26:16,085 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.924633] 80211> pBeacon->privacy = 1
+2022-06-29T14:26:16,085 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.924648] CFG80211_ParseBeaconIE:: WPA2 case
+2022-06-29T14:26:16,086 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.924660]  Group Ndis802_11AESEnable
+2022-06-29T14:26:16,086 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.924675] MFPC 0, MFPR 0
+2022-06-29T14:26:16,087 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.924689] igtk cipher = UNKNOW
+2022-06-29T14:26:16,087 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.924701] AuthMode = 0x80
+2022-06-29T14:26:16,087 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.924721]
+2022-06-29T14:26:16,088 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.924721] CFG80211 BEACON => bwpa2 1, bwpa 0, bmix 0,AuthMode = WPA2PSK ,wdev->PairwiseCipher = AES wdev->SecConfig.GroupCipher = AES
+2022-06-29T14:26:16,088 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.924777] [PMF]APPMFInit:: apidx=4, MFPC=0, MFPR=0, SHA256=0
+2022-06-29T14:26:16,088 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.924803] [RSN IE CAP] WPAMakeRsnIeCap RSN CAP 00 00
+2022-06-29T14:26:16,089 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.924858] WPAPSK Key length(0) error, required 8 ~ 64 characters!(keyStr=)
+2022-06-29T14:26:16,089 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   94.924920] wdev_attr_update(): wdevId4 = 26:5a:4c:ca:d6:18
+2022-06-29T14:26:16,137 <27>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: rmmod: module is not loaded
+2022-06-29T14:26:16,212 <6>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.064106] netpoll: netconsole: local port 514
+2022-06-29T14:26:16,213 <6>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.064145] netpoll: netconsole: local IPv4 address 192.168.0.146
+2022-06-29T14:26:16,213 <6>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.064159] netpoll: netconsole: interface 'eth0'
+2022-06-29T14:26:16,213 <6>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.064175] netpoll: netconsole: remote port 5514
+2022-06-29T14:26:16,214 <6>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.064192] netpoll: netconsole: remote IPv4 address 192.168.0.173
+2022-06-29T14:26:16,214 <6>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.064211] netpoll: netconsole: remote ethernet address b8:ae:ed:7b:bb:b5
+2022-06-29T14:26:16,214 <6>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.064225] netpoll: netconsole: encrypted: 1
+2022-06-29T14:26:16,313 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.165475] MtAsicSetRalinkBurstMode(2624): Not support for HIF_MT yet!
+2022-06-29T14:26:16,314 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.167754] 80211> AP Key Add
+2022-06-29T14:26:16,315 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.167941] Set Ap Default Key: 1
+2022-06-29T14:26:16,320 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.170214] 80211> Channel = 36, CenterChanId = 36
+2022-06-29T14:26:16,320 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.170251] 80211> ChanInfo.IfType == 9!
+2022-06-29T14:26:16,321 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.170263] 80211> ChanInfo.ChanType == 0!
+2022-06-29T14:26:16,321 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.170280] HOSTAPD AUTO_CH_SUPPORT Ignore Channel 36 from HostAPD
+2022-06-29T14:26:16,322 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.170299] 80211> CFG80211DRV_OpsBeaconAdd ==>
+2022-06-29T14:26:16,322 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.170320]
+2022-06-29T14:26:16,322 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.170320] CFG : SSID: LoposUnifi, 10
+2022-06-29T14:26:16,323 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.170340] 80211> pBeacon->privacy = 1
+2022-06-29T14:26:16,323 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.170356] CFG80211_ParseBeaconIE:: WPA2 case
+2022-06-29T14:26:16,324 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.170370]  Group Ndis802_11AESEnable
+2022-06-29T14:26:16,325 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.170387] MFPC 0, MFPR 0
+2022-06-29T14:26:16,325 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.170401] igtk cipher = UNKNOW
+2022-06-29T14:26:16,326 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.170414] AuthMode = 0x80
+2022-06-29T14:26:16,326 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.170434]
+2022-06-29T14:26:16,327 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.170434] CFG80211 BEACON => bwpa2 1, bwpa 0, bmix 0,AuthMode = WPA2PSK ,wdev->PairwiseCipher = AES wdev->SecConfig.GroupCipher = AES
+2022-06-29T14:26:16,327 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.170491] [PMF]APPMFInit:: apidx=1, MFPC=0, MFPR=0, SHA256=0
+2022-06-29T14:26:16,328 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.170519] [RSN IE CAP] WPAMakeRsnIeCap RSN CAP 00 00
+2022-06-29T14:26:16,328 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.170576] WPAPSK Key length(0) error, required 8 ~ 64 characters!(keyStr=)
+2022-06-29T14:26:16,328 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.170619] wdev_attr_update(): wdevId1 = 26:5a:4c:9a:d6:18
+2022-06-29T14:26:16,581 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.436068] MtAsicSetRalinkBurstMode(2624): Not support for HIF_MT yet!
+2022-06-29T14:26:16,582 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.436606] WDS AP 4 Address Mode set to  0 for Mbss 0
+2022-06-29T14:26:16,582 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.436635] ra0: VLAN features updated vwire/vport[0]!
+2022-06-29T14:26:16,590 <86>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: dropbear[4644]: Not backgrounding
+2022-06-29T14:26:16,594 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.446252] MtAsicSetTxPreamble(2603): Not support for HIF_MT yet!
+2022-06-29T14:26:16,595 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.446868] 80211> ChanInfo.IfType == 9!
+2022-06-29T14:26:16,595 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.446909] 80211> ChanInfo.ChanType == 0!
+2022-06-29T14:26:16,596 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.446926] HOSTAPD AUTO_CH_SUPPORT Ignore Channel 6 from HostAPD
+2022-06-29T14:26:16,615 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.446956]
+2022-06-29T14:26:16,616 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.446956] CFG : SSID: LoposUnifi, 10
+2022-06-29T14:26:16,617 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.446980] CFG80211_SyncPacketWmmIe: can't find the wmm ie
+2022-06-29T14:26:16,617 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.447169] Ucast set for OFDM mode MCS 0
+2022-06-29T14:26:16,618 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.447382] AsicSetRalinkBurstMode(5291): Not support for HIF_MT yet!
+2022-06-29T14:26:16,618 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.454535] AsicSetPreTbtt(): bss_idx=0, PreTBTT timeout = 0xa0
+2022-06-29T14:26:16,619 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.467218] Error no wdev when set vport
+2022-06-29T14:26:16,619 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.468407] AsicSetTxPreamble(5270): Not support for HIF_MT yet!
+2022-06-29T14:26:16,620 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.470239] 80211> AP Key Add
+2022-06-29T14:26:16,620 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.470289] AsicAddSharedKeyEntry(2714): Not support for HIF_MT yet!
+2022-06-29T14:26:16,626 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.473707] 80211> Channel = 36, CenterChanId = 36
+2022-06-29T14:26:16,626 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.473738] 80211> ChanInfo.IfType == 9!
+2022-06-29T14:26:16,627 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.473751] 80211> ChanInfo.ChanType == 0!
+2022-06-29T14:26:16,628 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.473765] HOSTAPD AUTO_CH_SUPPORT Ignore Channel 36 from HostAPD
+2022-06-29T14:26:16,629 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.473780] 80211> CFG80211DRV_OpsBeaconAdd ==>
+2022-06-29T14:26:16,629 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.473798]
+2022-06-29T14:26:16,629 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.473798] CFG : SSID: LoposUnifi, 10
+2022-06-29T14:26:16,630 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.473821] 80211> pBeacon->privacy = 1
+2022-06-29T14:26:16,630 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.473837] CFG80211_ParseBeaconIE:: WPA2 case
+2022-06-29T14:26:16,631 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.473849]  Group Ndis802_11AESEnable
+2022-06-29T14:26:16,632 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.473865] MFPC 0, MFPR 0
+2022-06-29T14:26:16,632 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.473877] igtk cipher = UNKNOW
+2022-06-29T14:26:16,632 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.473889] AuthMode = 0x80
+2022-06-29T14:26:16,633 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.473909]
+2022-06-29T14:26:16,633 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.473909] CFG80211 BEACON => bwpa2 1, bwpa 0, bmix 0,AuthMode = WPA2PSK ,wdev->PairwiseCipher = AES wdev->SecConfig.GroupCipher = AES
+2022-06-29T14:26:16,634 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.473962] [PMF]APPMFInit:: apidx=5, MFPC=0, MFPR=0, SHA256=0
+2022-06-29T14:26:16,634 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.473987] [RSN IE CAP] WPAMakeRsnIeCap RSN CAP 00 00
+2022-06-29T14:26:16,635 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.474039] WPAPSK Key length(0) error, required 8 ~ 64 characters!(keyStr=)
+2022-06-29T14:26:16,635 <4>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.474203] wdev_attr_update(): wdevId5 = 26:5a:4c:da:d6:18
+2022-06-29T14:26:16,636 <30>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: lldpcli[4378]: system name set to new value UAP-nanoHD
+2022-06-29T14:26:16,636 <29>Jun  7 22:05:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: /usr/sbin/lldpd[4371]: 2022-06-07T22:05:33 [INFO/lldpctl] system name set to new value UAP-nanoHD
+2022-06-29T14:26:16,831 <4>Jun 29 16:26:16 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.678916] MtAsicSetRalinkBurstMode(2624): Not support for HIF_MT yet!
+2022-06-29T14:26:16,831 <4>Jun 29 16:26:16 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.679828] MtAsicSetTxPreamble(2603): Not support for HIF_MT yet!
+2022-06-29T14:26:16,832 <4>Jun 29 16:26:16 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.680448] 80211> Channel = 36, CenterChanId = 36
+2022-06-29T14:26:16,833 <4>Jun 29 16:26:16 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.680489] 80211> ChanInfo.IfType == 9!
+2022-06-29T14:26:16,833 <4>Jun 29 16:26:16 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.680506] 80211> ChanInfo.ChanType == 0!
+2022-06-29T14:26:16,833 <4>Jun 29 16:26:16 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.680527] HOSTAPD AUTO_CH_SUPPORT Ignore Channel 36 from HostAPD
+2022-06-29T14:26:16,834 <4>Jun 29 16:26:16 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.680556] 80211> CFG80211DRV_OpsBeaconAdd ==>
+2022-06-29T14:26:16,836 <4>Jun 29 16:26:16 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.680582]
+2022-06-29T14:26:16,837 <4>Jun 29 16:26:16 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.680582] CFG : SSID: LoposUnifi, 10
+2022-06-29T14:26:16,837 <4>Jun 29 16:26:16 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.680615] 80211> pBeacon->privacy = 1
+2022-06-29T14:26:16,837 <4>Jun 29 16:26:16 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.680638] CFG80211_ParseBeaconIE:: WPA2 case
+2022-06-29T14:26:16,838 <4>Jun 29 16:26:16 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.680657]  Group Ndis802_11AESEnable
+2022-06-29T14:26:16,839 <4>Jun 29 16:26:16 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.680684] MFPC 0, MFPR 0
+2022-06-29T14:26:16,839 <4>Jun 29 16:26:16 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.680704] igtk cipher = UNKNOW
+2022-06-29T14:26:16,840 <4>Jun 29 16:26:16 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.680727] AuthMode = 0x80
+2022-06-29T14:26:16,840 <4>Jun 29 16:26:16 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.680761]
+2022-06-29T14:26:16,841 <4>Jun 29 16:26:16 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.680761] CFG80211 BEACON => bwpa2 1, bwpa 0, bmix 0,AuthMode = WPA2PSK ,wdev->PairwiseCipher = AES wdev->SecConfig.GroupCipher = AES
+2022-06-29T14:26:16,842 <4>Jun 29 16:26:16 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.680842] [PMF]APPMFInit:: apidx=3, MFPC=0, MFPR=0, SHA256=0
+2022-06-29T14:26:16,842 <4>Jun 29 16:26:16 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.680882] [RSN IE CAP] WPAMakeRsnIeCap RSN CAP 00 00
+2022-06-29T14:26:16,842 <4>Jun 29 16:26:16 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.680952] WPAPSK Key length(0) error, required 8 ~ 64 characters!(keyStr=)
+2022-06-29T14:26:16,843 <4>Jun 29 16:26:16 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   95.681021] wdev_attr_update(): wdevId3 = 26:5a:4c:ba:d6:18
+2022-06-29T14:26:17,148 {0761 ec20} [   96.000857] MtAsicSetRalinkBurstMode(2624): Not support for HIF_MT yet!
+2022-06-29T14:26:17,150 {0761 ec20} [   96.006866] console [netcon0] enabled
+2022-06-29T14:26:17,151 {0761 ec20} [   96.007017] netconsole: network logging started
+2022-06-29T14:26:17,151 <30>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: lldpcli[4378]: description set to new value UAP-nanoHD, 6.0.21.13673
+2022-06-29T14:26:17,153 <4>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   96.000857] MtAsicSetRalinkBurstMode(2624): Not support for HIF_MT yet!
+2022-06-29T14:26:17,154 <6>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   96.006866] console [netcon0] enabled
+2022-06-29T14:26:17,155 <6>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   96.007017] netconsole: network logging started
+2022-06-29T14:26:17,155 <29>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: /usr/sbin/lldpd[4371]: 2022-06-29T16:26:17 [INFO/lldpctl] description set to new value UAP-nanoHD, 6.0.21.13673
+2022-06-29T14:26:17,160 {0761 ec20} [   96.018752] MtAsicSetTxPreamble(2603): Not support for HIF_MT yet!
+2022-06-29T14:26:17,166 <30>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: lldpcli[4378]: lldpd should resume operations
+2022-06-29T14:26:17,166 <29>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: /usr/sbin/lldpd[4371]: 2022-06-29T16:26:17 [INFO/lldpctl] lldpd should resume operations
+2022-06-29T14:26:17,167 <4>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   96.018752] MtAsicSetTxPreamble(2603): Not support for HIF_MT yet!
+2022-06-29T14:26:17,171 {0761 ec20} [   96.029974] 80211> AP Key Add
+2022-06-29T14:26:17,172 {0761 ec20} [   96.030574] Set Ap Default Key: 1
+2022-06-29T14:26:17,180 {0761 ec20} [   96.038771] AsicSetTxPreamble(5270): Not support for HIF_MT yet!
+2022-06-29T14:26:17,183 {0761 ec20} [   96.041336] 80211> AP Key Add
+2022-06-29T14:26:17,183 {0761 ec20} [   96.041584] AsicAddSharedKeyEntry(2714): Not support for HIF_MT yet!
+2022-06-29T14:26:17,190 {0761 ec20} [   96.048400] MtAsicSetTxPreamble(2603): Not support for HIF_MT yet!
+2022-06-29T14:26:17,191 {0761 ec20} [   96.049401] MtAsicSetTxPreamble(2603): Not support for HIF_MT yet!
+2022-06-29T14:26:17,192 {0761 ec20} [   96.050932] 80211> AP Key Add
+2022-06-29T14:26:17,193 {0761 ec20} [   96.051370] Set Ap Default Key: 1
+2022-06-29T14:26:17,193 {0761 ec20} [   96.051655] 80211> AP Key Add
+2022-06-29T14:26:17,193 {0761 ec20} [   96.052053] Set Ap Default Key: 1
+2022-06-29T14:26:17,197 {0761 ec20} [   96.056001] 80211> AP Key Add
+2022-06-29T14:26:17,198 {0761 ec20} [   96.056594] Set Ap Default Key: 1
+2022-06-29T14:26:17,198 <4>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   96.029974] 80211> AP Key Add
+2022-06-29T14:26:17,200 <4>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   96.030574] Set Ap Default Key: 1
+2022-06-29T14:26:17,200 <4>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   96.038771] AsicSetTxPreamble(5270): Not support for HIF_MT yet!
+2022-06-29T14:26:17,202 {0761 ec20} [   96.060521] 80211> AP Key Add
+2022-06-29T14:26:17,203 {0761 ec20} [   96.060981] Set Ap Default Key: 1
+2022-06-29T14:26:17,216 <4>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   96.041336] 80211> AP Key Add
+2022-06-29T14:26:17,217 <4>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   96.041584] AsicAddSharedKeyEntry(2714): Not support for HIF_MT yet!
+2022-06-29T14:26:17,217 <4>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   96.048400] MtAsicSetTxPreamble(2603): Not support for HIF_MT yet!
+2022-06-29T14:26:17,218 <4>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   96.049401] MtAsicSetTxPreamble(2603): Not support for HIF_MT yet!
+2022-06-29T14:26:17,218 <4>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   96.050932] 80211> AP Key Add
+2022-06-29T14:26:17,219 <4>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   96.051370] Set Ap Default Key: 1
+2022-06-29T14:26:17,219 <4>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   96.051655] 80211> AP Key Add
+2022-06-29T14:26:17,220 <4>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   96.052053] Set Ap Default Key: 1
+2022-06-29T14:26:17,221 <4>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   96.056001] 80211> AP Key Add
+2022-06-29T14:26:17,222 <4>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   96.056594] Set Ap Default Key: 1
+2022-06-29T14:26:17,222 <4>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   96.060521] 80211> AP Key Add
+2022-06-29T14:26:17,223 <4>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   96.060981] Set Ap Default Key: 1
+2022-06-29T14:26:17,234 <13>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: syswrapper: hostapd update: conf=/etc/hostapd/ra0.cfg interface=ra0 nas_ip=192.168.0.146 res=OK
+2022-06-29T14:26:17,235 <29>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: /sbin/udhcpc[4350]: syswrapper: hostapd update: conf=/etc/hostapd/ra0.cfg interface=ra0 nas_ip=192.168.0.146 res=OK
+2022-06-29T14:26:17,246 <14>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : uplink-monitor[4374]: uplink-monitor.process_info(): ethernet link up
+2022-06-29T14:26:17,274 <13>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: syswrapper: hostapd update: conf=/etc/hostapd/ra1.cfg interface=ra1 nas_ip=192.168.0.146 res=OK
+2022-06-29T14:26:17,275 <29>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: /sbin/udhcpc[4350]: syswrapper: hostapd update: conf=/etc/hostapd/ra1.cfg interface=ra1 nas_ip=192.168.0.146 res=OK
+2022-06-29T14:26:17,317 {0761 ec20} [   96.175847] Set ra0 No2ghzOui=0
+2022-06-29T14:26:17,321 <4>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   96.175847] Set ra0 No2ghzOui=0
+2022-06-29T14:26:17,325 <13>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: syswrapper: hostapd update: conf=/etc/hostapd/ra2.cfg interface=ra2 nas_ip=192.168.0.146 res=OK
+2022-06-29T14:26:17,325 <29>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: /sbin/udhcpc[4350]: syswrapper: hostapd update: conf=/etc/hostapd/ra2.cfg interface=ra2 nas_ip=192.168.0.146 res=OK
+2022-06-29T14:26:17,326 {0761 ec20} [   96.184249] ra0: Set SVLAN[1] DVLAN stas 0!
+2022-06-29T14:26:17,330 <4>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   96.184249] ra0: Set SVLAN[1] DVLAN stas 0!
+2022-06-29T14:26:17,342 <14>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: ubnt_protocol.ubnt_usr1_handler(): Get DHCP IP
+2022-06-29T14:26:17,343 <14>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: ubnt_protocol.ubnt_usr1_handler(): my_ip is 192.168.0.146
+2022-06-29T14:26:17,344 <11>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: ubnt_protocol.ubnt_multicast_socket_init(): already dropped membership
+2022-06-29T14:26:17,363 <13>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: syswrapper: hostapd update: conf=/etc/hostapd/ra3.cfg interface=ra3 nas_ip=192.168.0.146 res=OK
+2022-06-29T14:26:17,364 <29>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: /sbin/udhcpc[4350]: syswrapper: hostapd update: conf=/etc/hostapd/ra3.cfg interface=ra3 nas_ip=192.168.0.146 res=OK
+2022-06-29T14:26:17,394 <13>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: syswrapper: hostapd update: conf=/etc/hostapd/ra4.cfg interface=ra4 nas_ip=192.168.0.146 res=OK
+2022-06-29T14:26:17,395 <29>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: /sbin/udhcpc[4350]: syswrapper: hostapd update: conf=/etc/hostapd/ra4.cfg interface=ra4 nas_ip=192.168.0.146 res=OK
+2022-06-29T14:26:17,417 <30>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: mcad: mcad[4342]: lldp.ubnt_get_lldp_json(): No LLDP neighbors found
+2022-06-29T14:26:17,425 <13>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: syswrapper: hostapd update: conf=/etc/hostapd/ra5.cfg interface=ra5 nas_ip=192.168.0.146 res=OK
+2022-06-29T14:26:17,425 <29>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: /sbin/udhcpc[4350]: syswrapper: hostapd update: conf=/etc/hostapd/ra5.cfg interface=ra5 nas_ip=192.168.0.146 res=OK
+2022-06-29T14:26:17,454 <13>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: syswrapper: hostapd update: conf=/etc/hostapd/ra6.cfg interface=ra6 nas_ip=192.168.0.146 res=OK
+2022-06-29T14:26:17,455 <29>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: /sbin/udhcpc[4350]: syswrapper: hostapd update: conf=/etc/hostapd/ra6.cfg interface=ra6 nas_ip=192.168.0.146 res=OK
+2022-06-29T14:26:17,480 <13>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: syswrapper: hostapd update: conf=/etc/hostapd/rai1.cfg interface=rai1 nas_ip=192.168.0.146 res=OK
+2022-06-29T14:26:17,482 <29>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: /sbin/udhcpc[4350]: syswrapper: hostapd update: conf=/etc/hostapd/rai1.cfg interface=rai1 nas_ip=192.168.0.146 res=OK
+2022-06-29T14:26:17,506 <13>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: syswrapper: hostapd update: conf=/etc/hostapd/rai2.cfg interface=rai2 nas_ip=192.168.0.146 res=OK
+2022-06-29T14:26:17,507 <29>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: /sbin/udhcpc[4350]: syswrapper: hostapd update: conf=/etc/hostapd/rai2.cfg interface=rai2 nas_ip=192.168.0.146 res=OK
+2022-06-29T14:26:17,531 <13>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: syswrapper: hostapd update: conf=/etc/hostapd/rai3.cfg interface=rai3 nas_ip=192.168.0.146 res=OK
+2022-06-29T14:26:17,535 <29>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: /sbin/udhcpc[4350]: syswrapper: hostapd update: conf=/etc/hostapd/rai3.cfg interface=rai3 nas_ip=192.168.0.146 res=OK
+2022-06-29T14:26:17,567 <13>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: syswrapper: hostapd update: conf=/etc/hostapd/rai4.cfg interface=rai4 nas_ip=192.168.0.146 res=OK
+2022-06-29T14:26:17,569 <29>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: /sbin/udhcpc[4350]: syswrapper: hostapd update: conf=/etc/hostapd/rai4.cfg interface=rai4 nas_ip=192.168.0.146 res=OK
+2022-06-29T14:26:17,580 {0761 ec20} [   96.438393] WDS AP 4 Address Mode set to  0 for Mbss 2
+2022-06-29T14:26:17,581 {0761 ec20} [   96.438649] ra2: VLAN features updated vwire/vport[0]!
+2022-06-29T14:26:17,582 <4>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   96.438393] WDS AP 4 Address Mode set to  0 for Mbss 2
+2022-06-29T14:26:17,583 <4>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   96.438649] ra2: VLAN features updated vwire/vport[0]!
+2022-06-29T14:26:17,598 {0761 ec20} [   96.456107] Error no wdev when set vport
+2022-06-29T14:26:17,599 <4>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   96.456107] Error no wdev when set vport
+2022-06-29T14:26:17,604 <13>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: syswrapper: hostapd update: conf=/etc/hostapd/rai5.cfg interface=rai5 nas_ip=192.168.0.146 res=OK
+2022-06-29T14:26:17,605 <29>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: /sbin/udhcpc[4350]: syswrapper: hostapd update: conf=/etc/hostapd/rai5.cfg interface=rai5 nas_ip=192.168.0.146 res=OK
+2022-06-29T14:26:17,635 <13>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: syswrapper: hostapd update: conf=/etc/hostapd/rai6.cfg interface=rai6 nas_ip=192.168.0.146 res=OK
+2022-06-29T14:26:17,636 <29>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: /sbin/udhcpc[4350]: syswrapper: hostapd update: conf=/etc/hostapd/rai6.cfg interface=rai6 nas_ip=192.168.0.146 res=OK
+2022-06-29T14:26:17,637 {0761 ec20} [   96.495463] Set ra2 No2ghzOui=0
+2022-06-29T14:26:17,640 <4>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   96.495463] Set ra2 No2ghzOui=0
+2022-06-29T14:26:17,643 {0761 ec20} [   96.501969] ra2: Set SVLAN[1] DVLAN stas 0!
+2022-06-29T14:26:17,645 <4>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   96.501969] ra2: Set SVLAN[1] DVLAN stas 0!
+2022-06-29T14:26:17,666 <13>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: syswrapper: hostapd update: conf=/etc/hostapd/rai7.cfg interface=rai7 nas_ip=192.168.0.146 res=OK
+2022-06-29T14:26:17,668 <29>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: /sbin/udhcpc[4350]: syswrapper: hostapd update: conf=/etc/hostapd/rai7.cfg interface=rai7 nas_ip=192.168.0.146 res=OK
+2022-06-29T14:26:17,911 {0761 ec20} [   96.769078] WDS AP 4 Address Mode set to  0 for Mbss 4
+2022-06-29T14:26:17,911 {0761 ec20} [   96.769354] rai4: VLAN features updated vwire/vport[0]!
+2022-06-29T14:26:17,913 <4>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   96.769078] WDS AP 4 Address Mode set to  0 for Mbss 4
+2022-06-29T14:26:17,914 <4>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   96.769354] rai4: VLAN features updated vwire/vport[0]!
+2022-06-29T14:26:17,920 {0761 ec20} [   96.779055] Error no wdev when set vport
+2022-06-29T14:26:17,922 <4>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   96.779055] Error no wdev when set vport
+2022-06-29T14:26:17,947 <13>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: syswrapper: [state is locked] skipping reload
+2022-06-29T14:26:17,951 <29>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: /usr/bin/mcad[4342]: syswrapper: [state is locked] skipping reload
+2022-06-29T14:26:17,961 <30>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: mcad: mcad[4342]: ace_reporter.ace_reporter_set_state(): [STATE] transition Unknown -> Managed
+2022-06-29T14:26:17,962 <30>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: mcad: mcad[4342]: ace_reporter.reporter_set_managed(): [STATE] enter Managed
+2022-06-29T14:26:17,962 <30>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: mcad: mcad[4342]: ace_reporter.reporter_save_config(): Saving stun_url as stun://192.168.0.173/
+2022-06-29T14:26:17,962 <30>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: mcad: mcad[4342]: ace_reporter.reporter_save_config(): Saving mgmt_url as https://192.168.0.173:8443/manage/site/default
+2022-06-29T14:26:17,977 {0761 ec20} [   96.835622] rai4: Set SVLAN[1] DVLAN stas 0!
+2022-06-29T14:26:17,981 <4>Jun 29 16:26:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   96.835622] rai4: Set SVLAN[1] DVLAN stas 0!
+2022-06-29T14:26:18,174 <13>Jun 29 16:26:18 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: syswrapper: [state is locked] waiting for lock
+2022-06-29T14:26:18,174 <29>Jun 29 16:26:18 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: /usr/bin/mcad[4342]: syswrapper: [state is locked] waiting for lock
+2022-06-29T14:26:18,210 {0761 ec20} [   97.069146] WDS AP 4 Address Mode set to  0 for Mbss 2
+2022-06-29T14:26:18,211 {0761 ec20} [   97.069418] rai2: VLAN features updated vwire/vport[0]!
+2022-06-29T14:26:18,214 <4>Jun 29 16:26:18 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   97.069146] WDS AP 4 Address Mode set to  0 for Mbss 2
+2022-06-29T14:26:18,215 <4>Jun 29 16:26:18 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   97.069418] rai2: VLAN features updated vwire/vport[0]!
+2022-06-29T14:26:18,219 {0761 ec20} [   97.077468] Error no wdev when set vport
+2022-06-29T14:26:18,221 <4>Jun 29 16:26:18 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   97.077468] Error no wdev when set vport
+2022-06-29T14:26:18,251 {0761 ec20} [   97.110190] rai2: Set SVLAN[1] DVLAN stas 0!
+2022-06-29T14:26:18,254 <4>Jun 29 16:26:18 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   97.110190] rai2: Set SVLAN[1] DVLAN stas 0!
+2022-06-29T14:26:18,436 {0761 ec20} [   97.294843] Setting 4 Addr Hdr Translation for 124 Bcast Entry
+2022-06-29T14:26:18,436 {0761 ec20} [   97.295078] WDS AP 4 Address Mode set to  1 for Mbss 7
+2022-06-29T14:26:18,437 {0761 ec20} [   97.295163] rai7: VLAN features updated vwire/vport[1]!
+2022-06-29T14:26:18,440 <4>Jun 29 16:26:18 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   97.294843] Setting 4 Addr Hdr Translation for 124 Bcast Entry
+2022-06-29T14:26:18,440 <4>Jun 29 16:26:18 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   97.295078] WDS AP 4 Address Mode set to  1 for Mbss 7
+2022-06-29T14:26:18,441 <4>Jun 29 16:26:18 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   97.295163] rai7: VLAN features updated vwire/vport[1]!
+2022-06-29T14:26:18,443 {0761 ec20} [   97.301683] Error no wdev when set vport
+2022-06-29T14:26:18,445 <4>Jun 29 16:26:18 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   97.301683] Error no wdev when set vport
+2022-06-29T14:26:18,466 {0761 ec20} [   97.324644] rai7: Set SVLAN[1] DVLAN stas 0!
+2022-06-29T14:26:18,470 <4>Jun 29 16:26:18 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   97.324644] rai7: Set SVLAN[1] DVLAN stas 0!
+2022-06-29T14:26:18,592 {0761 ec20} [   97.451072] WDS AP 4 Address Mode set to  0 for Mbss 1
+2022-06-29T14:26:18,593 {0761 ec20} [   97.451331] rai1: VLAN features updated vwire/vport[0]!
+2022-06-29T14:26:18,596 <4>Jun 29 16:26:18 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   97.451072] WDS AP 4 Address Mode set to  0 for Mbss 1
+2022-06-29T14:26:18,596 <4>Jun 29 16:26:18 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   97.451331] rai1: VLAN features updated vwire/vport[0]!
+2022-06-29T14:26:18,599 {0761 ec20} [   97.457795] Error no wdev when set vport
+2022-06-29T14:26:18,610 <4>Jun 29 16:26:18 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   97.457795] Error no wdev when set vport
+2022-06-29T14:26:18,622 {0761 ec20} [   97.480810] rai1: Set SVLAN[1] DVLAN stas 0!
+2022-06-29T14:26:18,627 <4>Jun 29 16:26:18 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   97.480810] rai1: Set SVLAN[1] DVLAN stas 0!
+2022-06-29T14:26:18,754 {0761 ec20} [   97.612400] WDS AP 4 Address Mode set to  0 for Mbss 3
+2022-06-29T14:26:18,755 {0761 ec20} [   97.612618] ra3: VLAN features updated vwire/vport[0]!
+2022-06-29T14:26:18,756 <4>Jun 29 16:26:18 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   97.612400] WDS AP 4 Address Mode set to  0 for Mbss 3
+2022-06-29T14:26:18,757 <4>Jun 29 16:26:18 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   97.612618] ra3: VLAN features updated vwire/vport[0]!
+2022-06-29T14:26:18,761 {0761 ec20} [   97.619114] Error no wdev when set vport
+2022-06-29T14:26:18,763 <4>Jun 29 16:26:18 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   97.619114] Error no wdev when set vport
+2022-06-29T14:26:18,781 {0761 ec20} [   97.639954] Set ra3 No2ghzOui=0
+2022-06-29T14:26:18,784 <4>Jun 29 16:26:18 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   97.639954] Set ra3 No2ghzOui=0
+2022-06-29T14:26:18,785 {0761 ec20} [   97.643342] ra3: Set SVLAN[1] DVLAN stas 0!
+2022-06-29T14:26:18,787 <4>Jun 29 16:26:18 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   97.643342] ra3: Set SVLAN[1] DVLAN stas 0!
+2022-06-29T14:26:18,914 {0761 ec20} [   97.772163] WDS AP 4 Address Mode set to  0 for Mbss 1
+2022-06-29T14:26:18,914 {0761 ec20} [   97.772379] ra1: VLAN features updated vwire/vport[0]!
+2022-06-29T14:26:18,920 {0761 ec20} [   97.778389] Error no wdev when set vport
+2022-06-29T14:26:18,921 <4>Jun 29 16:26:18 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   97.772163] WDS AP 4 Address Mode set to  0 for Mbss 1
+2022-06-29T14:26:18,921 <4>Jun 29 16:26:18 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   97.772379] ra1: VLAN features updated vwire/vport[0]!
+2022-06-29T14:26:18,922 <4>Jun 29 16:26:18 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   97.778389] Error no wdev when set vport
+2022-06-29T14:26:18,941 {0761 ec20} [   97.799476] Set ra1 No2ghzOui=0
+2022-06-29T14:26:18,944 {0761 ec20} [   97.802593] ra1: Set SVLAN[1] DVLAN stas 0!
+2022-06-29T14:26:18,949 <4>Jun 29 16:26:18 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   97.799476] Set ra1 No2ghzOui=0
+2022-06-29T14:26:18,949 <4>Jun 29 16:26:18 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   97.802593] ra1: Set SVLAN[1] DVLAN stas 0!
+2022-06-29T14:26:19,045 <14>Jun 29 16:26:19 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : sysmon[4338]: lldp.ubnt_get_lldp_json(): No LLDP neighbors found
+2022-06-29T14:26:19,087 {0761 ec20} [   97.945224] WDS AP 4 Address Mode set to  0 for Mbss 5
+2022-06-29T14:26:19,087 {0761 ec20} [   97.945439] ra5: VLAN features updated vwire/vport[0]!
+2022-06-29T14:26:19,090 <4>Jun 29 16:26:19 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   97.945224] WDS AP 4 Address Mode set to  0 for Mbss 5
+2022-06-29T14:26:19,091 <4>Jun 29 16:26:19 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   97.945439] ra5: VLAN features updated vwire/vport[0]!
+2022-06-29T14:26:19,094 {0761 ec20} [   97.952647] Error no wdev when set vport
+2022-06-29T14:26:19,097 <4>Jun 29 16:26:19 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   97.952647] Error no wdev when set vport
+2022-06-29T14:26:19,117 {0761 ec20} [   97.975513] Set ra5 No2ghzOui=0
+2022-06-29T14:26:19,120 <4>Jun 29 16:26:19 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   97.975513] Set ra5 No2ghzOui=0
+2022-06-29T14:26:19,121 {0761 ec20} [   97.979462] ra5: Set SVLAN[1] DVLAN stas 0!
+2022-06-29T14:26:19,125 <4>Jun 29 16:26:19 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   97.979462] ra5: Set SVLAN[1] DVLAN stas 0!
+2022-06-29T14:26:19,260 {0761 ec20} [   98.118908] WDS AP 4 Address Mode set to  0 for Mbss 6
+2022-06-29T14:26:19,261 {0761 ec20} [   98.119129] rai6: VLAN features updated vwire/vport[0]!
+2022-06-29T14:26:19,267 {0761 ec20} [   98.125853] Error no wdev when set vport
+2022-06-29T14:26:19,271 <4>Jun 29 16:26:19 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   98.118908] WDS AP 4 Address Mode set to  0 for Mbss 6
+2022-06-29T14:26:19,271 <4>Jun 29 16:26:19 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   98.119129] rai6: VLAN features updated vwire/vport[0]!
+2022-06-29T14:26:19,272 <4>Jun 29 16:26:19 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   98.125853] Error no wdev when set vport
+2022-06-29T14:26:19,292 {0761 ec20} [   98.150188] rai6: Set SVLAN[1] DVLAN stas 0!
+2022-06-29T14:26:19,297 <4>Jun 29 16:26:19 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   98.150188] rai6: Set SVLAN[1] DVLAN stas 0!
+2022-06-29T14:26:19,438 {0761 ec20} [   98.296584] WDS AP 4 Address Mode set to  0 for Mbss 4
+2022-06-29T14:26:19,439 {0761 ec20} [   98.296839] ra4: VLAN features updated vwire/vport[0]!
+2022-06-29T14:26:19,440 <4>Jun 29 16:26:19 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   98.296584] WDS AP 4 Address Mode set to  0 for Mbss 4
+2022-06-29T14:26:19,441 <4>Jun 29 16:26:19 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   98.296839] ra4: VLAN features updated vwire/vport[0]!
+2022-06-29T14:26:19,447 {0761 ec20} [   98.305567] Error no wdev when set vport
+2022-06-29T14:26:19,450 <4>Jun 29 16:26:19 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   98.305567] Error no wdev when set vport
+2022-06-29T14:26:19,475 {0761 ec20} [   98.333490] Set ra4 No2ghzOui=0
+2022-06-29T14:26:19,478 <4>Jun 29 16:26:19 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   98.333490] Set ra4 No2ghzOui=0
+2022-06-29T14:26:19,479 {0761 ec20} [   98.337915] ra4: Set SVLAN[1] DVLAN stas 0!
+2022-06-29T14:26:19,485 <4>Jun 29 16:26:19 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   98.337915] ra4: Set SVLAN[1] DVLAN stas 0!
+2022-06-29T14:26:19,635 {0761 ec20} [   98.493380] WDS AP 4 Address Mode set to  1 for Mbss 6
+2022-06-29T14:26:19,636 {0761 ec20} [   98.493641] ra6: VLAN features updated vwire/vport[1]!
+2022-06-29T14:26:19,641 <4>Jun 29 16:26:19 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   98.493380] WDS AP 4 Address Mode set to  1 for Mbss 6
+2022-06-29T14:26:19,642 <4>Jun 29 16:26:19 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   98.493641] ra6: VLAN features updated vwire/vport[1]!
+2022-06-29T14:26:19,642 {0761 ec20} [   98.500945] Error no wdev when set vport
+2022-06-29T14:26:19,650 <4>Jun 29 16:26:19 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   98.500945] Error no wdev when set vport
+2022-06-29T14:26:19,663 {0761 ec20} [   98.521963] Set ra6 No2ghzOui=0
+2022-06-29T14:26:19,669 {0761 ec20} [   98.527869] ra6: Set SVLAN[1] DVLAN stas 0!
+2022-06-29T14:26:19,670 <4>Jun 29 16:26:19 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   98.521963] Set ra6 No2ghzOui=0
+2022-06-29T14:26:19,671 <4>Jun 29 16:26:19 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   98.527869] ra6: Set SVLAN[1] DVLAN stas 0!
+2022-06-29T14:26:19,801 {0761 ec20} [   98.659278] WDS AP 4 Address Mode set to  0 for Mbss 3
+2022-06-29T14:26:19,802 {0761 ec20} [   98.659497] rai3: VLAN features updated vwire/vport[0]!
+2022-06-29T14:26:19,807 {0761 ec20} [   98.665548] Error no wdev when set vport
+2022-06-29T14:26:19,811 <4>Jun 29 16:26:19 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   98.659278] WDS AP 4 Address Mode set to  0 for Mbss 3
+2022-06-29T14:26:19,812 <4>Jun 29 16:26:19 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   98.659497] rai3: VLAN features updated vwire/vport[0]!
+2022-06-29T14:26:19,812 <4>Jun 29 16:26:19 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   98.665548] Error no wdev when set vport
+2022-06-29T14:26:19,829 {0761 ec20} [   98.687499] rai3: Set SVLAN[1] DVLAN stas 0!
+2022-06-29T14:26:19,830 <4>Jun 29 16:26:19 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [   98.687499] rai3: Set SVLAN[1] DVLAN stas 0!
+2022-06-29T14:26:22,608 <29>Jun 29 16:26:22 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: /usr/bin/mcad[4342]: Found Backup1 on[1] ...
+2022-06-29T14:26:22,965 <29>Jun 29 16:26:22 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: /usr/bin/mcad[4342]: Found  Active on[2] ...
+2022-06-29T14:26:23,373 <29>Jun 29 16:26:23 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: /usr/bin/mcad[4342]: Storing Active[1] ... [%0  ]\b\b\b\b\b\b[%100]
+2022-06-29T14:26:24,071 <29>Jun 29 16:26:24 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: /usr/bin/mcad[4342]: Active->Backup[2] ... [%0  ]\b\b\b\b\b\b[%100]
+2022-06-29T14:26:24,680 <30>Jun 29 16:26:24 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: mcad: mcad[4342]: lldp.ubnt_get_lldp_json(): No LLDP neighbors found
+2022-06-29T14:26:24,764 <29>Jun 29 16:26:24 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: /sbin/udhcpc[4350]: Chain 'ALLOWED_DOMAIN_IN' doesn't exist.
+2022-06-29T14:26:24,769 <29>Jun 29 16:26:24 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: /sbin/udhcpc[4350]: Chain 'ALLOWED_DOMAIN_OUT' doesn't exist.
+2022-06-29T14:26:24,794 <29>Jun 29 16:26:24 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: /sbin/udhcpc[4350]: Chain 'RESTRICTED_DOMAIN_IN' doesn't exist.
+2022-06-29T14:26:24,872 <30>Jun 29 16:26:24 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: mcad: mcad[4342]: lldp.ubnt_get_lldp_json(): No LLDP neighbors found
+2022-06-29T14:26:25,371 <29>Jun 29 16:26:25 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: /sbin/udhcpc[4350]: udhcpc: lease lost, entering init state
+2022-06-29T14:26:26,401 <30>Jun 29 16:26:26 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: logread[4341]: Logread connected to 192.168.0.173:5514
+2022-06-29T14:26:34,121 <14>Jun 29 16:26:34 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : mca-ctrl[4442]: mca-proto.service_json(): failed to contact mcad
+2022-06-29T14:26:34,122 <11>Jun 29 16:26:34 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : mca-ctrl[4442]: mca-ctrl.mca_control_main(): service_json notify-bg-provision-done fail, retry (30 sec left)
+2022-06-29T14:26:35,026 <30>Jun 29 16:26:35 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: mcad: mcad[4342]: lldp.ubnt_get_lldp_json(): No LLDP neighbors found
+2022-06-29T14:26:45,176 <30>Jun 29 16:26:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: mcad: mcad[4342]: lldp.ubnt_get_lldp_json(): No LLDP neighbors found
+2022-06-29T14:28:07,082 {0761 ec20} [  205.941030] CFG80211_PKT: TX AUTH Frame
+2022-06-29T14:28:07,083 {0761 ec20} [  205.941819] CFG80211_AuthRespHandler: pEntry created: auth state:1, Sst:1
+2022-06-29T14:28:07,084 {0761 ec20} [  205.943721] CFG80211_AssocReqHandler():pEntry->func_tb_idx=3
+2022-06-29T14:28:07,085 <30>Jun 29 16:28:07 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4362]: rai3: STA 14:5a:fc:26:13:d5 IEEE 802.11: authenticated
+2022-06-29T14:28:07,086 <4>Jun 29 16:28:07 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  205.941030] CFG80211_PKT: TX AUTH Frame
+2022-06-29T14:28:07,086 <4>Jun 29 16:28:07 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  205.941819] CFG80211_AuthRespHandler: pEntry created: auth state:1, Sst:1
+2022-06-29T14:28:07,087 <4>Jun 29 16:28:07 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  205.943721] CFG80211_AssocReqHandler():pEntry->func_tb_idx=3
+2022-06-29T14:28:07,090 <30>Jun 29 16:28:07 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4362]: rai3: STA 14:5a:fc:26:13:d5 IEEE 802.11: associated
+2022-06-29T14:28:07,093 {0761 ec20} [  205.953326] 80211> AP Key Add
+2022-06-29T14:28:07,094 {0761 ec20} [  205.953689] Set Ap Default Key: 1
+2022-06-29T14:28:07,095 {0761 ec20} [  205.954667] rai3: Send EAPOL-Key M1, DA=14:5a:fc:26:13:d5, SA=26:5a:4c:ba:d6:18, len=113
+2022-06-29T14:28:07,096 <14>Jun 29 16:28:07 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: wevent.ubnt_custom_event(): EVENT_STA_JOIN rai3: 14:5a:fc:26:13:d5 / 1
+2022-06-29T14:28:07,096 {0761 ec20} [  205.956139] rai3: Recv EAPOL-Key M2, DA=26:5a:4c:ba:d6:18, SA=14:5a:fc:26:13:d5, len=129
+2022-06-29T14:28:07,098 {0761 ec20} [  205.957589] rai3: Send EAPOL-Key M3, DA=14:5a:fc:26:13:d5, SA=26:5a:4c:ba:d6:18, len=169
+2022-06-29T14:28:07,104 <4>Jun 29 16:28:07 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  205.953326] 80211> AP Key Add
+2022-06-29T14:28:07,105 <4>Jun 29 16:28:07 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  205.953689] Set Ap Default Key: 1
+2022-06-29T14:28:07,105 <4>Jun 29 16:28:07 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  205.954667] rai3: Send EAPOL-Key M1, DA=14:5a:fc:26:13:d5, SA=26:5a:4c:ba:d6:18, len=113
+2022-06-29T14:28:07,105 <4>Jun 29 16:28:07 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  205.956139] rai3: Recv EAPOL-Key M2, DA=26:5a:4c:ba:d6:18, SA=14:5a:fc:26:13:d5, len=129
+2022-06-29T14:28:07,106 <4>Jun 29 16:28:07 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  205.957589] rai3: Send EAPOL-Key M3, DA=14:5a:fc:26:13:d5, SA=26:5a:4c:ba:d6:18, len=169
+2022-06-29T14:28:07,132 {0761 ec20} [  205.991942] rai3: Recv EAPOL-Key M4, DA=26:5a:4c:ba:d6:18, SA=14:5a:fc:26:13:d5, len=107
+2022-06-29T14:28:07,133 {0761 ec20} [  205.992826] 80211> KeyAdd STA(14:5A:FC:26:13:D5) ==>
+2022-06-29T14:28:07,133 {0761 ec20} [  205.993075] 80211> AP Key Add
+2022-06-29T14:28:07,134 <4>Jun 29 16:28:07 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  205.991942] rai3: Recv EAPOL-Key M4, DA=26:5a:4c:ba:d6:18, SA=14:5a:fc:26:13:d5, len=107
+2022-06-29T14:28:07,135 <4>Jun 29 16:28:07 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  205.992826] 80211> KeyAdd STA(14:5A:FC:26:13:D5) ==>
+2022-06-29T14:28:07,135 <4>Jun 29 16:28:07 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  205.993075] 80211> AP Key Add
+2022-06-29T14:28:07,136 <30>Jun 29 16:28:07 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4362]: rai3: STA 14:5a:fc:26:13:d5 WPA: pairwise key handshake completed (RSN)
+2022-06-29T14:28:07,225 <14>Jun 29 16:28:07 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: wevent.ubnt_custom_event(): EVENT_STA_IP rai3: 14:5a:fc:26:13:d5 / 192.168.0.206
+2022-06-29T14:28:17,134 <30>Jun 29 16:28:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"success\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"ip_delta\":\"200000\",\"assoc_delta\":\"10000\",\"wpa_auth_delta\":\"60000\",\"ip_assign_type\":\"dhcp\",\"auth_delta\":\"0\",\"event_id\":\"1\",\"auth_ts\":\"205.901826\",\"arp_reply_gw_seen\":\"yes\"}
+2022-06-29T14:28:17,142 <30>Jun 29 16:28:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4362]: rai3: STA 14:5a:fc:26:13:d5 RADIUS: starting accounting session 192FB09B6B13E5F0
+2022-06-29T14:28:27,608 <30>Jun 29 16:28:27 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:28:40,608 <30>Jun 29 16:28:40 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:29:17,429 <30>Jun 29 16:29:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:29:29,570 <30>Jun 29 16:29:29 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:29:43,007 <30>Jun 29 16:29:43 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:29:58,690 <30>Jun 29 16:29:58 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:30:17,027 <30>Jun 29 16:30:17 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:30:47,768 <30>Jun 29 16:30:47 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:31:12,116 {0761 ec20} [  390.977952] Skip rai0 partial scan due to traffic! Tx[17] Rx[15] TH[10]
+2022-06-29T14:31:12,127 <4>Jun 29 16:31:12 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  390.977952] Skip rai0 partial scan due to traffic! Tx[17] Rx[15] TH[10]
+2022-06-29T14:31:13,767 <30>Jun 29 16:31:13 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:31:19,044 <14>Jun 29 16:31:19 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : sysmon[4338]: lldp.ubnt_get_lldp_json(): No LLDP neighbors found
+2022-06-29T14:31:26,689 <30>Jun 29 16:31:26 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:31:39,087 <30>Jun 29 16:31:39 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:32:08,807 <30>Jun 29 16:32:08 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:32:31,310 <30>Jun 29 16:32:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:32:46,686 <30>Jun 29 16:32:46 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:32:58,467 <30>Jun 29 16:32:58 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:33:18,326 <30>Jun 29 16:33:18 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:33:29,767 <30>Jun 29 16:33:29 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:33:40,606 <30>Jun 29 16:33:40 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:33:54,645 <30>Jun 29 16:33:54 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:34:23,125 <30>Jun 29 16:34:23 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:34:40,883 {0761 ec20} [  599.746424] CFG80211_PKT: TX AUTH Frame
+2022-06-29T14:34:40,883 {0761 ec20} [  599.746631] ra0: AUTH - CFG80211_AuthRespHandler
+2022-06-29T14:34:40,884 <4>Jun 29 16:34:40 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  599.746424] CFG80211_PKT: TX AUTH Frame
+2022-06-29T14:34:40,885 <4>Jun 29 16:34:40 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  599.746631] ra0: AUTH - CFG80211_AuthRespHandler
+2022-06-29T14:34:40,885 <30>Jun 29 16:34:40 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4351]: ra0: STA a4:e5:7c:be:62:c8 IEEE 802.11: authenticated
+2022-06-29T14:34:40,888 {0761 ec20} [  599.751572] CFG80211_AssocReqHandler(): peer support rate mode = 0x3
+2022-06-29T14:34:40,888 {0761 ec20} [  599.751894] ap_cmm_peer_assoc_req_action(): peer support rate mode = 0x3
+2022-06-29T14:34:40,890 {0761 ec20} [  599.753689] ===[APAssocRespTxSHandler]: (RE=0, LE=0, ME=0), wlan_idx = 1
+2022-06-29T14:34:40,890 {0761 ec20} [  599.754010] ===[APAssocRespTxSHandler]: wlan_idx = 1,AuthAssocNotInProgressFlag = 1 pEntry->bssid 24:5a:4c:8a:d6:17
+2022-06-29T14:34:40,891 <30>Jun 29 16:34:40 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4351]: ra0: STA a4:e5:7c:be:62:c8 IEEE 802.11: associated
+2022-06-29T14:34:40,894 {0761 ec20} [  599.758219] 80211> AP Key Add
+2022-06-29T14:34:40,895 {0761 ec20} [  599.758446] AsicAddSharedKeyEntry(2714): Not support for HIF_MT yet!
+2022-06-29T14:34:40,895 <4>Jun 29 16:34:40 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  599.751572] CFG80211_AssocReqHandler(): peer support rate mode = 0x3
+2022-06-29T14:34:40,896 <4>Jun 29 16:34:40 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  599.751894] ap_cmm_peer_assoc_req_action(): peer support rate mode = 0x3
+2022-06-29T14:34:40,896 <4>Jun 29 16:34:40 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  599.753689] ===[APAssocRespTxSHandler]: (RE=0, LE=0, ME=0), wlan_idx = 1
+2022-06-29T14:34:40,896 {0761 ec20} [  599.759554] ra0: Send EAPOL-Key M1, DA=a4:e5:7c:be:62:c8, SA=24:5a:4c:8a:d6:17, len=113
+2022-06-29T14:34:40,897 <4>Jun 29 16:34:40 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  599.754010] ===[APAssocRespTxSHandler]: wlan_idx = 1,AuthAssocNotInProgressFlag = 1 pEntry->bssid 24:5a:4c:8a:d6:17
+2022-06-29T14:34:40,897 <14>Jun 29 16:34:40 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: wevent.ubnt_custom_event(): EVENT_STA_JOIN ra0: a4:e5:7c:be:62:c8 / 1
+2022-06-29T14:34:40,901 {0761 ec20} [  599.765156] ra0: Recv EAPOL-Key M2, DA=24:5a:4c:8a:d6:17, SA=a4:e5:7c:be:62:c8, len=129
+2022-06-29T14:34:40,903 <4>Jun 29 16:34:40 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  599.758219] 80211> AP Key Add
+2022-06-29T14:34:40,903 <4>Jun 29 16:34:40 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  599.758446] AsicAddSharedKeyEntry(2714): Not support for HIF_MT yet!
+2022-06-29T14:34:40,903 <4>Jun 29 16:34:40 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  599.759554] ra0: Send EAPOL-Key M1, DA=a4:e5:7c:be:62:c8, SA=24:5a:4c:8a:d6:17, len=113
+2022-06-29T14:34:40,903 {0761 ec20} [  599.767837] ra0: Send EAPOL-Key M3, DA=a4:e5:7c:be:62:c8, SA=24:5a:4c:8a:d6:17, len=169
+2022-06-29T14:34:40,904 <4>Jun 29 16:34:40 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  599.765156] ra0: Recv EAPOL-Key M2, DA=24:5a:4c:8a:d6:17, SA=a4:e5:7c:be:62:c8, len=129
+2022-06-29T14:34:40,912 {0761 ec20} [  599.776801] ra0: Recv EAPOL-Key M4, DA=24:5a:4c:8a:d6:17, SA=a4:e5:7c:be:62:c8, len=107
+2022-06-29T14:34:40,914 <4>Jun 29 16:34:40 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  599.767837] ra0: Send EAPOL-Key M3, DA=a4:e5:7c:be:62:c8, SA=24:5a:4c:8a:d6:17, len=169
+2022-06-29T14:34:40,914 {0761 ec20} [  599.778485] 80211> AP Key Add
+2022-06-29T14:34:40,915 <4>Jun 29 16:34:40 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  599.776801] ra0: Recv EAPOL-Key M4, DA=24:5a:4c:8a:d6:17, SA=a4:e5:7c:be:62:c8, len=107
+2022-06-29T14:34:40,916 <30>Jun 29 16:34:40 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4351]: ra0: STA a4:e5:7c:be:62:c8 WPA: pairwise key handshake completed (RSN)
+2022-06-29T14:34:40,923 <4>Jun 29 16:34:40 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  599.778485] 80211> AP Key Add
+2022-06-29T14:34:40,975 <14>Jun 29 16:34:40 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: wevent.ubnt_custom_event(): EVENT_STA_IP ra0: a4:e5:7c:be:62:c8 / 192.168.0.153
+2022-06-29T14:34:50,925 <30>Jun 29 16:34:50 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4351]: ra0: STA a4:e5:7c:be:62:c8 RADIUS: starting accounting session D38848A4155AFCBA
+2022-06-29T14:34:50,947 <30>Jun 29 16:34:50 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"mac\":\"a4:e5:7c:be:62:c8\",\"event_type\":\"success\",\"vap\":\"ra0\",\"assoc_status\":\"0\",\"ip_delta\":\"150000\",\"assoc_delta\":\"10000\",\"wpa_auth_delta\":\"40000\",\"ip_assign_type\":\"dhcp\",\"auth_delta\":\"0\",\"event_id\":\"1\",\"auth_ts\":\"599.707179\",\"arp_reply_gw_seen\":\"yes\"}
+2022-06-29T14:34:55,626 <30>Jun 29 16:34:55 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:35:02,791 {0761 ec20} [  621.654192] 80211> KeyDel STA(A4:E5:7C:BE:62:C8) ==>
+2022-06-29T14:35:02,791 {0761 ec20} [  621.654771] ra0: (CFG80211_OpsStaDel)80211> Delete STA(A4:E5:7C:BE:62:C8)subtype(10:disassoc,12:deauth)::12 reason code::2
+2022-06-29T14:35:02,792 {0761 ec20} [  621.654911] CFG80211_ApStaDel, Deauth : 0xa4 0xe5 0x7c 0xbe 0x62 0xc8 reason code 0x2
+2022-06-29T14:35:02,793 {0761 ec20} [  621.655008] ra0: (MlmeDeAuthAction)Send DEAUTH frame with ReasonCode(2) to a4:e5:7c:be:62:c8
+2022-06-29T14:35:02,793 <30>Jun 29 16:35:02 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4351]: ra0: STA a4:e5:7c:be:62:c8 IEEE 802.11: disassociated
+2022-06-29T14:35:02,794 {0761 ec20} [  621.656950] 80211> KeyDel STA(A4:E5:7C:BE:62:C8) ==>
+2022-06-29T14:35:02,795 {0761 ec20} [  621.658781] Can't find pEntry in CFG80211_StaPortSecured
+2022-06-29T14:35:02,795 <4>Jun 29 16:35:02 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  621.654192] 80211> KeyDel STA(A4:E5:7C:BE:62:C8) ==>
+2022-06-29T14:35:02,796 {0761 ec20} [  621.659347] ra0: (CFG80211_OpsStaDel)80211> Delete STA(A4:E5:7C:BE:62:C8)subtype(10:disassoc,12:deauth)::12 reason code::2
+2022-06-29T14:35:02,796 <4>Jun 29 16:35:02 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  621.654771] ra0: (CFG80211_OpsStaDel)80211> Delete STA(A4:E5:7C:BE:62:C8)subtype(10:disassoc,12:deauth)::12 reason code::2
+2022-06-29T14:35:02,796 {0761 ec20} [  621.659666] Can't find pEntry(a4:e5:7c:be:62:c8) in ApStaDel
+2022-06-29T14:35:02,797 <4>Jun 29 16:35:02 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  621.654911] CFG80211_ApStaDel, Deauth : 0xa4 0xe5 0x7c 0xbe 0x62 0xc8 reason code 0x2
+2022-06-29T14:35:02,797 <4>Jun 29 16:35:02 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  621.655008] ra0: (MlmeDeAuthAction)Send DEAUTH frame with ReasonCode(2) to a4:e5:7c:be:62:c8
+2022-06-29T14:35:02,797 <4>Jun 29 16:35:02 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  621.656950] 80211> KeyDel STA(A4:E5:7C:BE:62:C8) ==>
+2022-06-29T14:35:02,798 <30>Jun 29 16:35:02 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4351]: ra0: STA a4:e5:7c:be:62:c8 IEEE 802.11: disassociated
+2022-06-29T14:35:02,799 <4>Jun 29 16:35:02 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  621.658781] Can't find pEntry in CFG80211_StaPortSecured
+2022-06-29T14:35:02,799 <4>Jun 29 16:35:02 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  621.659347] ra0: (CFG80211_OpsStaDel)80211> Delete STA(A4:E5:7C:BE:62:C8)subtype(10:disassoc,12:deauth)::12 reason code::2
+2022-06-29T14:35:02,799 <4>Jun 29 16:35:02 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  621.659666] Can't find pEntry(a4:e5:7c:be:62:c8) in ApStaDel
+2022-06-29T14:35:02,805 <14>Jun 29 16:35:02 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: wevent.ubnt_custom_event(): EVENT_STA_LEAVE ra0: a4:e5:7c:be:62:c8 / 1
+2022-06-29T14:35:02,846 <30>Jun 29 16:35:02 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"message_type\":\"STA_ASSOC_TRACKER\",\"event_type\":\"sta_leave\",\"mac\":\"a4:e5:7c:be:62:c8\",\"vap\":\"ra0\",\"assoc_status\":\"0\",\"event_id\":\"1\"}
+2022-06-29T14:35:24,404 <30>Jun 29 16:35:24 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:35:43,160 {0761 ec20} [  662.023920] CFG80211_PKT: TX AUTH Frame
+2022-06-29T14:35:43,161 {0761 ec20} [  662.024132] ra5: AUTH - CFG80211_AuthRespHandler
+2022-06-29T14:35:43,162 {0761 ec20} [  662.026490] CFG80211_AssocReqHandler(): peer support rate mode = 0x3
+2022-06-29T14:35:43,162 {0761 ec20} [  662.026822] ap_cmm_peer_assoc_req_action(): peer support rate mode = 0x3
+2022-06-29T14:35:43,163 <30>Jun 29 16:35:43 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4357]: ra5: STA a4:e5:7c:be:62:c8 IEEE 802.11: authenticated
+2022-06-29T14:35:43,164 {0761 ec20} [  662.028587] ===[APAssocRespTxSHandler]: (RE=0, LE=0, ME=0), wlan_idx = 1
+2022-06-29T14:35:43,164 {0761 ec20} [  662.028908] ===[APAssocRespTxSHandler]: wlan_idx = 1,AuthAssocNotInProgressFlag = 1 pEntry->bssid 26:5a:4c:da:d6:17
+2022-06-29T14:35:43,165 <4>Jun 29 16:35:43 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  662.023920] CFG80211_PKT: TX AUTH Frame
+2022-06-29T14:35:43,166 <4>Jun 29 16:35:43 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  662.024132] ra5: AUTH - CFG80211_AuthRespHandler
+2022-06-29T14:35:43,166 <4>Jun 29 16:35:43 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  662.026490] CFG80211_AssocReqHandler(): peer support rate mode = 0x3
+2022-06-29T14:35:43,167 <4>Jun 29 16:35:43 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  662.026822] ap_cmm_peer_assoc_req_action(): peer support rate mode = 0x3
+2022-06-29T14:35:43,167 <4>Jun 29 16:35:43 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  662.028587] ===[APAssocRespTxSHandler]: (RE=0, LE=0, ME=0), wlan_idx = 1
+2022-06-29T14:35:43,168 <4>Jun 29 16:35:43 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  662.028908] ===[APAssocRespTxSHandler]: wlan_idx = 1,AuthAssocNotInProgressFlag = 1 pEntry->bssid 26:5a:4c:da:d6:17
+2022-06-29T14:35:43,168 <30>Jun 29 16:35:43 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4357]: ra5: STA a4:e5:7c:be:62:c8 IEEE 802.11: associated
+2022-06-29T14:35:43,170 {0761 ec20} [  662.034371] 80211> AP Key Add
+2022-06-29T14:35:43,170 {0761 ec20} [  662.034584] AsicAddSharedKeyEntry(2714): Not support for HIF_MT yet!
+2022-06-29T14:35:43,171 {0761 ec20} [  662.035559] ra5: Send EAPOL-Key M1, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:da:d6:17, len=113
+2022-06-29T14:35:43,174 <4>Jun 29 16:35:43 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  662.034371] 80211> AP Key Add
+2022-06-29T14:35:43,174 <4>Jun 29 16:35:43 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  662.034584] AsicAddSharedKeyEntry(2714): Not support for HIF_MT yet!
+2022-06-29T14:35:43,174 <4>Jun 29 16:35:43 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  662.035559] ra5: Send EAPOL-Key M1, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:da:d6:17, len=113
+2022-06-29T14:35:43,175 <14>Jun 29 16:35:43 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: wevent.ubnt_custom_event(): EVENT_STA_JOIN ra5: a4:e5:7c:be:62:c8 / 1
+2022-06-29T14:35:43,176 {0761 ec20} [  662.040914] ra5: Recv EAPOL-Key M2, DA=26:5a:4c:da:d6:17, SA=a4:e5:7c:be:62:c8, len=129
+2022-06-29T14:35:43,179 {0761 ec20} [  662.043812] ra5: Send EAPOL-Key M3, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:da:d6:17, len=169
+2022-06-29T14:35:43,184 <4>Jun 29 16:35:43 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  662.040914] ra5: Recv EAPOL-Key M2, DA=26:5a:4c:da:d6:17, SA=a4:e5:7c:be:62:c8, len=129
+2022-06-29T14:35:43,184 <4>Jun 29 16:35:43 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  662.043812] ra5: Send EAPOL-Key M3, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:da:d6:17, len=169
+2022-06-29T14:35:43,187 {0761 ec20} [  662.051703] ra5: Recv EAPOL-Key M4, DA=26:5a:4c:da:d6:17, SA=a4:e5:7c:be:62:c8, len=107
+2022-06-29T14:35:43,188 {0761 ec20} [  662.052675] 80211> AP Key Add
+2022-06-29T14:35:43,189 <30>Jun 29 16:35:43 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4357]: ra5: STA a4:e5:7c:be:62:c8 WPA: pairwise key handshake completed (RSN)
+2022-06-29T14:35:43,193 <4>Jun 29 16:35:43 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  662.051703] ra5: Recv EAPOL-Key M4, DA=26:5a:4c:da:d6:17, SA=a4:e5:7c:be:62:c8, len=107
+2022-06-29T14:35:43,194 <4>Jun 29 16:35:43 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  662.052675] 80211> AP Key Add
+2022-06-29T14:35:43,235 <14>Jun 29 16:35:43 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: wevent.ubnt_custom_event(): EVENT_STA_IP ra5: a4:e5:7c:be:62:c8 / 192.168.0.153
+2022-06-29T14:35:46,684 <30>Jun 29 16:35:46 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:35:53,195 <30>Jun 29 16:35:53 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4357]: ra5: STA a4:e5:7c:be:62:c8 RADIUS: starting accounting session 0767D9FC20F9FD09
+2022-06-29T14:35:53,227 <30>Jun 29 16:35:53 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"mac\":\"a4:e5:7c:be:62:c8\",\"event_type\":\"success\",\"vap\":\"ra5\",\"assoc_status\":\"0\",\"ip_delta\":\"200000\",\"assoc_delta\":\"0\",\"wpa_auth_delta\":\"30000\",\"ip_assign_type\":\"dhcp\",\"auth_delta\":\"0\",\"event_id\":\"1\",\"auth_ts\":\"661.984686\",\"arp_reply_gw_seen\":\"yes\"}
+2022-06-29T14:36:12,113 {0761 ec20} [  690.977892] Trigger rai0 partial scan! Tx[2] Rx[4] TH[10]
+2022-06-29T14:36:12,124 <4>Jun 29 16:36:12 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  690.977892] Trigger rai0 partial scan! Tx[2] Rx[4] TH[10]
+2022-06-29T14:36:15,603 <30>Jun 29 16:36:15 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:36:19,051 <14>Jun 29 16:36:19 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : sysmon[4338]: lldp.ubnt_get_lldp_json(): No LLDP neighbors found
+2022-06-29T14:36:46,685 <30>Jun 29 16:36:46 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:37:05,244 <30>Jun 29 16:37:05 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:37:26,645 <30>Jun 29 16:37:26 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:37:51,453 {0761 ec20} [  790.318486] ra5: Set TIM for STA-a4:e5:7c:be:62:c8 idle(60) timeout(180)
+2022-06-29T14:37:51,463 <4>Jun 29 16:37:51 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  790.318486] ra5: Set TIM for STA-a4:e5:7c:be:62:c8 idle(60) timeout(180)
+2022-06-29T14:38:00,093 {0761 ec20} [  798.958145] CFG80211_PKT: TX AUTH Frame
+2022-06-29T14:38:00,094 {0761 ec20} [  798.958477] ra4: AUTH - CFG80211_AuthRespHandler
+2022-06-29T14:38:00,097 {0761 ec20} [  798.962719] 80211> KeyDel STA(A4:E5:7C:BE:62:C8) ==>
+2022-06-29T14:38:00,098 <30>Jun 29 16:38:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4357]: ra5: STA a4:e5:7c:be:62:c8 IEEE 802.11: disassociated
+2022-06-29T14:38:00,098 {0761 ec20} [  798.963406] ra5: (CFG80211_OpsStaDel)80211> Delete STA(A4:E5:7C:BE:62:C8)subtype(10:disassoc,12:deauth)::12 reason code::2
+2022-06-29T14:38:00,098 {0761 ec20} [  798.963637] CFG80211_ApStaDel, Deauth : 0xa4 0xe5 0x7c 0xbe 0x62 0xc8 reason code 0x2
+2022-06-29T14:38:00,099 {0761 ec20} [  798.963758] ra4: (MlmeDeAuthAction)Send DEAUTH frame with ReasonCode(2) to a4:e5:7c:be:62:c8
+2022-06-29T14:38:00,099 <30>Jun 29 16:38:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4356]: ra4: STA a4:e5:7c:be:62:c8 IEEE 802.11: authenticated
+2022-06-29T14:38:00,099 {0761 ec20} [  798.964806] CFG80211_AssocReqHandler(): peer support rate mode = 0x3
+2022-06-29T14:38:00,102 {0761 ec20} [  798.968122] ra4: (CFG80211_OpsStaDel)80211> Delete STA(A4:E5:7C:BE:62:C8)subtype(10:disassoc,12:deauth)::12 reason code::2
+2022-06-29T14:38:00,103 {0761 ec20} [  798.968579] Can't find pEntry(a4:e5:7c:be:62:c8) in ApStaDel
+2022-06-29T14:38:00,104 <4>Jun 29 16:38:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  798.958145] CFG80211_PKT: TX AUTH Frame
+2022-06-29T14:38:00,104 <4>Jun 29 16:38:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  798.958477] ra4: AUTH - CFG80211_AuthRespHandler
+2022-06-29T14:38:00,105 <4>Jun 29 16:38:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  798.962719] 80211> KeyDel STA(A4:E5:7C:BE:62:C8) ==>
+2022-06-29T14:38:00,105 <4>Jun 29 16:38:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  798.963406] ra5: (CFG80211_OpsStaDel)80211> Delete STA(A4:E5:7C:BE:62:C8)subtype(10:disassoc,12:deauth)::12 reason code::2
+2022-06-29T14:38:00,106 <4>Jun 29 16:38:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  798.963637] CFG80211_ApStaDel, Deauth : 0xa4 0xe5 0x7c 0xbe 0x62 0xc8 reason code 0x2
+2022-06-29T14:38:00,106 <4>Jun 29 16:38:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  798.963758] ra4: (MlmeDeAuthAction)Send DEAUTH frame with ReasonCode(2) to a4:e5:7c:be:62:c8
+2022-06-29T14:38:00,106 <4>Jun 29 16:38:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  798.964806] CFG80211_AssocReqHandler(): peer support rate mode = 0x3
+2022-06-29T14:38:00,107 <30>Jun 29 16:38:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4356]: ra4: STA a4:e5:7c:be:62:c8 IEEE 802.11: disassociated
+2022-06-29T14:38:00,107 <4>Jun 29 16:38:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  798.968122] ra4: (CFG80211_OpsStaDel)80211> Delete STA(A4:E5:7C:BE:62:C8)subtype(10:disassoc,12:deauth)::12 reason code::2
+2022-06-29T14:38:00,107 <4>Jun 29 16:38:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  798.968579] Can't find pEntry(a4:e5:7c:be:62:c8) in ApStaDel
+2022-06-29T14:38:00,107 <14>Jun 29 16:38:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: wevent.ubnt_custom_event(): EVENT_STA_LEAVE ra5: a4:e5:7c:be:62:c8 / 1
+2022-06-29T14:38:00,152 <30>Jun 29 16:38:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"message_type\":\"STA_ASSOC_TRACKER\",\"event_type\":\"sta_leave\",\"mac\":\"a4:e5:7c:be:62:c8\",\"vap\":\"ra5\",\"assoc_status\":\"0\",\"event_id\":\"1\"}
+2022-06-29T14:38:10,163 <30>Jun 29 16:38:10 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"message_type\":\"STA_ASSOC_TRACKER\",\"event_type\":\"failure\",\"mac\":\"a4:e5:7c:be:62:c8\",\"auth_failures\":\"1\",\"vap\":\"ra4\",\"assoc_status\":\"0\",\"auth_ts\":\"798.918909\",\"event_id\":\"1\"}
+2022-06-29T14:38:16,365 <30>Jun 29 16:38:16 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:38:27,964 <30>Jun 29 16:38:27 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:38:40,606 <30>Jun 29 16:38:40 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:38:55,654 {0761 ec20} [  854.519965] CFG80211_PKT: TX AUTH Frame
+2022-06-29T14:38:55,655 {0761 ec20} [  854.520174] ra2: AUTH - CFG80211_AuthRespHandler
+2022-06-29T14:38:55,656 <30>Jun 29 16:38:55 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4354]: ra2: STA a4:e5:7c:be:62:c8 IEEE 802.11: authenticated
+2022-06-29T14:38:55,657 {0761 ec20} [  854.522556] CFG80211_AssocReqHandler(): peer support rate mode = 0x3
+2022-06-29T14:38:55,657 {0761 ec20} [  854.522875] ap_cmm_peer_assoc_req_action(): peer support rate mode = 0x3
+2022-06-29T14:38:55,658 {0761 ec20} [  854.524657] ===[APAssocRespTxSHandler]: (RE=0, LE=0, ME=0), wlan_idx = 1
+2022-06-29T14:38:55,659 {0761 ec20} [  854.524976] ===[APAssocRespTxSHandler]: wlan_idx = 1,AuthAssocNotInProgressFlag = 1 pEntry->bssid 26:5a:4c:aa:d6:17
+2022-06-29T14:38:55,660 <30>Jun 29 16:38:55 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4354]: ra2: STA a4:e5:7c:be:62:c8 IEEE 802.11: associated
+2022-06-29T14:38:55,662 {0761 ec20} [  854.528805] 80211> AP Key Add
+2022-06-29T14:38:55,663 {0761 ec20} [  854.529056] AsicAddSharedKeyEntry(2714): Not support for HIF_MT yet!
+2022-06-29T14:38:55,663 <4>Jun 29 16:38:55 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  854.519965] CFG80211_PKT: TX AUTH Frame
+2022-06-29T14:38:55,664 <4>Jun 29 16:38:55 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  854.520174] ra2: AUTH - CFG80211_AuthRespHandler
+2022-06-29T14:38:55,664 <4>Jun 29 16:38:55 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  854.522556] CFG80211_AssocReqHandler(): peer support rate mode = 0x3
+2022-06-29T14:38:55,664 <4>Jun 29 16:38:55 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  854.522875] ap_cmm_peer_assoc_req_action(): peer support rate mode = 0x3
+2022-06-29T14:38:55,664 {0761 ec20} [  854.530642] ra2: Send EAPOL-Key M1, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:aa:d6:17, len=113
+2022-06-29T14:38:55,665 <4>Jun 29 16:38:55 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  854.524657] ===[APAssocRespTxSHandler]: (RE=0, LE=0, ME=0), wlan_idx = 1
+2022-06-29T14:38:55,665 <4>Jun 29 16:38:55 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  854.524976] ===[APAssocRespTxSHandler]: wlan_idx = 1,AuthAssocNotInProgressFlag = 1 pEntry->bssid 26:5a:4c:aa:d6:17
+2022-06-29T14:38:55,665 <4>Jun 29 16:38:55 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  854.528805] 80211> AP Key Add
+2022-06-29T14:38:55,666 <4>Jun 29 16:38:55 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  854.529056] AsicAddSharedKeyEntry(2714): Not support for HIF_MT yet!
+2022-06-29T14:38:55,673 <14>Jun 29 16:38:55 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: wevent.ubnt_custom_event(): EVENT_STA_JOIN ra2: a4:e5:7c:be:62:c8 / 1
+2022-06-29T14:38:55,673 {0761 ec20} [  854.538652] ra2: Recv EAPOL-Key M2, DA=26:5a:4c:aa:d6:17, SA=a4:e5:7c:be:62:c8, len=129
+2022-06-29T14:38:55,674 <4>Jun 29 16:38:55 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  854.530642] ra2: Send EAPOL-Key M1, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:aa:d6:17, len=113
+2022-06-29T14:38:55,674 <4>Jun 29 16:38:55 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  854.538652] ra2: Recv EAPOL-Key M2, DA=26:5a:4c:aa:d6:17, SA=a4:e5:7c:be:62:c8, len=129
+2022-06-29T14:38:55,675 {0761 ec20} [  854.541073] ra2: Send EAPOL-Key M3, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:aa:d6:17, len=169
+2022-06-29T14:38:55,682 {0761 ec20} [  854.548423] ra2: Recv EAPOL-Key M4, DA=26:5a:4c:aa:d6:17, SA=a4:e5:7c:be:62:c8, len=107
+2022-06-29T14:38:55,683 <4>Jun 29 16:38:55 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  854.541073] ra2: Send EAPOL-Key M3, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:aa:d6:17, len=169
+2022-06-29T14:38:55,684 <4>Jun 29 16:38:55 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  854.548423] ra2: Recv EAPOL-Key M4, DA=26:5a:4c:aa:d6:17, SA=a4:e5:7c:be:62:c8, len=107
+2022-06-29T14:38:55,684 {0761 ec20} [  854.550189] 80211> AP Key Add
+2022-06-29T14:38:55,685 <30>Jun 29 16:38:55 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4354]: ra2: STA a4:e5:7c:be:62:c8 WPA: pairwise key handshake completed (RSN)
+2022-06-29T14:38:55,693 <4>Jun 29 16:38:55 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  854.550189] 80211> AP Key Add
+2022-06-29T14:38:55,734 <14>Jun 29 16:38:55 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: wevent.ubnt_custom_event(): EVENT_STA_IP ra2: a4:e5:7c:be:62:c8 / 192.168.0.153
+2022-06-29T14:39:05,694 <30>Jun 29 16:39:05 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4354]: ra2: STA a4:e5:7c:be:62:c8 RADIUS: starting accounting session 52513D1C774D3359
+2022-06-29T14:39:05,726 <30>Jun 29 16:39:05 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"mac\":\"a4:e5:7c:be:62:c8\",\"event_type\":\"success\",\"vap\":\"ra2\",\"assoc_status\":\"0\",\"ip_delta\":\"150000\",\"assoc_delta\":\"0\",\"wpa_auth_delta\":\"30000\",\"ip_assign_type\":\"dhcp\",\"auth_delta\":\"0\",\"event_id\":\"1\",\"auth_ts\":\"854.480699\",\"arp_reply_gw_seen\":\"yes\"}
+2022-06-29T14:39:23,803 <30>Jun 29 16:39:23 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:39:59,463 {0761 ec20} [  918.329494] ra2: Send NULL to STA-a4:e5:7c:be:62:c8 idle(60) timeout(180)
+2022-06-29T14:39:59,473 <4>Jun 29 16:39:59 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  918.329494] ra2: Send NULL to STA-a4:e5:7c:be:62:c8 idle(60) timeout(180)
+2022-06-29T14:39:59,988 {0761 ec20} [  918.855132] CFG80211_PKT: TX AUTH Frame
+2022-06-29T14:39:59,989 {0761 ec20} [  918.855339] ra1: AUTH - CFG80211_AuthRespHandler
+2022-06-29T14:39:59,994 {0761 ec20} [  918.860319] 80211> KeyDel STA(A4:E5:7C:BE:62:C8) ==>
+2022-06-29T14:39:59,994 {0761 ec20} [  918.860973] ra2: (CFG80211_OpsStaDel)80211> Delete STA(A4:E5:7C:BE:62:C8)subtype(10:disassoc,12:deauth)::12 reason code::2
+2022-06-29T14:39:59,995 {0761 ec20} [  918.861215] CFG80211_ApStaDel, Deauth : 0xa4 0xe5 0x7c 0xbe 0x62 0xc8 reason code 0x2
+2022-06-29T14:39:59,995 {0761 ec20} [  918.861370] ra1: (MlmeDeAuthAction)Send DEAUTH frame with ReasonCode(2) to a4:e5:7c:be:62:c8
+2022-06-29T14:39:59,999 <4>Jun 29 16:40:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  918.855132] CFG80211_PKT: TX AUTH Frame
+2022-06-29T14:40:00,000 {0761 ec20} [  918.865231] ra1: (CFG80211_OpsStaDel)80211> Delete STA(A4:E5:7C:BE:62:C8)subtype(10:disassoc,12:deauth)::12 reason code::2
+2022-06-29T14:40:00,000 {0761 ec20} [  918.865565] Can't find pEntry(a4:e5:7c:be:62:c8) in ApStaDel
+2022-06-29T14:40:00,001 <4>Jun 29 16:40:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  918.855339] ra1: AUTH - CFG80211_AuthRespHandler
+2022-06-29T14:40:00,001 <4>Jun 29 16:40:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  918.860319] 80211> KeyDel STA(A4:E5:7C:BE:62:C8) ==>
+2022-06-29T14:40:00,002 <4>Jun 29 16:40:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  918.860973] ra2: (CFG80211_OpsStaDel)80211> Delete STA(A4:E5:7C:BE:62:C8)subtype(10:disassoc,12:deauth)::12 reason code::2
+2022-06-29T14:40:00,003 <4>Jun 29 16:40:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  918.861215] CFG80211_ApStaDel, Deauth : 0xa4 0xe5 0x7c 0xbe 0x62 0xc8 reason code 0x2
+2022-06-29T14:40:00,003 <4>Jun 29 16:40:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  918.861370] ra1: (MlmeDeAuthAction)Send DEAUTH frame with ReasonCode(2) to a4:e5:7c:be:62:c8
+2022-06-29T14:40:00,003 <30>Jun 29 16:40:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4354]: ra2: STA a4:e5:7c:be:62:c8 IEEE 802.11: disassociated
+2022-06-29T14:40:00,004 <30>Jun 29 16:40:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4353]: ra1: STA a4:e5:7c:be:62:c8 IEEE 802.11: authenticated
+2022-06-29T14:40:00,004 <30>Jun 29 16:40:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4353]: ra1: STA a4:e5:7c:be:62:c8 IEEE 802.11: disassociated
+2022-06-29T14:40:00,004 <4>Jun 29 16:40:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  918.865231] ra1: (CFG80211_OpsStaDel)80211> Delete STA(A4:E5:7C:BE:62:C8)subtype(10:disassoc,12:deauth)::12 reason code::2
+2022-06-29T14:40:00,004 <4>Jun 29 16:40:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  918.865565] Can't find pEntry(a4:e5:7c:be:62:c8) in ApStaDel
+2022-06-29T14:40:00,005 <14>Jun 29 16:40:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: wevent.ubnt_custom_event(): EVENT_STA_LEAVE ra2: a4:e5:7c:be:62:c8 / 1
+2022-06-29T14:40:00,048 <30>Jun 29 16:40:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"message_type\":\"STA_ASSOC_TRACKER\",\"event_type\":\"sta_leave\",\"mac\":\"a4:e5:7c:be:62:c8\",\"vap\":\"ra2\",\"assoc_status\":\"0\",\"event_id\":\"1\"}
+2022-06-29T14:40:05,125 <30>Jun 29 16:40:05 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:40:10,043 <30>Jun 29 16:40:10 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"message_type\":\"STA_ASSOC_TRACKER\",\"event_type\":\"failure\",\"mac\":\"a4:e5:7c:be:62:c8\",\"auth_failures\":\"1\",\"vap\":\"ra1\",\"assoc_status\":\"0\",\"auth_ts\":\"918.815914\",\"event_id\":\"1\"}
+2022-06-29T14:40:25,525 <30>Jun 29 16:40:25 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:40:46,687 <30>Jun 29 16:40:46 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:40:59,984 {0761 ec20} [  978.850918] CFG80211_PKT: TX AUTH Frame
+2022-06-29T14:40:59,985 {0761 ec20} [  978.851125] ra4: AUTH - CFG80211_AuthRespHandler
+2022-06-29T14:40:59,985 <4>Jun 29 16:40:59 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  978.850918] CFG80211_PKT: TX AUTH Frame
+2022-06-29T14:40:59,986 <4>Jun 29 16:40:59 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  978.851125] ra4: AUTH - CFG80211_AuthRespHandler
+2022-06-29T14:40:59,986 <30>Jun 29 16:40:59 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4356]: ra4: STA a4:e5:7c:be:62:c8 IEEE 802.11: authenticated
+2022-06-29T14:40:59,987 {0761 ec20} [  978.853511] CFG80211_AssocReqHandler(): peer support rate mode = 0x3
+2022-06-29T14:40:59,987 {0761 ec20} [  978.853839] ap_cmm_peer_assoc_req_action(): peer support rate mode = 0x3
+2022-06-29T14:40:59,987 {0761 ec20} [  978.854173] CFG80211_AssocReqHandler(): peer support rate mode = 0x3
+2022-06-29T14:40:59,988 {0761 ec20} [  978.855547] ===[APAssocRespTxSHandler]: (RE=0, LE=0, ME=0), wlan_idx = 1
+2022-06-29T14:40:59,989 {0761 ec20} [  978.855861] ===[APAssocRespTxSHandler]: wlan_idx = 1,AuthAssocNotInProgressFlag = 1 pEntry->bssid 26:5a:4c:ca:d6:17
+2022-06-29T14:40:59,990 <30>Jun 29 16:40:59 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4356]: ra4: STA a4:e5:7c:be:62:c8 IEEE 802.11: associated
+2022-06-29T14:40:59,993 {0761 ec20} [  978.860371] 80211> AP Key Add
+2022-06-29T14:40:59,994 {0761 ec20} [  978.860592] AsicAddSharedKeyEntry(2714): Not support for HIF_MT yet!
+2022-06-29T14:40:59,995 {0761 ec20} [  978.861919] ra4: Send EAPOL-Key M1, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:ca:d6:17, len=113
+2022-06-29T14:40:59,996 <4>Jun 29 16:40:59 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  978.853511] CFG80211_AssocReqHandler(): peer support rate mode = 0x3
+2022-06-29T14:40:59,996 <4>Jun 29 16:40:59 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  978.853839] ap_cmm_peer_assoc_req_action(): peer support rate mode = 0x3
+2022-06-29T14:40:59,997 <4>Jun 29 16:40:59 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  978.854173] CFG80211_AssocReqHandler(): peer support rate mode = 0x3
+2022-06-29T14:40:59,997 <4>Jun 29 16:40:59 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  978.855547] ===[APAssocRespTxSHandler]: (RE=0, LE=0, ME=0), wlan_idx = 1
+2022-06-29T14:40:59,997 <4>Jun 29 16:40:59 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  978.855861] ===[APAssocRespTxSHandler]: wlan_idx = 1,AuthAssocNotInProgressFlag = 1 pEntry->bssid 26:5a:4c:ca:d6:17
+2022-06-29T14:40:59,998 <4>Jun 29 16:41:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  978.860371] 80211> AP Key Add
+2022-06-29T14:40:59,998 <4>Jun 29 16:41:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  978.860592] AsicAddSharedKeyEntry(2714): Not support for HIF_MT yet!
+2022-06-29T14:40:59,998 <4>Jun 29 16:41:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  978.861919] ra4: Send EAPOL-Key M1, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:ca:d6:17, len=113
+2022-06-29T14:40:59,998 <14>Jun 29 16:41:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: wevent.ubnt_custom_event(): EVENT_STA_JOIN ra4: a4:e5:7c:be:62:c8 / 1
+2022-06-29T14:40:59,999 {0761 ec20} [  978.866748] ra4: Recv EAPOL-Key M2, DA=26:5a:4c:ca:d6:17, SA=a4:e5:7c:be:62:c8, len=129
+2022-06-29T14:41:00,001 {0761 ec20} [  978.868701] ra4: Send EAPOL-Key M3, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:ca:d6:17, len=169
+2022-06-29T14:41:00,005 <4>Jun 29 16:41:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  978.866748] ra4: Recv EAPOL-Key M2, DA=26:5a:4c:ca:d6:17, SA=a4:e5:7c:be:62:c8, len=129
+2022-06-29T14:41:00,005 <4>Jun 29 16:41:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  978.868701] ra4: Send EAPOL-Key M3, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:ca:d6:17, len=169
+2022-06-29T14:41:00,009 {0761 ec20} [  978.876560] ra4: Recv EAPOL-Key M4, DA=26:5a:4c:ca:d6:17, SA=a4:e5:7c:be:62:c8, len=107
+2022-06-29T14:41:00,011 {0761 ec20} [  978.878003] 80211> AP Key Add
+2022-06-29T14:41:00,012 <30>Jun 29 16:41:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4356]: ra4: STA a4:e5:7c:be:62:c8 WPA: pairwise key handshake completed (RSN)
+2022-06-29T14:41:00,014 <4>Jun 29 16:41:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  978.876560] ra4: Recv EAPOL-Key M4, DA=26:5a:4c:ca:d6:17, SA=a4:e5:7c:be:62:c8, len=107
+2022-06-29T14:41:00,015 <4>Jun 29 16:41:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  978.878003] 80211> AP Key Add
+2022-06-29T14:41:00,066 <14>Jun 29 16:41:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: wevent.ubnt_custom_event(): EVENT_STA_IP ra4: a4:e5:7c:be:62:c8 / 192.168.0.153
+2022-06-29T14:41:09,966 <30>Jun 29 16:41:09 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:41:10,015 <30>Jun 29 16:41:10 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4356]: ra4: STA a4:e5:7c:be:62:c8 RADIUS: starting accounting session EB4E5BE2DF668CCE
+2022-06-29T14:41:10,047 <30>Jun 29 16:41:10 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"mac\":\"a4:e5:7c:be:62:c8\",\"event_type\":\"success\",\"vap\":\"ra4\",\"assoc_status\":\"0\",\"ip_delta\":\"160000\",\"assoc_delta\":\"10000\",\"wpa_auth_delta\":\"30000\",\"ip_assign_type\":\"dhcp\",\"auth_delta\":\"0\",\"event_id\":\"2\",\"auth_ts\":\"978.811705\",\"arp_reply_gw_seen\":\"yes\"}
+2022-06-29T14:41:12,135 {0761 ec20} [  991.001556] Skip rai0 partial scan due to traffic! Tx[9] Rx[5] TH[10]
+2022-06-29T14:41:12,145 <4>Jun 29 16:41:12 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [  991.001556] Skip rai0 partial scan due to traffic! Tx[9] Rx[5] TH[10]
+2022-06-29T14:41:19,052 <14>Jun 29 16:41:19 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : sysmon[4338]: lldp.ubnt_get_lldp_json(): No LLDP neighbors found
+2022-06-29T14:41:25,086 <30>Jun 29 16:41:25 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:41:37,125 <30>Jun 29 16:41:37 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:41:47,366 <30>Jun 29 16:41:47 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:41:58,086 <30>Jun 29 16:41:58 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:42:13,925 <30>Jun 29 16:42:13 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:42:27,765 <30>Jun 29 16:42:27 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:42:40,085 <30>Jun 29 16:42:40 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:42:57,885 <30>Jun 29 16:42:57 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:43:18,364 <30>Jun 29 16:43:18 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:43:21,330 {0761 ec20} [ 1120.197833] CFG80211_PKT: TX AUTH Frame
+2022-06-29T14:43:21,330 {0761 ec20} [ 1120.198038] ra1: AUTH - CFG80211_AuthRespHandler
+2022-06-29T14:43:21,334 <4>Jun 29 16:43:21 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1120.197833] CFG80211_PKT: TX AUTH Frame
+2022-06-29T14:43:21,335 {0761 ec20} [ 1120.202964] 80211> KeyDel STA(A4:E5:7C:BE:62:C8) ==>
+2022-06-29T14:43:21,335 <4>Jun 29 16:43:21 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1120.198038] ra1: AUTH - CFG80211_AuthRespHandler
+2022-06-29T14:43:21,336 <30>Jun 29 16:43:21 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4353]: ra1: STA a4:e5:7c:be:62:c8 IEEE 802.11: authenticated
+2022-06-29T14:43:21,336 {0761 ec20} [ 1120.203741] ra4: (CFG80211_OpsStaDel)80211> Delete STA(A4:E5:7C:BE:62:C8)subtype(10:disassoc,12:deauth)::12 reason code::2
+2022-06-29T14:43:21,336 {0761 ec20} [ 1120.204057] CFG80211_ApStaDel, Deauth : 0xa4 0xe5 0x7c 0xbe 0x62 0xc8 reason code 0x2
+2022-06-29T14:43:21,337 {0761 ec20} [ 1120.204253] ra1: (MlmeDeAuthAction)Send DEAUTH frame with ReasonCode(2) to a4:e5:7c:be:62:c8
+2022-06-29T14:43:21,341 {0761 ec20} [ 1120.208643] ra1: (CFG80211_OpsStaDel)80211> Delete STA(A4:E5:7C:BE:62:C8)subtype(10:disassoc,12:deauth)::12 reason code::2
+2022-06-29T14:43:21,341 <30>Jun 29 16:43:21 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4356]: ra4: STA a4:e5:7c:be:62:c8 IEEE 802.11: disassociated
+2022-06-29T14:43:21,341 {0761 ec20} [ 1120.208972] Can't find pEntry(a4:e5:7c:be:62:c8) in ApStaDel
+2022-06-29T14:43:21,342 <30>Jun 29 16:43:21 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4353]: ra1: STA a4:e5:7c:be:62:c8 IEEE 802.11: disassociated
+2022-06-29T14:43:21,344 <4>Jun 29 16:43:21 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1120.202964] 80211> KeyDel STA(A4:E5:7C:BE:62:C8) ==>
+2022-06-29T14:43:21,345 <4>Jun 29 16:43:21 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1120.203741] ra4: (CFG80211_OpsStaDel)80211> Delete STA(A4:E5:7C:BE:62:C8)subtype(10:disassoc,12:deauth)::12 reason code::2
+2022-06-29T14:43:21,345 <4>Jun 29 16:43:21 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1120.204057] CFG80211_ApStaDel, Deauth : 0xa4 0xe5 0x7c 0xbe 0x62 0xc8 reason code 0x2
+2022-06-29T14:43:21,345 <4>Jun 29 16:43:21 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1120.204253] ra1: (MlmeDeAuthAction)Send DEAUTH frame with ReasonCode(2) to a4:e5:7c:be:62:c8
+2022-06-29T14:43:21,346 <4>Jun 29 16:43:21 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1120.208643] ra1: (CFG80211_OpsStaDel)80211> Delete STA(A4:E5:7C:BE:62:C8)subtype(10:disassoc,12:deauth)::12 reason code::2
+2022-06-29T14:43:21,346 <4>Jun 29 16:43:21 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1120.208972] Can't find pEntry(a4:e5:7c:be:62:c8) in ApStaDel
+2022-06-29T14:43:21,346 <14>Jun 29 16:43:21 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: wevent.ubnt_custom_event(): EVENT_STA_LEAVE ra4: a4:e5:7c:be:62:c8 / 1
+2022-06-29T14:43:21,390 <30>Jun 29 16:43:21 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"message_type\":\"STA_ASSOC_TRACKER\",\"event_type\":\"sta_leave\",\"mac\":\"a4:e5:7c:be:62:c8\",\"vap\":\"ra4\",\"assoc_status\":\"0\",\"event_id\":\"2\"}
+2022-06-29T14:43:30,989 {0761 ec20} [ 1129.857157] CFG80211_PKT: TX AUTH Frame
+2022-06-29T14:43:30,990 {0761 ec20} [ 1129.857364] ra4: AUTH - CFG80211_AuthRespHandler
+2022-06-29T14:43:30,991 <30>Jun 29 16:43:30 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4356]: ra4: STA a4:e5:7c:be:62:c8 IEEE 802.11: authenticated
+2022-06-29T14:43:30,991 {0761 ec20} [ 1129.859748] CFG80211_AssocReqHandler(): peer support rate mode = 0x3
+2022-06-29T14:43:30,992 {0761 ec20} [ 1129.860059] ap_cmm_peer_assoc_req_action(): peer support rate mode = 0x3
+2022-06-29T14:43:30,993 {0761 ec20} [ 1129.861807] ===[APAssocRespTxSHandler]: (RE=0, LE=0, ME=0), wlan_idx = 1
+2022-06-29T14:43:30,994 {0761 ec20} [ 1129.862111] ===[APAssocRespTxSHandler]: wlan_idx = 1,AuthAssocNotInProgressFlag = 1 pEntry->bssid 26:5a:4c:ca:d6:17
+2022-06-29T14:43:30,994 <4>Jun 29 16:43:30 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1129.857157] CFG80211_PKT: TX AUTH Frame
+2022-06-29T14:43:30,995 <4>Jun 29 16:43:30 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1129.857364] ra4: AUTH - CFG80211_AuthRespHandler
+2022-06-29T14:43:30,995 <4>Jun 29 16:43:30 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1129.859748] CFG80211_AssocReqHandler(): peer support rate mode = 0x3
+2022-06-29T14:43:30,995 <4>Jun 29 16:43:30 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1129.860059] ap_cmm_peer_assoc_req_action(): peer support rate mode = 0x3
+2022-06-29T14:43:30,996 <30>Jun 29 16:43:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4356]: ra4: STA a4:e5:7c:be:62:c8 IEEE 802.11: associated
+2022-06-29T14:43:30,997 {0761 ec20} [ 1129.865161] ra4: Send EAPOL-Key M1, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:ca:d6:17, len=113
+2022-06-29T14:43:31,001 {0761 ec20} [ 1129.869217] ra4: Recv EAPOL-Key M2, DA=26:5a:4c:ca:d6:17, SA=a4:e5:7c:be:62:c8, len=129
+2022-06-29T14:43:31,003 <4>Jun 29 16:43:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1129.861807] ===[APAssocRespTxSHandler]: (RE=0, LE=0, ME=0), wlan_idx = 1
+2022-06-29T14:43:31,003 <4>Jun 29 16:43:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1129.862111] ===[APAssocRespTxSHandler]: wlan_idx = 1,AuthAssocNotInProgressFlag = 1 pEntry->bssid 26:5a:4c:ca:d6:17
+2022-06-29T14:43:31,004 <4>Jun 29 16:43:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1129.865161] ra4: Send EAPOL-Key M1, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:ca:d6:17, len=113
+2022-06-29T14:43:31,004 {0761 ec20} [ 1129.872696] ra4: Send EAPOL-Key M3, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:ca:d6:17, len=169
+2022-06-29T14:43:31,004 <4>Jun 29 16:43:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1129.869217] ra4: Recv EAPOL-Key M2, DA=26:5a:4c:ca:d6:17, SA=a4:e5:7c:be:62:c8, len=129
+2022-06-29T14:43:31,005 <14>Jun 29 16:43:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: wevent.ubnt_custom_event(): EVENT_STA_JOIN ra4: a4:e5:7c:be:62:c8 / 1
+2022-06-29T14:43:31,005 <4>Jun 29 16:43:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1129.872696] ra4: Send EAPOL-Key M3, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:ca:d6:17, len=169
+2022-06-29T14:43:31,010 {0761 ec20} [ 1129.878999] ra4: Recv EAPOL-Key M4, DA=26:5a:4c:ca:d6:17, SA=a4:e5:7c:be:62:c8, len=107
+2022-06-29T14:43:31,012 {0761 ec20} [ 1129.880365] 80211> AP Key Add
+2022-06-29T14:43:31,013 <4>Jun 29 16:43:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1129.878999] ra4: Recv EAPOL-Key M4, DA=26:5a:4c:ca:d6:17, SA=a4:e5:7c:be:62:c8, len=107
+2022-06-29T14:43:31,013 <4>Jun 29 16:43:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1129.880365] 80211> AP Key Add
+2022-06-29T14:43:31,014 <30>Jun 29 16:43:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4356]: ra4: STA a4:e5:7c:be:62:c8 WPA: pairwise key handshake completed (RSN)
+2022-06-29T14:43:31,054 <14>Jun 29 16:43:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: wevent.ubnt_custom_event(): EVENT_STA_IP ra4: a4:e5:7c:be:62:c8 / 192.168.0.153
+2022-06-29T14:43:31,403 <30>Jun 29 16:43:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"message_type\":\"STA_ASSOC_TRACKER\",\"event_type\":\"failure\",\"mac\":\"a4:e5:7c:be:62:c8\",\"auth_failures\":\"1\",\"vap\":\"ra1\",\"assoc_status\":\"0\",\"auth_ts\":\"1120.158605\",\"event_id\":\"2\"}
+2022-06-29T14:43:32,685 <30>Jun 29 16:43:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:43:41,023 <30>Jun 29 16:43:41 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4356]: ra4: STA a4:e5:7c:be:62:c8 RADIUS: starting accounting session 6DB424BCEC5FECEC
+2022-06-29T14:43:41,046 <30>Jun 29 16:43:41 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"mac\":\"a4:e5:7c:be:62:c8\",\"event_type\":\"success\",\"vap\":\"ra4\",\"assoc_status\":\"0\",\"ip_delta\":\"170000\",\"assoc_delta\":\"10000\",\"wpa_auth_delta\":\"30000\",\"ip_assign_type\":\"dhcp\",\"auth_delta\":\"0\",\"event_id\":\"3\",\"auth_ts\":\"1129.817935\",\"arp_reply_gw_seen\":\"yes\"}
+2022-06-29T14:43:46,684 <30>Jun 29 16:43:46 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:43:58,242 <30>Jun 29 16:43:58 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:44:13,678 {0761 ec20} [ 1172.546329] ---->CmdPsRetrieveStartRspFromCR Entry(wcid=1) left.
+2022-06-29T14:44:13,679 <4>Jun 29 16:44:13 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1172.546329] ---->CmdPsRetrieveStartRspFromCR Entry(wcid=1) left.
+2022-06-29T14:44:13,680 {0761 ec20} [ 1172.548722] 80211> KeyDel STA(A4:E5:7C:BE:62:C8) ==>
+2022-06-29T14:44:13,680 <30>Jun 29 16:44:13 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4356]: ra4: STA a4:e5:7c:be:62:c8 IEEE 802.11: disassociated
+2022-06-29T14:44:13,681 {0761 ec20} [ 1172.549436] Can't find pEntry in CFG80211_StaPortSecured
+2022-06-29T14:44:13,681 {0761 ec20} [ 1172.549958] ra4: (CFG80211_OpsStaDel)80211> Delete STA(A4:E5:7C:BE:62:C8)subtype(10:disassoc,12:deauth)::12 reason code::2
+2022-06-29T14:44:13,682 {0761 ec20} [ 1172.550661] Can't find pEntry(a4:e5:7c:be:62:c8) in ApStaDel
+2022-06-29T14:44:13,683 <4>Jun 29 16:44:13 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1172.548722] 80211> KeyDel STA(A4:E5:7C:BE:62:C8) ==>
+2022-06-29T14:44:13,683 <4>Jun 29 16:44:13 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1172.549436] Can't find pEntry in CFG80211_StaPortSecured
+2022-06-29T14:44:13,684 <4>Jun 29 16:44:13 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1172.549958] ra4: (CFG80211_OpsStaDel)80211> Delete STA(A4:E5:7C:BE:62:C8)subtype(10:disassoc,12:deauth)::12 reason code::2
+2022-06-29T14:44:13,685 <4>Jun 29 16:44:13 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1172.550661] Can't find pEntry(a4:e5:7c:be:62:c8) in ApStaDel
+2022-06-29T14:44:13,685 <14>Jun 29 16:44:13 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: wevent.ubnt_custom_event(): EVENT_STA_LEAVE ra4: a4:e5:7c:be:62:c8 / 1
+2022-06-29T14:44:13,732 <30>Jun 29 16:44:13 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"message_type\":\"STA_ASSOC_TRACKER\",\"event_type\":\"sta_leave\",\"mac\":\"a4:e5:7c:be:62:c8\",\"vap\":\"ra4\",\"assoc_status\":\"0\",\"event_id\":\"3\"}
+2022-06-29T14:44:33,165 <30>Jun 29 16:44:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:44:45,385 {0761 ec20} [ 1204.253960] CFG80211_PKT: TX AUTH Frame
+2022-06-29T14:44:45,386 {0761 ec20} [ 1204.254169] ra4: AUTH - CFG80211_AuthRespHandler
+2022-06-29T14:44:45,386 {0761 ec20} [ 1204.254463] MtPsRedirectDisableCheck(504): [wlan_idx=0x1] PS Redirect mode(pfgForce = 1) is enabled. Send PC Clear command to FW.
+2022-06-29T14:44:45,387 <30>Jun 29 16:44:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4356]: ra4: STA a4:e5:7c:be:62:c8 IEEE 802.11: authenticated
+2022-06-29T14:44:45,391 {0761 ec20} [ 1204.259759] CFG80211_AssocReqHandler(): peer support rate mode = 0x3
+2022-06-29T14:44:45,391 {0761 ec20} [ 1204.260069] ap_cmm_peer_assoc_req_action(): peer support rate mode = 0x3
+2022-06-29T14:44:45,393 {0761 ec20} [ 1204.261935] ===[APAssocRespTxSHandler]: (RE=0, LE=0, ME=0), wlan_idx = 1
+2022-06-29T14:44:45,393 {0761 ec20} [ 1204.262248] ===[APAssocRespTxSHandler]: wlan_idx = 1,AuthAssocNotInProgressFlag = 1 pEntry->bssid 26:5a:4c:ca:d6:17
+2022-06-29T14:44:45,394 <4>Jun 29 16:44:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1204.253960] CFG80211_PKT: TX AUTH Frame
+2022-06-29T14:44:45,394 <4>Jun 29 16:44:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1204.254169] ra4: AUTH - CFG80211_AuthRespHandler
+2022-06-29T14:44:45,395 <4>Jun 29 16:44:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1204.254463] MtPsRedirectDisableCheck(504): [wlan_idx=0x1] PS Redirect mode(pfgForce = 1) is enabled. Send PC Clear command to FW.
+2022-06-29T14:44:45,395 <4>Jun 29 16:44:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1204.259759] CFG80211_AssocReqHandler(): peer support rate mode = 0x3
+2022-06-29T14:44:45,396 <4>Jun 29 16:44:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1204.260069] ap_cmm_peer_assoc_req_action(): peer support rate mode = 0x3
+2022-06-29T14:44:45,396 {0761 ec20} [ 1204.265360] ra4: Send EAPOL-Key M1, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:ca:d6:17, len=113
+2022-06-29T14:44:45,396 <30>Jun 29 16:44:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4356]: ra4: STA a4:e5:7c:be:62:c8 IEEE 802.11: associated
+2022-06-29T14:44:45,402 <4>Jun 29 16:44:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1204.261935] ===[APAssocRespTxSHandler]: (RE=0, LE=0, ME=0), wlan_idx = 1
+2022-06-29T14:44:45,402 <4>Jun 29 16:44:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1204.262248] ===[APAssocRespTxSHandler]: wlan_idx = 1,AuthAssocNotInProgressFlag = 1 pEntry->bssid 26:5a:4c:ca:d6:17
+2022-06-29T14:44:45,403 <4>Jun 29 16:44:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1204.265360] ra4: Send EAPOL-Key M1, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:ca:d6:17, len=113
+2022-06-29T14:44:45,403 <14>Jun 29 16:44:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: wevent.ubnt_custom_event(): EVENT_STA_JOIN ra4: a4:e5:7c:be:62:c8 / 1
+2022-06-29T14:44:45,407 {0761 ec20} [ 1204.275862] ra4: Recv EAPOL-Key M2, DA=26:5a:4c:ca:d6:17, SA=a4:e5:7c:be:62:c8, len=129
+2022-06-29T14:44:45,409 {0761 ec20} [ 1204.277764] ra4: Send EAPOL-Key M3, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:ca:d6:17, len=169
+2022-06-29T14:44:45,412 <4>Jun 29 16:44:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1204.275862] ra4: Recv EAPOL-Key M2, DA=26:5a:4c:ca:d6:17, SA=a4:e5:7c:be:62:c8, len=129
+2022-06-29T14:44:45,412 <4>Jun 29 16:44:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1204.277764] ra4: Send EAPOL-Key M3, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:ca:d6:17, len=169
+2022-06-29T14:44:45,416 {0761 ec20} [ 1204.285161] ra4: Recv EAPOL-Key M4, DA=26:5a:4c:ca:d6:17, SA=a4:e5:7c:be:62:c8, len=107
+2022-06-29T14:44:45,417 {0761 ec20} [ 1204.286490] 80211> AP Key Add
+2022-06-29T14:44:45,419 <30>Jun 29 16:44:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4356]: ra4: STA a4:e5:7c:be:62:c8 WPA: pairwise key handshake completed (RSN)
+2022-06-29T14:44:45,422 <4>Jun 29 16:44:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1204.285161] ra4: Recv EAPOL-Key M4, DA=26:5a:4c:ca:d6:17, SA=a4:e5:7c:be:62:c8, len=107
+2022-06-29T14:44:45,422 <4>Jun 29 16:44:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1204.286490] 80211> AP Key Add
+2022-06-29T14:44:45,473 <14>Jun 29 16:44:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: wevent.ubnt_custom_event(): EVENT_STA_IP ra4: a4:e5:7c:be:62:c8 / 192.168.0.153
+2022-06-29T14:44:55,423 <30>Jun 29 16:44:55 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4356]: ra4: STA a4:e5:7c:be:62:c8 RADIUS: starting accounting session E317822569F38EAA
+2022-06-29T14:44:55,447 <30>Jun 29 16:44:55 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"mac\":\"a4:e5:7c:be:62:c8\",\"event_type\":\"success\",\"vap\":\"ra4\",\"assoc_status\":\"0\",\"ip_delta\":\"150000\",\"assoc_delta\":\"10000\",\"wpa_auth_delta\":\"30000\",\"ip_assign_type\":\"dhcp\",\"sta_dc_reason\":\"sta left\",\"auth_delta\":\"0\",\"event_id\":\"4\",\"auth_ts\":\"1204.214737\",\"arp_reply_gw_seen\":\"yes\"}
+2022-06-29T14:45:33,684 <30>Jun 29 16:45:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:45:50,163 <30>Jun 29 16:45:50 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:46:05,166 <30>Jun 29 16:46:05 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:46:10,525 {0761 ec20} [ 1289.394535] 80211> KeyDel STA(A4:E5:7C:BE:62:C8) ==>
+2022-06-29T14:46:10,525 <30>Jun 29 16:46:10 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4356]: ra4: STA a4:e5:7c:be:62:c8 IEEE 802.11: disassociated
+2022-06-29T14:46:10,526 {0761 ec20} [ 1289.394985] Can't find pEntry in CFG80211_StaPortSecured
+2022-06-29T14:46:10,526 {0761 ec20} [ 1289.395429] ra4: (CFG80211_OpsStaDel)80211> Delete STA(A4:E5:7C:BE:62:C8)subtype(10:disassoc,12:deauth)::12 reason code::2
+2022-06-29T14:46:10,526 {0761 ec20} [ 1289.395700] Can't find pEntry(a4:e5:7c:be:62:c8) in ApStaDel
+2022-06-29T14:46:10,531 <4>Jun 29 16:46:10 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1289.394535] 80211> KeyDel STA(A4:E5:7C:BE:62:C8) ==>
+2022-06-29T14:46:10,531 <4>Jun 29 16:46:10 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1289.394985] Can't find pEntry in CFG80211_StaPortSecured
+2022-06-29T14:46:10,531 <4>Jun 29 16:46:10 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1289.395429] ra4: (CFG80211_OpsStaDel)80211> Delete STA(A4:E5:7C:BE:62:C8)subtype(10:disassoc,12:deauth)::12 reason code::2
+2022-06-29T14:46:10,532 <4>Jun 29 16:46:10 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1289.395700] Can't find pEntry(a4:e5:7c:be:62:c8) in ApStaDel
+2022-06-29T14:46:10,534 <14>Jun 29 16:46:10 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: wevent.ubnt_custom_event(): EVENT_STA_LEAVE ra4: a4:e5:7c:be:62:c8 / 1
+2022-06-29T14:46:10,579 <30>Jun 29 16:46:10 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"message_type\":\"STA_ASSOC_TRACKER\",\"event_type\":\"sta_leave\",\"mac\":\"a4:e5:7c:be:62:c8\",\"vap\":\"ra4\",\"assoc_status\":\"0\",\"event_id\":\"4\"}
+2022-06-29T14:46:12,153 {0761 ec20} [ 1291.021985] Skip rai0 partial scan due to traffic! Tx[6] Rx[5] TH[10]
+2022-06-29T14:46:12,163 <4>Jun 29 16:46:12 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1291.021985] Skip rai0 partial scan due to traffic! Tx[6] Rx[5] TH[10]
+2022-06-29T14:46:16,403 <30>Jun 29 16:46:16 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:46:19,061 <14>Jun 29 16:46:19 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : sysmon[4338]: lldp.ubnt_get_lldp_json(): No LLDP neighbors found
+2022-06-29T14:46:30,804 <30>Jun 29 16:46:30 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:46:46,685 <30>Jun 29 16:46:46 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:46:57,244 <30>Jun 29 16:46:57 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:47:08,244 <30>Jun 29 16:47:08 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:47:41,482 <30>Jun 29 16:47:41 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:48:40,604 <30>Jun 29 16:48:40 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:49:12,942 <30>Jun 29 16:49:12 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:49:30,582 <30>Jun 29 16:49:30 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:49:39,532 {0761 ec20} [ 1498.403461] CFG80211_PKT: TX AUTH Frame
+2022-06-29T14:49:39,533 {0761 ec20} [ 1498.403669] ra5: AUTH - CFG80211_AuthRespHandler
+2022-06-29T14:49:39,534 <30>Jun 29 16:49:39 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4357]: ra5: STA a4:e5:7c:be:62:c8 IEEE 802.11: authenticated
+2022-06-29T14:49:39,535 {0761 ec20} [ 1498.405973] CFG80211_AssocReqHandler(): peer support rate mode = 0x3
+2022-06-29T14:49:39,535 {0761 ec20} [ 1498.406298] ap_cmm_peer_assoc_req_action(): peer support rate mode = 0x3
+2022-06-29T14:49:39,537 {0761 ec20} [ 1498.408056] ===[APAssocRespTxSHandler]: (RE=0, LE=0, ME=0), wlan_idx = 1
+2022-06-29T14:49:39,537 {0761 ec20} [ 1498.408357] ===[APAssocRespTxSHandler]: wlan_idx = 1,AuthAssocNotInProgressFlag = 1 pEntry->bssid 26:5a:4c:da:d6:17
+2022-06-29T14:49:39,538 <30>Jun 29 16:49:39 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4357]: ra5: STA a4:e5:7c:be:62:c8 IEEE 802.11: associated
+2022-06-29T14:49:39,539 {0761 ec20} [ 1498.410900] ra5: Send EAPOL-Key M1, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:da:d6:17, len=113
+2022-06-29T14:49:39,542 <4>Jun 29 16:49:39 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1498.403461] CFG80211_PKT: TX AUTH Frame
+2022-06-29T14:49:39,543 <4>Jun 29 16:49:39 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1498.403669] ra5: AUTH - CFG80211_AuthRespHandler
+2022-06-29T14:49:39,543 <4>Jun 29 16:49:39 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1498.405973] CFG80211_AssocReqHandler(): peer support rate mode = 0x3
+2022-06-29T14:49:39,544 <4>Jun 29 16:49:39 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1498.406298] ap_cmm_peer_assoc_req_action(): peer support rate mode = 0x3
+2022-06-29T14:49:39,544 <4>Jun 29 16:49:39 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1498.408056] ===[APAssocRespTxSHandler]: (RE=0, LE=0, ME=0), wlan_idx = 1
+2022-06-29T14:49:39,545 <4>Jun 29 16:49:39 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1498.408357] ===[APAssocRespTxSHandler]: wlan_idx = 1,AuthAssocNotInProgressFlag = 1 pEntry->bssid 26:5a:4c:da:d6:17
+2022-06-29T14:49:39,545 <4>Jun 29 16:49:39 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1498.410900] ra5: Send EAPOL-Key M1, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:da:d6:17, len=113
+2022-06-29T14:49:39,546 <14>Jun 29 16:49:39 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: wevent.ubnt_custom_event(): EVENT_STA_JOIN ra5: a4:e5:7c:be:62:c8 / 1
+2022-06-29T14:49:39,547 {0761 ec20} [ 1498.418361] ra5: Recv EAPOL-Key M2, DA=26:5a:4c:da:d6:17, SA=a4:e5:7c:be:62:c8, len=129
+2022-06-29T14:49:39,548 {0761 ec20} [ 1498.420041] ra5: Send EAPOL-Key M3, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:da:d6:17, len=169
+2022-06-29T14:49:39,551 <4>Jun 29 16:49:39 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1498.418361] ra5: Recv EAPOL-Key M2, DA=26:5a:4c:da:d6:17, SA=a4:e5:7c:be:62:c8, len=129
+2022-06-29T14:49:39,552 <4>Jun 29 16:49:39 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1498.420041] ra5: Send EAPOL-Key M3, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:da:d6:17, len=169
+2022-06-29T14:49:39,556 {0761 ec20} [ 1498.427554] ra5: Recv EAPOL-Key M4, DA=26:5a:4c:da:d6:17, SA=a4:e5:7c:be:62:c8, len=107
+2022-06-29T14:49:39,557 {0761 ec20} [ 1498.428903] 80211> AP Key Add
+2022-06-29T14:49:39,559 <30>Jun 29 16:49:39 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4357]: ra5: STA a4:e5:7c:be:62:c8 WPA: pairwise key handshake completed (RSN)
+2022-06-29T14:49:39,561 <4>Jun 29 16:49:39 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1498.427554] ra5: Recv EAPOL-Key M4, DA=26:5a:4c:da:d6:17, SA=a4:e5:7c:be:62:c8, len=107
+2022-06-29T14:49:39,561 <4>Jun 29 16:49:39 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1498.428903] 80211> AP Key Add
+2022-06-29T14:49:39,612 <14>Jun 29 16:49:39 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: wevent.ubnt_custom_event(): EVENT_STA_IP ra5: a4:e5:7c:be:62:c8 / 192.168.0.153
+2022-06-29T14:49:44,063 <30>Jun 29 16:49:44 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:49:46,012 {0761 ec20} [ 1504.883811] CFG80211_PKT: TX AUTH Frame
+2022-06-29T14:49:46,013 {0761 ec20} [ 1504.884019] ra4: AUTH - CFG80211_AuthRespHandler
+2022-06-29T14:49:46,016 {0761 ec20} [ 1504.887631] 80211> KeyDel STA(A4:E5:7C:BE:62:C8) ==>
+2022-06-29T14:49:46,019 <30>Jun 29 16:49:46 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4357]: ra5: STA a4:e5:7c:be:62:c8 IEEE 802.11: disassociated
+2022-06-29T14:49:46,019 {0761 ec20} [ 1504.889853] ra5: (CFG80211_OpsStaDel)80211> Delete STA(A4:E5:7C:BE:62:C8)subtype(10:disassoc,12:deauth)::12 reason code::2
+2022-06-29T14:49:46,019 {0761 ec20} [ 1504.890183] CFG80211_ApStaDel, Deauth : 0xa4 0xe5 0x7c 0xbe 0x62 0xc8 reason code 0x2
+2022-06-29T14:49:46,020 {0761 ec20} [ 1504.890342] ra4: (MlmeDeAuthAction)Send DEAUTH frame with ReasonCode(2) to a4:e5:7c:be:62:c8
+2022-06-29T14:49:46,020 <30>Jun 29 16:49:46 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4356]: ra4: STA a4:e5:7c:be:62:c8 IEEE 802.11: authenticated
+2022-06-29T14:49:46,020 <4>Jun 29 16:49:46 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1504.883811] CFG80211_PKT: TX AUTH Frame
+2022-06-29T14:49:46,021 <4>Jun 29 16:49:46 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1504.884019] ra4: AUTH - CFG80211_AuthRespHandler
+2022-06-29T14:49:46,021 <4>Jun 29 16:49:46 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1504.887631] 80211> KeyDel STA(A4:E5:7C:BE:62:C8) ==>
+2022-06-29T14:49:46,021 <4>Jun 29 16:49:46 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1504.889853] ra5: (CFG80211_OpsStaDel)80211> Delete STA(A4:E5:7C:BE:62:C8)subtype(10:disassoc,12:deauth)::12 reason code::2
+2022-06-29T14:49:46,021 <4>Jun 29 16:49:46 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1504.890183] CFG80211_ApStaDel, Deauth : 0xa4 0xe5 0x7c 0xbe 0x62 0xc8 reason code 0x2
+2022-06-29T14:49:46,023 <4>Jun 29 16:49:46 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1504.890342] ra4: (MlmeDeAuthAction)Send DEAUTH frame with ReasonCode(2) to a4:e5:7c:be:62:c8
+2022-06-29T14:49:46,024 {0761 ec20} [ 1504.895081] ra4: (CFG80211_OpsStaDel)80211> Delete STA(A4:E5:7C:BE:62:C8)subtype(10:disassoc,12:deauth)::12 reason code::2
+2022-06-29T14:49:46,024 {0761 ec20} [ 1504.895465] Can't find pEntry(a4:e5:7c:be:62:c8) in ApStaDel
+2022-06-29T14:49:46,025 <4>Jun 29 16:49:46 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1504.895081] ra4: (CFG80211_OpsStaDel)80211> Delete STA(A4:E5:7C:BE:62:C8)subtype(10:disassoc,12:deauth)::12 reason code::2
+2022-06-29T14:49:46,025 <4>Jun 29 16:49:46 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1504.895465] Can't find pEntry(a4:e5:7c:be:62:c8) in ApStaDel
+2022-06-29T14:49:46,026 <14>Jun 29 16:49:46 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: wevent.ubnt_custom_event(): EVENT_STA_LEAVE ra5: a4:e5:7c:be:62:c8 / 1
+2022-06-29T14:49:46,026 <30>Jun 29 16:49:46 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4356]: ra4: STA a4:e5:7c:be:62:c8 IEEE 802.11: disassociated
+2022-06-29T14:49:46,073 <30>Jun 29 16:49:46 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"message_type\":\"STA_ASSOC_TRACKER\",\"event_type\":\"sta_leave\",\"mac\":\"a4:e5:7c:be:62:c8\",\"vap\":\"ra5\",\"assoc_status\":\"0\",\"event_id\":\"0\"}
+2022-06-29T14:49:49,605 <30>Jun 29 16:49:49 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"message_type\":\"STA_ASSOC_TRACKER\",\"mac\":\"a4:e5:7c:be:62:c8\",\"event_type\":\"success\",\"vap\":\"ra5\",\"assoc_status\":\"0\",\"ip_delta\":\"240000\",\"assoc_delta\":\"0\",\"wpa_auth_delta\":\"20000\",\"ip_assign_type\":\"dhcp\",\"auth_delta\":\"0\",\"event_id\":\"1\",\"auth_ts\":\"1498.364196\"}
+2022-06-29T14:49:56,083 <30>Jun 29 16:49:56 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"message_type\":\"STA_ASSOC_TRACKER\",\"event_type\":\"failure\",\"mac\":\"a4:e5:7c:be:62:c8\",\"auth_failures\":\"1\",\"vap\":\"ra4\",\"assoc_status\":\"0\",\"auth_ts\":\"1504.844545\",\"event_id\":\"1\"}
+2022-06-29T14:49:59,620 {0761 ec20} [ 1518.491283] CFG80211_PKT: TX AUTH Frame
+2022-06-29T14:49:59,621 {0761 ec20} [ 1518.491497] ra1: AUTH - CFG80211_AuthRespHandler
+2022-06-29T14:49:59,622 <4>Jun 29 16:49:59 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1518.491283] CFG80211_PKT: TX AUTH Frame
+2022-06-29T14:49:59,622 {0761 ec20} [ 1518.493873] CFG80211_AssocReqHandler(): peer support rate mode = 0x3
+2022-06-29T14:49:59,623 {0761 ec20} [ 1518.494200] ap_cmm_peer_assoc_req_action(): peer support rate mode = 0x3
+2022-06-29T14:49:59,623 <4>Jun 29 16:49:59 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1518.491497] ra1: AUTH - CFG80211_AuthRespHandler
+2022-06-29T14:49:59,623 <30>Jun 29 16:49:59 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4353]: ra1: STA a4:e5:7c:be:62:c8 IEEE 802.11: authenticated
+2022-06-29T14:49:59,624 {0761 ec20} [ 1518.495974] ===[APAssocRespTxSHandler]: (RE=0, LE=0, ME=0), wlan_idx = 1
+2022-06-29T14:49:59,625 {0761 ec20} [ 1518.496296] ===[APAssocRespTxSHandler]: wlan_idx = 1,AuthAssocNotInProgressFlag = 1 pEntry->bssid 26:5a:4c:9a:d6:17
+2022-06-29T14:49:59,625 <30>Jun 29 16:49:59 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4353]: ra1: STA a4:e5:7c:be:62:c8 IEEE 802.11: associated
+2022-06-29T14:49:59,629 {0761 ec20} [ 1518.500488] 80211> AP Key Add
+2022-06-29T14:49:59,629 {0761 ec20} [ 1518.500708] AsicAddSharedKeyEntry(2714): Not support for HIF_MT yet!
+2022-06-29T14:49:59,630 {0761 ec20} [ 1518.501668] ra1: Send EAPOL-Key M1, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:9a:d6:17, len=113
+2022-06-29T14:49:59,631 <4>Jun 29 16:49:59 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1518.493873] CFG80211_AssocReqHandler(): peer support rate mode = 0x3
+2022-06-29T14:49:59,632 <4>Jun 29 16:49:59 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1518.494200] ap_cmm_peer_assoc_req_action(): peer support rate mode = 0x3
+2022-06-29T14:49:59,632 <4>Jun 29 16:49:59 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1518.495974] ===[APAssocRespTxSHandler]: (RE=0, LE=0, ME=0), wlan_idx = 1
+2022-06-29T14:49:59,632 <4>Jun 29 16:49:59 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1518.496296] ===[APAssocRespTxSHandler]: wlan_idx = 1,AuthAssocNotInProgressFlag = 1 pEntry->bssid 26:5a:4c:9a:d6:17
+2022-06-29T14:49:59,632 <4>Jun 29 16:49:59 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1518.500488] 80211> AP Key Add
+2022-06-29T14:49:59,633 <4>Jun 29 16:49:59 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1518.500708] AsicAddSharedKeyEntry(2714): Not support for HIF_MT yet!
+2022-06-29T14:49:59,633 <4>Jun 29 16:49:59 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1518.501668] ra1: Send EAPOL-Key M1, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:9a:d6:17, len=113
+2022-06-29T14:49:59,633 <14>Jun 29 16:49:59 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: wevent.ubnt_custom_event(): EVENT_STA_JOIN ra1: a4:e5:7c:be:62:c8 / 1
+2022-06-29T14:49:59,636 {0761 ec20} [ 1518.507875] ra1: Recv EAPOL-Key M2, DA=26:5a:4c:9a:d6:17, SA=a4:e5:7c:be:62:c8, len=129
+2022-06-29T14:49:59,638 {0761 ec20} [ 1518.509796] ra1: Send EAPOL-Key M3, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:9a:d6:17, len=169
+2022-06-29T14:49:59,641 <4>Jun 29 16:49:59 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1518.507875] ra1: Recv EAPOL-Key M2, DA=26:5a:4c:9a:d6:17, SA=a4:e5:7c:be:62:c8, len=129
+2022-06-29T14:49:59,642 <4>Jun 29 16:49:59 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1518.509796] ra1: Send EAPOL-Key M3, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:9a:d6:17, len=169
+2022-06-29T14:49:59,644 {0761 ec20} [ 1518.516085] ra1: Recv EAPOL-Key M4, DA=26:5a:4c:9a:d6:17, SA=a4:e5:7c:be:62:c8, len=107
+2022-06-29T14:49:59,646 {0761 ec20} [ 1518.517489] 80211> AP Key Add
+2022-06-29T14:49:59,647 <30>Jun 29 16:49:59 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4353]: ra1: STA a4:e5:7c:be:62:c8 WPA: pairwise key handshake completed (RSN)
+2022-06-29T14:49:59,651 <4>Jun 29 16:49:59 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1518.516085] ra1: Recv EAPOL-Key M4, DA=26:5a:4c:9a:d6:17, SA=a4:e5:7c:be:62:c8, len=107
+2022-06-29T14:49:59,653 <4>Jun 29 16:49:59 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1518.517489] 80211> AP Key Add
+2022-06-29T14:49:59,702 <14>Jun 29 16:49:59 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: wevent.ubnt_custom_event(): EVENT_STA_IP ra1: a4:e5:7c:be:62:c8 / 192.168.0.153
+2022-06-29T14:50:09,652 <30>Jun 29 16:50:09 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4353]: ra1: STA a4:e5:7c:be:62:c8 RADIUS: starting accounting session 077A90D46ADC95D0
+2022-06-29T14:50:09,683 <30>Jun 29 16:50:09 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"mac\":\"a4:e5:7c:be:62:c8\",\"event_type\":\"success\",\"vap\":\"ra1\",\"assoc_status\":\"0\",\"ip_delta\":\"140000\",\"assoc_delta\":\"10000\",\"wpa_auth_delta\":\"30000\",\"ip_assign_type\":\"dhcp\",\"auth_delta\":\"0\",\"event_id\":\"3\",\"auth_ts\":\"1518.452028\",\"arp_reply_gw_seen\":\"yes\"}
+2022-06-29T14:50:22,685 <30>Jun 29 16:50:22 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:50:33,602 <30>Jun 29 16:50:33 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:50:44,729 <30>Jun 29 16:50:44 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:51:00,761 <30>Jun 29 16:51:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:51:12,151 {0761 ec20} [ 1591.022493] Trigger rai0 partial scan! Tx[4] Rx[0] TH[10]
+2022-06-29T14:51:12,161 <4>Jun 29 16:51:12 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1591.022493] Trigger rai0 partial scan! Tx[4] Rx[0] TH[10]
+2022-06-29T14:51:30,683 <30>Jun 29 16:51:30 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:51:44,683 <30>Jun 29 16:51:44 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:52:00,841 <30>Jun 29 16:52:00 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:52:30,723 <30>Jun 29 16:52:30 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:52:47,782 <30>Jun 29 16:52:47 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:52:59,261 <30>Jun 29 16:52:59 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:53:05,970 {0761 ec20} [ 1704.841716] 80211> KeyDel STA(A4:E5:7C:BE:62:C8) ==>
+2022-06-29T14:53:05,970 {0761 ec20} [ 1704.842192] Can't find pEntry in CFG80211_StaPortSecured
+2022-06-29T14:53:05,971 <30>Jun 29 16:53:05 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4353]: ra1: STA a4:e5:7c:be:62:c8 IEEE 802.11: disassociated
+2022-06-29T14:53:05,971 {0761 ec20} [ 1704.842717] ra1: (CFG80211_OpsStaDel)80211> Delete STA(A4:E5:7C:BE:62:C8)subtype(10:disassoc,12:deauth)::12 reason code::2
+2022-06-29T14:53:05,971 {0761 ec20} [ 1704.843047] Can't find pEntry(a4:e5:7c:be:62:c8) in ApStaDel
+2022-06-29T14:53:05,972 <4>Jun 29 16:53:05 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1704.841716] 80211> KeyDel STA(A4:E5:7C:BE:62:C8) ==>
+2022-06-29T14:53:05,973 <4>Jun 29 16:53:05 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1704.842192] Can't find pEntry in CFG80211_StaPortSecured
+2022-06-29T14:53:05,973 <4>Jun 29 16:53:05 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1704.842717] ra1: (CFG80211_OpsStaDel)80211> Delete STA(A4:E5:7C:BE:62:C8)subtype(10:disassoc,12:deauth)::12 reason code::2
+2022-06-29T14:53:05,974 <4>Jun 29 16:53:05 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1704.843047] Can't find pEntry(a4:e5:7c:be:62:c8) in ApStaDel
+2022-06-29T14:53:05,974 <14>Jun 29 16:53:05 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: wevent.ubnt_custom_event(): EVENT_STA_LEAVE ra1: a4:e5:7c:be:62:c8 / 1
+2022-06-29T14:53:06,022 <30>Jun 29 16:53:06 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"message_type\":\"STA_ASSOC_TRACKER\",\"event_type\":\"sta_leave\",\"mac\":\"a4:e5:7c:be:62:c8\",\"vap\":\"ra1\",\"assoc_status\":\"0\",\"event_id\":\"3\"}
+2022-06-29T14:53:14,683 <30>Jun 29 16:53:14 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:53:28,301 <30>Jun 29 16:53:28 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:53:32,827 <30>Jun 29 16:53:32 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: mcad: mcad[4342]: wireless_agg_stats.log_sta_anomalies(): bssid=26:5a:4c:ba:d6:18 radio=rai0 vap=rai3 sta=14:5a:fc:26:13:d5 satisfaction_now=60 anomalies=tcp_latency
+2022-06-29T14:53:34,804 <30>Jun 29 16:53:34 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: mcad: mcad[4342]: wireless_agg_stats.log_sta_anomalies(): bssid=26:5a:4c:ba:d6:18 radio=rai0 vap=rai3 sta=14:5a:fc:26:13:d5 satisfaction_now=60 anomalies=tcp_latency
+2022-06-29T14:53:37,929 {0761 ec20} [ 1736.801775] CFG80211_PKT: TX AUTH Frame
+2022-06-29T14:53:37,929 {0761 ec20} [ 1736.801981] ra2: AUTH - CFG80211_AuthRespHandler
+2022-06-29T14:53:37,931 <30>Jun 29 16:53:37 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4354]: ra2: STA a4:e5:7c:be:62:c8 IEEE 802.11: authenticated
+2022-06-29T14:53:37,931 {0761 ec20} [ 1736.804321] CFG80211_AssocReqHandler(): peer support rate mode = 0x3
+2022-06-29T14:53:37,932 <4>Jun 29 16:53:37 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1736.801775] CFG80211_PKT: TX AUTH Frame
+2022-06-29T14:53:37,932 {0761 ec20} [ 1736.804676] ap_cmm_peer_assoc_req_action(): peer support rate mode = 0x3
+2022-06-29T14:53:37,932 <4>Jun 29 16:53:37 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1736.801981] ra2: AUTH - CFG80211_AuthRespHandler
+2022-06-29T14:53:37,934 {0761 ec20} [ 1736.806716] ===[APAssocRespTxSHandler]: (RE=0, LE=0, ME=0), wlan_idx = 1
+2022-06-29T14:53:37,934 {0761 ec20} [ 1736.807017] ===[APAssocRespTxSHandler]: wlan_idx = 1,AuthAssocNotInProgressFlag = 1 pEntry->bssid 26:5a:4c:aa:d6:17
+2022-06-29T14:53:37,935 <30>Jun 29 16:53:37 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4354]: ra2: STA a4:e5:7c:be:62:c8 IEEE 802.11: associated
+2022-06-29T14:53:37,936 {0761 ec20} [ 1736.809360] ra2: Send EAPOL-Key M1, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:aa:d6:17, len=113
+2022-06-29T14:53:37,941 <4>Jun 29 16:53:37 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1736.804321] CFG80211_AssocReqHandler(): peer support rate mode = 0x3
+2022-06-29T14:53:37,942 {0761 ec20} [ 1736.814811] ra2: Recv EAPOL-Key M2, DA=26:5a:4c:aa:d6:17, SA=a4:e5:7c:be:62:c8, len=129
+2022-06-29T14:53:37,942 <4>Jun 29 16:53:37 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1736.804676] ap_cmm_peer_assoc_req_action(): peer support rate mode = 0x3
+2022-06-29T14:53:37,942 <4>Jun 29 16:53:37 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1736.806716] ===[APAssocRespTxSHandler]: (RE=0, LE=0, ME=0), wlan_idx = 1
+2022-06-29T14:53:37,942 <4>Jun 29 16:53:37 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1736.807017] ===[APAssocRespTxSHandler]: wlan_idx = 1,AuthAssocNotInProgressFlag = 1 pEntry->bssid 26:5a:4c:aa:d6:17
+2022-06-29T14:53:37,943 <4>Jun 29 16:53:37 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1736.809360] ra2: Send EAPOL-Key M1, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:aa:d6:17, len=113
+2022-06-29T14:53:37,944 <14>Jun 29 16:53:37 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: wevent.ubnt_custom_event(): EVENT_STA_JOIN ra2: a4:e5:7c:be:62:c8 / 1
+2022-06-29T14:53:37,944 {0761 ec20} [ 1736.817577] ra2: Send EAPOL-Key M3, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:aa:d6:17, len=169
+2022-06-29T14:53:37,951 <4>Jun 29 16:53:37 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1736.814811] ra2: Recv EAPOL-Key M2, DA=26:5a:4c:aa:d6:17, SA=a4:e5:7c:be:62:c8, len=129
+2022-06-29T14:53:37,951 <4>Jun 29 16:53:37 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1736.817577] ra2: Send EAPOL-Key M3, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:aa:d6:17, len=169
+2022-06-29T14:53:37,952 {0761 ec20} [ 1736.825140] ra2: Recv EAPOL-Key M4, DA=26:5a:4c:aa:d6:17, SA=a4:e5:7c:be:62:c8, len=107
+2022-06-29T14:53:37,953 {0761 ec20} [ 1736.826471] 80211> AP Key Add
+2022-06-29T14:53:37,955 <30>Jun 29 16:53:37 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4354]: ra2: STA a4:e5:7c:be:62:c8 WPA: pairwise key handshake completed (RSN)
+2022-06-29T14:53:37,961 <4>Jun 29 16:53:37 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1736.825140] ra2: Recv EAPOL-Key M4, DA=26:5a:4c:aa:d6:17, SA=a4:e5:7c:be:62:c8, len=107
+2022-06-29T14:53:37,961 <4>Jun 29 16:53:37 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1736.826471] 80211> AP Key Add
+2022-06-29T14:53:38,002 <14>Jun 29 16:53:38 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: wevent.ubnt_custom_event(): EVENT_STA_IP ra2: a4:e5:7c:be:62:c8 / 192.168.0.153
+2022-06-29T14:53:38,683 <30>Jun 29 16:53:38 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:53:47,963 <30>Jun 29 16:53:47 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4354]: ra2: STA a4:e5:7c:be:62:c8 RADIUS: starting accounting session CBDB4FA44B305931
+2022-06-29T14:53:48,004 <30>Jun 29 16:53:48 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"mac\":\"a4:e5:7c:be:62:c8\",\"event_type\":\"success\",\"vap\":\"ra2\",\"assoc_status\":\"0\",\"ip_delta\":\"140000\",\"assoc_delta\":\"10000\",\"wpa_auth_delta\":\"30000\",\"ip_assign_type\":\"dhcp\",\"auth_delta\":\"0\",\"event_id\":\"1\",\"auth_ts\":\"1736.762498\",\"arp_reply_gw_seen\":\"yes\"}
+2022-06-29T14:53:48,881 <30>Jun 29 16:53:48 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:54:01,684 <30>Jun 29 16:54:01 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:54:30,844 <30>Jun 29 16:54:30 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:54:31,363 {0761 ec20} [ 1790.236551] CFG80211_PKT: TX AUTH Frame
+2022-06-29T14:54:31,363 {0761 ec20} [ 1790.236756] ra0: AUTH - CFG80211_AuthRespHandler
+2022-06-29T14:54:31,368 {0761 ec20} [ 1790.241777] CFG80211_AssocReqHandler(): peer support rate mode = 0x3
+2022-06-29T14:54:31,368 {0761 ec20} [ 1790.241794] 80211> KeyDel STA(A4:E5:7C:BE:62:C8) ==>
+2022-06-29T14:54:31,368 {0761 ec20} [ 1790.242209] ra2: (CFG80211_OpsStaDel)80211> Delete STA(A4:E5:7C:BE:62:C8)subtype(10:disassoc,12:deauth)::12 reason code::2
+2022-06-29T14:54:31,369 {0761 ec20} [ 1790.242547] CFG80211_ApStaDel, Deauth : 0xa4 0xe5 0x7c 0xbe 0x62 0xc8 reason code 0x2
+2022-06-29T14:54:31,369 {0761 ec20} [ 1790.242739] ra0: (MlmeDeAuthAction)Send DEAUTH frame with ReasonCode(2) to a4:e5:7c:be:62:c8
+2022-06-29T14:54:31,370 {0761 ec20} [ 1790.244337] ap_cmm_peer_assoc_req_action(): peer support rate mode = 0x3
+2022-06-29T14:54:31,372 {0761 ec20} [ 1790.246317] ===[APAssocRespTxSHandler]: (RE=0, LE=0, ME=0), wlan_idx = 1
+2022-06-29T14:54:31,373 {0761 ec20} [ 1790.246600] ===[APAssocRespTxSHandler]: wlan_idx = 1,AuthAssocNotInProgressFlag = 1 pEntry->bssid 24:5a:4c:8a:d6:17
+2022-06-29T14:54:31,375 <30>Jun 29 16:54:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4351]: ra0: STA a4:e5:7c:be:62:c8 IEEE 802.11: authenticated
+2022-06-29T14:54:31,375 <30>Jun 29 16:54:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4354]: ra2: STA a4:e5:7c:be:62:c8 IEEE 802.11: disassociated
+2022-06-29T14:54:31,376 <4>Jun 29 16:54:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1790.236551] CFG80211_PKT: TX AUTH Frame
+2022-06-29T14:54:31,376 <4>Jun 29 16:54:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1790.236756] ra0: AUTH - CFG80211_AuthRespHandler
+2022-06-29T14:54:31,377 <4>Jun 29 16:54:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1790.241777] CFG80211_AssocReqHandler(): peer support rate mode = 0x3
+2022-06-29T14:54:31,377 <4>Jun 29 16:54:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1790.241794] 80211> KeyDel STA(A4:E5:7C:BE:62:C8) ==>
+2022-06-29T14:54:31,377 <4>Jun 29 16:54:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1790.242209] ra2: (CFG80211_OpsStaDel)80211> Delete STA(A4:E5:7C:BE:62:C8)subtype(10:disassoc,12:deauth)::12 reason code::2
+2022-06-29T14:54:31,379 <4>Jun 29 16:54:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1790.242547] CFG80211_ApStaDel, Deauth : 0xa4 0xe5 0x7c 0xbe 0x62 0xc8 reason code 0x2
+2022-06-29T14:54:31,379 <4>Jun 29 16:54:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1790.242739] ra0: (MlmeDeAuthAction)Send DEAUTH frame with ReasonCode(2) to a4:e5:7c:be:62:c8
+2022-06-29T14:54:31,379 {0761 ec20} [ 1790.253072] Can't find pEntry in CFG80211_StaPortSecured
+2022-06-29T14:54:31,380 <4>Jun 29 16:54:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1790.244337] ap_cmm_peer_assoc_req_action(): peer support rate mode = 0x3
+2022-06-29T14:54:31,380 <4>Jun 29 16:54:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1790.246317] ===[APAssocRespTxSHandler]: (RE=0, LE=0, ME=0), wlan_idx = 1
+2022-06-29T14:54:31,381 <4>Jun 29 16:54:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1790.246600] ===[APAssocRespTxSHandler]: wlan_idx = 1,AuthAssocNotInProgressFlag = 1 pEntry->bssid 24:5a:4c:8a:d6:17
+2022-06-29T14:54:31,381 <14>Jun 29 16:54:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: wevent.ubnt_custom_event(): EVENT_STA_LEAVE ra2: a4:e5:7c:be:62:c8 / 1
+2022-06-29T14:54:31,382 <30>Jun 29 16:54:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4351]: ra0: STA a4:e5:7c:be:62:c8 IEEE 802.11: associated
+2022-06-29T14:54:31,382 <4>Jun 29 16:54:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1790.253072] Can't find pEntry in CFG80211_StaPortSecured
+2022-06-29T14:54:31,385 <14>Jun 29 16:54:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: wevent.ubnt_custom_event(): EVENT_STA_JOIN ra0: a4:e5:7c:be:62:c8 / 1
+2022-06-29T14:54:31,386 <30>Jun 29 16:54:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4351]: ra0: STA a4:e5:7c:be:62:c8 IEEE 802.11: disassociated
+2022-06-29T14:54:31,386 {0761 ec20} [ 1790.259974] Can't find pEntry in CFG80211_StaPortSecured
+2022-06-29T14:54:31,387 {0761 ec20} [ 1790.260469] ra0: (CFG80211_OpsStaDel)80211> Delete STA(A4:E5:7C:BE:62:C8)subtype(10:disassoc,12:deauth)::12 reason code::2
+2022-06-29T14:54:31,387 {0761 ec20} [ 1790.260707] Can't find pEntry(a4:e5:7c:be:62:c8) in ApStaDel
+2022-06-29T14:54:31,390 <14>Jun 29 16:54:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: wevent.ubnt_custom_event(): EVENT_STA_LEAVE ra0: a4:e5:7c:be:62:c8 / 1
+2022-06-29T14:54:31,391 <4>Jun 29 16:54:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1790.259974] Can't find pEntry in CFG80211_StaPortSecured
+2022-06-29T14:54:31,391 <4>Jun 29 16:54:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1790.260469] ra0: (CFG80211_OpsStaDel)80211> Delete STA(A4:E5:7C:BE:62:C8)subtype(10:disassoc,12:deauth)::12 reason code::2
+2022-06-29T14:54:31,392 <4>Jun 29 16:54:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1790.260707] Can't find pEntry(a4:e5:7c:be:62:c8) in ApStaDel
+2022-06-29T14:54:31,428 <30>Jun 29 16:54:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"message_type\":\"STA_ASSOC_TRACKER\",\"event_type\":\"sta_leave\",\"mac\":\"a4:e5:7c:be:62:c8\",\"vap\":\"ra2\",\"assoc_status\":\"0\",\"event_id\":\"1\"}
+2022-06-29T14:54:41,441 <30>Jun 29 16:54:41 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"message_type\":\"STA_ASSOC_TRACKER\",\"mac\":\"a4:e5:7c:be:62:c8\",\"event_type\":\"failure\",\"vap\":\"ra0\",\"auth_delta\":\"0\",\"assoc_status\":\"0\",\"wpa_auth_failures\":\"1\",\"assoc_delta\":\"10000\",\"event_id\":\"1\",\"auth_ts\":\"1790.197301\"}
+2022-06-29T14:54:45,658 {0761 ec20} [ 1804.531538] CFG80211_PKT: TX AUTH Frame
+2022-06-29T14:54:45,658 {0761 ec20} [ 1804.531751] ra1: AUTH - CFG80211_AuthRespHandler
+2022-06-29T14:54:45,660 <30>Jun 29 16:54:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4353]: ra1: STA a4:e5:7c:be:62:c8 IEEE 802.11: authenticated
+2022-06-29T14:54:45,662 <4>Jun 29 16:54:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1804.531538] CFG80211_PKT: TX AUTH Frame
+2022-06-29T14:54:45,662 <4>Jun 29 16:54:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1804.531751] ra1: AUTH - CFG80211_AuthRespHandler
+2022-06-29T14:54:45,664 {0761 ec20} [ 1804.538042] CFG80211_AssocReqHandler(): peer support rate mode = 0x3
+2022-06-29T14:54:45,665 {0761 ec20} [ 1804.538342] ap_cmm_peer_assoc_req_action(): peer support rate mode = 0x3
+2022-06-29T14:54:45,666 {0761 ec20} [ 1804.540100] ===[APAssocRespTxSHandler]: (RE=0, LE=0, ME=0), wlan_idx = 1
+2022-06-29T14:54:45,667 {0761 ec20} [ 1804.540423] ===[APAssocRespTxSHandler]: wlan_idx = 1,AuthAssocNotInProgressFlag = 1 pEntry->bssid 26:5a:4c:9a:d6:17
+2022-06-29T14:54:45,668 <30>Jun 29 16:54:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4353]: ra1: STA a4:e5:7c:be:62:c8 IEEE 802.11: associated
+2022-06-29T14:54:45,669 {0761 ec20} [ 1804.543179] ra1: Send EAPOL-Key M1, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:9a:d6:17, len=113
+2022-06-29T14:54:45,672 <4>Jun 29 16:54:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1804.538042] CFG80211_AssocReqHandler(): peer support rate mode = 0x3
+2022-06-29T14:54:45,672 <4>Jun 29 16:54:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1804.538342] ap_cmm_peer_assoc_req_action(): peer support rate mode = 0x3
+2022-06-29T14:54:45,672 <4>Jun 29 16:54:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1804.540100] ===[APAssocRespTxSHandler]: (RE=0, LE=0, ME=0), wlan_idx = 1
+2022-06-29T14:54:45,673 <4>Jun 29 16:54:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1804.540423] ===[APAssocRespTxSHandler]: wlan_idx = 1,AuthAssocNotInProgressFlag = 1 pEntry->bssid 26:5a:4c:9a:d6:17
+2022-06-29T14:54:45,673 <4>Jun 29 16:54:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1804.543179] ra1: Send EAPOL-Key M1, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:9a:d6:17, len=113
+2022-06-29T14:54:45,673 <14>Jun 29 16:54:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: wevent.ubnt_custom_event(): EVENT_STA_JOIN ra1: a4:e5:7c:be:62:c8 / 1
+2022-06-29T14:54:45,673 {0761 ec20} [ 1804.547297] ra1: Recv EAPOL-Key M2, DA=26:5a:4c:9a:d6:17, SA=a4:e5:7c:be:62:c8, len=129
+2022-06-29T14:54:45,675 {0761 ec20} [ 1804.549239] ra1: Send EAPOL-Key M3, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:9a:d6:17, len=169
+2022-06-29T14:54:45,681 <4>Jun 29 16:54:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1804.547297] ra1: Recv EAPOL-Key M2, DA=26:5a:4c:9a:d6:17, SA=a4:e5:7c:be:62:c8, len=129
+2022-06-29T14:54:45,681 <4>Jun 29 16:54:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1804.549239] ra1: Send EAPOL-Key M3, DA=a4:e5:7c:be:62:c8, SA=26:5a:4c:9a:d6:17, len=169
+2022-06-29T14:54:45,682 {0761 ec20} [ 1804.555475] ra1: Recv EAPOL-Key M4, DA=26:5a:4c:9a:d6:17, SA=a4:e5:7c:be:62:c8, len=107
+2022-06-29T14:54:45,683 {0761 ec20} [ 1804.556794] 80211> AP Key Add
+2022-06-29T14:54:45,684 <30>Jun 29 16:54:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4353]: ra1: STA a4:e5:7c:be:62:c8 WPA: pairwise key handshake completed (RSN)
+2022-06-29T14:54:45,691 <4>Jun 29 16:54:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1804.555475] ra1: Recv EAPOL-Key M4, DA=26:5a:4c:9a:d6:17, SA=a4:e5:7c:be:62:c8, len=107
+2022-06-29T14:54:45,691 <4>Jun 29 16:54:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1804.556794] 80211> AP Key Add
+2022-06-29T14:54:45,732 <14>Jun 29 16:54:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: : wevent[4348]: wevent.ubnt_custom_event(): EVENT_STA_IP ra1: a4:e5:7c:be:62:c8 / 192.168.0.153
+2022-06-29T14:54:46,689 <30>Jun 29 16:54:46 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:54:55,692 <30>Jun 29 16:54:55 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: hostapd[4353]: ra1: STA a4:e5:7c:be:62:c8 RADIUS: starting accounting session 2E147F72F686AFF7
+2022-06-29T14:54:55,726 <30>Jun 29 16:54:55 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"mac\":\"a4:e5:7c:be:62:c8\",\"event_type\":\"success\",\"vap\":\"ra1\",\"assoc_status\":\"0\",\"ip_delta\":\"140000\",\"assoc_delta\":\"10000\",\"wpa_auth_delta\":\"30000\",\"ip_assign_type\":\"dhcp\",\"sta_dc_reason\":\"sta left\",\"auth_delta\":\"0\",\"event_id\":\"4\",\"auth_ts\":\"1804.492287\",\"arp_reply_gw_seen\":\"yes\"}
+2022-06-29T14:54:58,163 <30>Jun 29 16:54:58 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:55:25,543 <30>Jun 29 16:55:25 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:55:45,123 <30>Jun 29 16:55:45 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:55:58,482 <30>Jun 29 16:55:58 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:56:12,160 {0761 ec20} [ 1891.034890] Skip rai0 partial scan due to traffic! Tx[17] Rx[12] TH[10]
+2022-06-29T14:56:12,171 <4>Jun 29 16:56:12 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: kernel: [ 1891.034890] Skip rai0 partial scan due to traffic! Tx[17] Rx[12] TH[10]
+2022-06-29T14:56:15,541 <30>Jun 29 16:56:15 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:56:25,660 <30>Jun 29 16:56:25 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:56:25,741 <29>Jun 29 16:56:25 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: /sbin/udhcpc[4350]: udhcpc: sending renew
+2022-06-29T14:56:25,778 <29>Jun 29 16:56:25 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: /sbin/udhcpc[4350]: udhcpc: lease of 192.168.0.146 obtained, lease time 3600
+2022-06-29T14:56:47,362 <30>Jun 29 16:56:47 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:57:30,984 <30>Jun 29 16:57:30 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:57:46,771 <30>Jun 29 16:57:46 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:58:05,883 <30>Jun 29 16:58:05 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:58:23,002 <30>Jun 29 16:58:23 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:58:40,142 <30>Jun 29 16:58:40 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:58:54,325 <30>Jun 29 16:58:54 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:59:30,242 <30>Jun 29 16:59:30 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T14:59:48,684 <30>Jun 29 16:59:48 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T15:00:08,117 <30>Jun 29 17:00:08 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}
+2022-06-29T15:00:31,122 <30>Jun 29 17:00:31 UAP-nanoHD 245a4c8ad616,UAP-nanoHD-6.0.21+13673: stahtd: stahtd[4349]: [STA-TRACKER].stahtd_dump_event(): {\"dns_resp_seen\":\"yes\",\"message_type\":\"STA_ASSOC_TRACKER\",\"arp_reply_gw_seen\":\"yes\",\"mac\":\"14:5a:fc:26:13:d5\",\"event_type\":\"fixup\",\"vap\":\"rai3\",\"assoc_status\":\"0\",\"auth_ts\":\"0.0\",\"event_id\":\"1\"}

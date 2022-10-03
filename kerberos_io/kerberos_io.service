@@ -5,17 +5,16 @@ Description=kerberos doorbell docker container
 Restart=always
 RestartSec=30
 
-ExecStart=/usr/bin/docker run --rm \
-                              --name kerberos_doorbell \
-                              -p 9101:80 \
-                              -p 9201:8889 \
-                              --privileged=true \
-                              -v /home/jbauwens/github/server/kerberos_io/config:/etc/opt/kerberosio/config \
-                              -v /home/jbauwens/github/server/kerberos_io/capture:/etc/opt/kerberosio/capture \
-                              -v /home/jbauwens/github/server/kerberos_io/logs:/etc/opt/kerberosio/logs \
-                              -v /home/jbauwens/github/server/kerberos_io/webconfig:/var/www/web/config \
-                              -e PGID=1001 -e PUID=1001 \
-                              -d kerberos/kerberos
+ExecStart=/usr/bin/docker start kerberos_doorbell
+                              #-p 9101:80 \
+                              #-p 9201:8889 \
+                              #--privileged=true \
+                              #-v /home/jbauwens/github/server/kerberos_io/config:/etc/opt/kerberosio/config \
+                              #-v /home/jbauwens/github/server/kerberos_io/capture:/etc/opt/kerberosio/capture \
+                              #-v /home/jbauwens/github/server/kerberos_io/logs:/etc/opt/kerberosio/logs \
+                              #-v /home/jbauwens/github/server/kerberos_io/webconfig:/var/www/web/config \
+                              #-e PGID=1001 -e PUID=1001 \
+                              #-d kerberos/kerberos
 
 ExecStop=/usr/bin/docker stop kerberos_doorbell
 

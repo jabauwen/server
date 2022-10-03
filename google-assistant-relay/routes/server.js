@@ -1,15 +1,20 @@
 const path = require('path');
+const fs = require('fs');
+const parseRange = require('range-parser');
 const express = require('express');
 const low = require('lowdb');
 const Assistant = require('google-assistant/components/assistant');
 const Conversation = require('google-assistant/components/conversation');
+const chalk = require('chalk');
+const {install} = require('../helpers/cast.js');
+
 
 const FileSync = require('lowdb/adapters/FileSync');
 const adapter = new FileSync('./bin/config.json');
 const versionAdapter = new FileSync('./bin/version.json');
 const {sendTextInput} = require('../helpers/assistant.js');
 const {auth, processTokens} = require('../helpers/auth');
-const {isUpdateAvailable, updateDetails} = require('../helpers/server');
+const {isUpdateAvailable, updateDetails, updateServer} = require('../helpers/server');
 const {delay} = require('../helpers/misc');
 
 
@@ -78,6 +83,8 @@ router.post('/getConfig', async(req, res, next) => {
     data.quietHours = db.get('quietHours').value();
     data.devices = db.get('devices').value();
     data.language = db.get('conversation.lang').value();
+    data.castEnabled = db.get('castEnabled').value();
+    data.pipCommand = db.get('pipCommand').value();
     res.status(200).send(data);
   } catch (e) {
     res.status(500).send(e.message)
@@ -118,6 +125,52 @@ router.get('/audio', async(req, res) => {
   res.sendFile(path.resolve(__dirname, `../bin/audio-responses/${req.query.v}.wav`));
 });
 
+router.get('/sounds/*', async(req, res) => {
+  const file = path.resolve(__dirname, `../bin/sounds/${req.params[0]}`);
+  fs.stat(file, (err, stats) => {
+    if(err) {
+      if(err.code === 'ENOENT') return res.sendStatus(404);
+      res.end(err)
+    }
+
+    const total = stats.size;
+    let last = total -1;
+    let start = 0;
+    let responseType = 200;
+    const chunksize = last - start + 1;
+
+    const headers = {
+      "Accept-Ranges": "bytes",
+      "Content-Length": chunksize,
+      "Content-Type": "audio/mp3",
+      "Access-Control-Allow-Origin": "*",
+      "Last-Modified": new Date()
+    };
+
+    if(!req.headers.range) {
+      start = 0;
+      last = total;
+    } else {
+      const range = parseRange(10, req.headers.range, { combine: true });
+      first = range[0].start;
+      last = range[0].end;
+    }
+
+    if(last === 0 || last >= total) {
+      last = total - 1;
+    }
+
+    if(!req.headers.range) responseType = 200;
+    else {
+      responseType = 206;
+      headers["Content-Range"] =  "bytes " + first + "-" + last + "/" + total
+    }
+    console.log(headers)
+    res.writeHead(responseType, headers);
+    fs.createReadStream(file, {autoClose: true}).pipe(res);
+  })
+});
+
 router.get('/users', async(req, res) => {
   try {
     const db = await low(adapter);
@@ -143,7 +196,6 @@ router.get('/version', async(req, res) => {
   }
 });
 
-
 router.post('/deleteUser', async(req, res) => {
   try {
     const db = await low(adapter);
@@ -151,6 +203,43 @@ router.post('/deleteUser', async(req, res) => {
     res.sendStatus(200);
   } catch (e) {
     res.status(500).send(e.message)
+  }
+});
+
+router.post('/startUpdate', (req, res) => {
+  res.sendStatus(200);
+  updateServer()
+});
+
+router.post('/changeChannel', async(req, res) => {
+  try {
+    const db = await low(adapter);
+    await db.set('releaseChannel', req.body.channel).write();
+    res.sendStatus(200);
+  } catch (e) {
+    res.status(500).send(e.message)
+  }
+});
+
+router.get('/releaseChannel', async(req, res) => {
+  try {
+    const db = await low(adapter);
+    const v = await db.get('releaseChannel').value();
+    res.status(200).send({releaseChannel: v});
+  } catch (e) {
+    res.status(500).send(e.message)
+  }
+});
+
+router.post('/installCast', async(req, res) => {
+  try {
+    const db = await low(adapter);
+    console.log(chalk.yellow("Checking dependencies for casting..."));
+    await install();
+    await db.set('castEnabled', true).write();
+    res.status(200).send({success: true});
+  } catch (e) {
+    res.status(500).send({success: false, message: e})
   }
 });
 

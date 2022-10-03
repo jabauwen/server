@@ -1,0 +1,12 @@
+[Unit]
+Description=Fing service
+
+[Service]
+Restart=always
+RestartSec=30
+
+WorkingDirectory=/home/jbauwens/github/server/fing
+ExecStart=/usr/bin/python3 main.py -n 192.168.0.0/24 -a TELENET -m 192.168.0.173
+
+[Install]
+WantedBy=multi-user.target

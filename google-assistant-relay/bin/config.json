@@ -37,14 +37,43 @@
         }
       },
       "tokens": {
-        "access_token": "ya29.a0ARrdaM_r89jjg8NtemFdbGoTUQiQ6ecp3AnyhBhrxsn_mMoU5ftXNMwUhM1tHUW-Zm7iqs-caBfrEWJA9Z7EQSalZCiTWgPxvLyIYOpVFyMmBdPrSQPa1_9lkefLcUa-OPufJDop9PB71RZk88LXQ-x47yrT",
-        "refresh_token": "1//09DssayD58P2UCgYIARAAGAkSNwF-L9IrbcGgk0JeaDYwm-o9JBH-WEpWSb800eKaHcl-Z2FFWF7IhxBs4E0Spe58qLrgvdO7vSw",
+        "access_token": "ya29.a0ARrdaM-2-FaC91nMLDFxOsOXujZpnfVKRHPrd2riyD9q_fD6eJ7R6hDy9-imMNVIJA7NmXKOLpKuE3ZwBN4D7FONvMBIvhYR94wthUkJcCc_9ruVdFwuFdpe4Stq7LntHeCTJ-7U45HSoc3kk1ecurB4uJWe",
+        "refresh_token": "1//09nPAgnhAClZOCgYIARAAGAkSNwF-L9IrAUL23tE5mXMz37zykEshrMN3UkyxMDOUB_Xq3_80OsJxjpQ1Op88qVQ5-djFb6gr7g4",
         "scope": "https://www.googleapis.com/auth/assistant-sdk-prototype",
         "token_type": "Bearer",
-        "expiry_date": 1628721882170
+        "expiry_date": 1634068472169
       }
     }
   ],
-  "responses": [],
-  "devices": []
+  "responses": [
+    {
+      "command": "broadcast what is the time?",
+      "response": "",
+      "timestamp": 1634067732928
+    },
+    {
+      "command": "broadcast hello world",
+      "response": "",
+      "timestamp": 1634067741650
+    },
+    {
+      "command": "broadcast hello world",
+      "response": "",
+      "timestamp": 1634067771634
+    },
+    {
+      "command": "broadcast wake up everyone",
+      "response": "",
+      "timestamp": 1634069359426
+    },
+    {
+      "command": "broadcast test",
+      "response": "",
+      "timestamp": 1634069556024
+    }
+  ],
+  "devices": [],
+  "releaseChannel": "stable",
+  "castEnabled": true,
+  "pipCommand": "pip3"
 }
